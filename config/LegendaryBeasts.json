@@ -1,0 +1,86 @@
+{
+  "AllowedEntities": [
+    "bear",
+    "boar",
+    "wolf"
+  ],
+  "BroadcastOnSpawn": true,
+  "Language": {
+    "GenericDeathMessage": "Даэдрический %type% [УРОВНЯ %level%] был изгнан.",
+    "GenericMapMarkerLabel": "%type% [УРОВНЯ %level%]",
+    "GenericSpawnMessage": "Даэдрический %type% [УРОВНЯ %level%] появился на свет.",
+    "NamedDeathMessage": "%name% Даэдрический %type% [УРОВНЯ %level%] был изгнан.",
+    "NamedMapMarkerLabel": "%name% the %type% [УРОВНЯ %level%]",
+    "NamedSpawnMessage": "%name% Даэдрический %type% [УРОВНЯ %level%] появился на свет."
+  },
+  "LegendaryBeasts": [
+    {
+      "AllowedEntities": [],
+      "AttackDamageScale": 1.0,
+      "AttackRangeScale": 1.0,
+      "AttackRateScale": 1.0,
+      "CustomLootDrops": [],
+      "DropsAirDropLoot": true,
+      "Economics": 0.0,
+      "Health": 1000,
+      "Level": 1,
+      "MovementSpeedScale": 1.0,
+      "Names": [],
+      "ServerRewardPoints": 1000
+    },
+    {
+      "AllowedEntities": [],
+      "AttackDamageScale": 2.0,
+      "AttackRangeScale": 1.0,
+      "AttackRateScale": 2.0,
+      "CustomLootDrops": [],
+      "DropsAirDropLoot": true,
+      "Economics": 0.0,
+      "Health": 2000,
+      "Level": 2,
+      "MovementSpeedScale": 2.0,
+      "Names": [],
+      "ServerRewardPoints": 2000
+    },
+    {
+      "AllowedEntities": [],
+      "AttackDamageScale": 3.0,
+      "AttackRangeScale": 1.0,
+      "AttackRateScale": 3.0,
+      "CustomLootDrops": [
+        {
+          "Amount": 100,
+          "CustomDisplayName": "",
+          "Name": "fat.animal",
+          "Skin": ""
+        }
+      ],
+      "DropsAirDropLoot": true,
+      "Economics": 0.0,
+      "Health": 3000,
+      "Level": 3,
+      "MovementSpeedScale": 3.0,
+      "Names": [],
+      "ServerRewardPoints": 3000
+    }
+  ],
+  "LegendarySpawnChance": 60,
+  "MapMarker": {
+    "Alpha": 0.5,
+    "BorderColor": {
+      "B": 0,
+      "G": 0,
+      "R": 255
+    },
+    "FillColor": {
+      "B": 0,
+      "G": 0,
+      "R": 0
+    },
+    "Radius": 0.5
+  },
+  "MaximumLegendaryBeasts": 1,
+  "SendMessageOnDeath": true,
+  "ShouldLegendaryBeastsFlee": false,
+  "ShowMapMarkers": true
+}

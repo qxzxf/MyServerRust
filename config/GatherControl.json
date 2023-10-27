@@ -1,0 +1,14 @@
+{
+  "AdminMode": false,
+  "BannerColor": "Blue",
+  "DayRateMultExcavator": 1.0,
+  "DayRateMultStaticQuarry": 1.0,
+  "NightRateMultExcavator": 1.0,
+  "NightRateMultStaticQuarry": 1.0,
+  "Sunrise": 7.0,
+  "Sunset": 19.0,
+  "TextColor": "Yellow",
+  "UseGUIAnnouncements": false,
+  "UseMessageBroadcast": false,
+  "UseZeroIndexForDefaultGroup": true
+}

@@ -1,0 +1,93 @@
+{
+  "Настройки интерфейса плагина": {
+    "Сдвиг панели по вертикали (если некорректно отображается при текущих настройках)": 0,
+    "Список команд для вызова меню": [
+      "block",
+      "wipeblock"
+    ],
+    "Настройка интерфейса (1, 2 или 3)": 1,
+    "Закрывать меню кликом на пустое место экрана? (если true то кнопки с крестиком не будет)": true
+  },
+  "Настройки текущей блокировки": {
+    "Сдвиг блокировки в секундах ('2728' - на 2728 секунд вперёд, '-2728' на 2728 секунд назад)": 0,
+    "Настройки блокировки предметов": {
+      "1800": [
+        "pistol.revolver",
+        "shotgun.double"
+      ],
+      "3600": [
+        "flamethrower",
+        "bucket.helmet",
+        "riot.helmet",
+        "pants",
+        "hoodie"
+      ],
+      "7200": [
+        "pistol.python",
+        "pistol.semiauto",
+        "coffeecan.helmet",
+        "roadsign.jacket",
+        "roadsign.kilt",
+        "axe.salvaged",
+        "chainsaw",
+        "jackhammer"
+      ],
+      "14400": [
+        "shotgun.pump",
+        "shotgun.spas12",
+        "pistol.m92"
+      ],
+      "28800": [
+        "smg.2",
+        "smg.mp5",
+        "smg.thompson",
+        "rifle.semiauto",
+        "explosive.satchel",
+        "grenade.f1",
+        "grenade.beancan",
+        "surveycharge"
+      ],
+      "43200": [
+        "rifle.bolt",
+        "rifle.ak",
+        "rifle.ak.ice",
+        "rifle.lr300",
+        "metal.facemask",
+        "metal.plate.torso",
+        "rifle.l96",
+        "rifle.m39"
+      ],
+      "64800": [
+        "ammo.rifle.explosive",
+        "ammo.rocket.basic",
+        "ammo.rocket.fire",
+        "ammo.rocket.hv",
+        "rocket.launcher",
+        "explosive.timed",
+        "ammo.rocket.mlrs",
+        "submarine.torpedo.straight"
+      ],
+      "86400": [
+        "lmg.m249",
+        "hmlmg",
+        "heavy.plate.helmet",
+        "heavy.plate.jacket",
+        "heavy.plate.pants"
+      ]
+    },
+    "Названия категорий в интерфейсе": {
+      "Weapon": "ОРУЖИЯ",
+      "Ammunition": "БОЕПРИПАСОВ",
+      "Medical": "МЕДИЦИНЫ",
+      "Food": "ЕДЫ",
+      "Traps": "ЛОВУШЕК",
+      "Tool": "ИНСТРУМЕНТОВ",
+      "Construction": "КОНСТРУКЦИЙ",
+      "Resources": "РЕСУРСОВ",
+      "Items": "ПРЕДМЕТОВ",
+      "Component": "КОМПОНЕНТОВ",
+      "Misc": "ПРОЧЕГО",
+      "Attire": "ОДЕЖДЫ"
+    }
+  }
+}

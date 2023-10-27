@@ -1,0 +1,53 @@
+{
+  "raid": {
+    "активирован": true,
+    "оставить блок после респавна из рейдблока": false,
+    "блок при разрушении этих обектов": [
+      "barricade",
+      "cupboard",
+      "autoturret",
+      "floor.ladder",
+      "floor.frame",
+      "floor.grill",
+      "wall.frame",
+      "wall.window",
+      "shutter",
+      "mining",
+      "external"
+    ],
+    "дистанция": 100,
+    "длительность": 300,
+    "можно строить солому": true,
+    "можно строить эти объекты": [
+      "assets/prefabs/deployable/barricades/barricade.sandbags.prefab",
+      "assets/prefabs/deployable/campfire/campfire.prefab",
+      "assets/prefabs/deployable/barricades/barricade.stone.prefab",
+      "assets/prefabs/deployable/single shot trap/guntrap.deployed.prefab",
+      "assets/prefabs/deployable/landmine/landmine.prefab",
+      "assets/prefabs/npc/flame turret/flameturret.deployed.prefab",
+      "assets/prefabs/deployable/bear trap/beartrap.prefab",
+      "assets/prefabs/deployable/tool cupboard/cupboard.tool.deployed.prefab",
+      "assets/prefabs/deployable/bed/bed_deployed.prefab",
+      "assets/prefabs/deployable/sleeping bag/sleepingbag_leather_deployed.prefab",
+      "assets/prefabs/building/ladder.wall.wood/ladder.wooden.wall.prefab"
+    ],
+    "кастомное УИ": "",
+    "имя УИ, {countdown} заменяется на таймер": "RaidBlockUI",
+    "картина в УИ, подставляется в блок {png}": "",
+    "блок при разрушении своих блоков": true,
+    "логирование": false,
+    "добавлять отметку на карте G": true,
+    "добавлять отметку на WorldMap": true
+  },
+  "combat": {
+    "активирован": true,
+    "длительность": 60,
+    "кастомное УИ, {countdown} заменяется на таймер": "",
+    "имя УИ": "CombatBlockUI",
+    "запускать при стрельбе по ботам": false
+  },
+  "выводить админу имя объекта при строительстве": false,
+  "формат времени": "{0}M {1}S",
+  "скорость обновления времени на УИ в секундах": 5.0,
+  "version": "1.0.25"
+}

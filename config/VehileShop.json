@@ -1,0 +1,206 @@
+{
+  "Настройка Привилегий": {
+    "vehileshop.vi": 0.5,
+    "vehileshop.se": 0.7,
+    "vehileshop.gold": 0.3
+  },
+  "Настройка валюты": {
+    "Ключ валюты": "blood",
+    "Отображаемое имя": "ЭССЕНЦИИ КРОВИ"
+  },
+  "Транспорт": [
+    {
+      "Префаб": "assets/content/vehicles/modularcar/2module_car_spawned.entity.prefab",
+      "Имя": "ТАКСИ",
+      "Картинка": "https://gspics.org/images/2022/06/20/01Ls88.png",
+      "Цена": 30,
+      "Водный": false,
+      "Начальное топливо": 50,
+      "Растояние": 5.0,
+      "Модули": [
+        "vehicle.1mod.cockpit.with.engine",
+        "vehicle.1mod.taxi"
+      ],
+      "Части двигателя": [
+        "crankshaft3",
+        "sparkplug3",
+        "piston3",
+        "valve3",
+        "carburetor3"
+      ]
+    },
+    {
+      "Префаб": "assets/content/vehicles/modularcar/2module_car_spawned.entity.prefab",
+      "Имя": "БРОНЕВИК",
+      "Картинка": "https://gspics.org/images/2022/06/20/01LL5n.png",
+      "Цена": 30,
+      "Водный": false,
+      "Начальное топливо": 50,
+      "Растояние": 5.0,
+      "Модули": [
+        "vehicle.1mod.cockpit.armored",
+        "vehicle.1mod.engine"
+      ],
+      "Части двигателя": [
+        "crankshaft3",
+        "sparkplug3",
+        "piston3",
+        "valve3",
+        "carburetor3",
+        "crankshaft3",
+        "carburetor3",
+        "crankshaft3",
+        "carburetor3",
+        "crankshaft3",
+        "sparkplug3",
+        "piston3",
+        "valve3",
+        "carburetor3",
+        "crankshaft3",
+        "sparkplug3",
+        "piston3",
+        "valve3",
+        "carburetor3"
+      ]
+    },
+    {
+      "Префаб": "assets/content/vehicles/modularcar/3module_car_spawned.entity.prefab",
+      "Имя": "ФУРГОН",
+      "Картинка": "https://gspics.org/images/2022/06/21/01Cycy.png",
+      "Цена": 40,
+      "Водный": false,
+      "Начальное топливо": 50,
+      "Растояние": 5.0,
+      "Модули": [
+        "crankshaft3",
+        "sparkplug3",
+        "piston3",
+        "valve3",
+        "carburetor3",
+        "vehicle.1mod.cockpit.with.engine",
+        "vehicle.2mod.camper"
+      ],
+      "Части двигателя": [
+        "crankshaft3",
+        "sparkplug3",
+        "piston3",
+        "valve3",
+        "carburetor3"
+      ]
+    },
+    {
+      "Префаб": "assets/content/vehicles/modularcar/3module_car_spawned.entity.prefab",
+      "Имя": "БРОНЕВИК Х2",
+      "Картинка": "https://gspics.org/images/2022/06/20/01L4LX.png",
+      "Цена": 50,
+      "Водный": false,
+      "Начальное топливо": 50,
+      "Растояние": 5.0,
+      "Модули": [
+        "crankshaft3",
+        "sparkplug3",
+        "piston3",
+        "valve3",
+        "carburetor3",
+        "vehicle.1mod.cockpit.armored",
+        "vehicle.1mod.passengers.armored",
+        "vehicle.1mod.engine"
+      ],
+      "Части двигателя": [
+        "crankshaft3",
+        "sparkplug3",
+        "piston3",
+        "valve3",
+        "carburetor3"
+      ]
+    },
+    {
+      "Префаб": "assets/content/vehicles/minicopter/minicopter.entity.prefab",
+      "Имя": "МИНИКОПТЕР",
+      "Картинка": "https://rustlabs.com/img/screenshots/minicopter.png",
+      "Цена": 100,
+      "Водный": false,
+      "Начальное топливо": 50,
+      "Растояние": 5.0,
+      "Модули": [],
+      "Части двигателя": []
+    },
+    {
+      "Префаб": "assets/content/vehicles/scrap heli carrier/scraptransporthelicopter.prefab",
+      "Имя": "КОРОВА",
+      "Картинка": "https://rustlabs.com/img/screenshots/scrap-heli.png",
+      "Цена": 100,
+      "Водный": false,
+      "Начальное топливо": 50,
+      "Растояние": 5.0,
+      "Модули": [],
+      "Части двигателя": []
+    },
+    {
+      "Префаб": "assets/content/vehicles/snowmobiles/snowmobile.prefab",
+      "Имя": "СНЕГОХОД",
+      "Картинка": "https://rustlabs.com/img/screenshots/snowmobile.png",
+      "Цена": 30,
+      "Водный": false,
+      "Начальное топливо": 50,
+      "Растояние": 10.0,
+      "Модули": [],
+      "Части двигателя": []
+    },
+    {
+      "Префаб": "assets/content/vehicles/snowmobiles/tomahasnowmobile.prefab",
+      "Имя": "ТОМАХА",
+      "Картинка": "https://gspics.org/images/2022/06/20/01LH5e.png",
+      "Цена": 50,
+      "Водный": false,
+      "Начальное топливо": 50,
+      "Растояние": 5.0,
+      "Модули": [],
+      "Части двигателя": []
+    },
+    {
+      "Префаб": "assets/content/vehicles/boats/rowboat/rowboat.prefab",
+      "Имя": "ЛОДКА",
+      "Картинка": "https://rustlabs.com/img/screenshots/rowboat.png",
+      "Цена": 30,
+      "Водный": true,
+      "Начальное топливо": 0,
+      "Растояние": 10.0,
+      "Модули": [],
+      "Части двигателя": []
+    },
+    {
+      "Префаб": "assets/content/vehicles/boats/rhib/rhib.prefab",
+      "Имя": "КАТЕР",
+      "Картинка": "https://rustlabs.com/img/screenshots/rhib.png",
+      "Цена": 50,
+      "Водный": true,
+      "Начальное топливо": 50,
+      "Растояние": 5.0,
+      "Модули": [],
+      "Части двигателя": []
+    },
+    {
+      "Префаб": "assets/content/vehicles/submarine/submarinesolo.entity.prefab",
+      "Имя": "СУБМАРИНА",
+      "Картинка": "https://rustlabs.com/img/screenshots/submarine-solo.png",
+      "Цена": 40,
+      "Водный": false,
+      "Начальное топливо": 50,
+      "Растояние": 5.0,
+      "Модули": [],
+      "Части двигателя": []
+    },
+    {
+      "Префаб": "assets/content/vehicles/submarine/submarineduo.entity.prefab",
+      "Имя": "СУБМАРИНА Х2",
+      "Картинка": "https://rustlabs.com/img/screenshots/submarine-duo.png",
+      "Цена": 60,
+      "Водный": true,
+      "Начальное топливо": 0,
+      "Растояние": 10.0,
+      "Модули": [],
+      "Части двигателя": []
+    }
+  ]
+}

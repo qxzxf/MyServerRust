@@ -1,0 +1,67 @@
+{
+  "GlobalSettings": {
+    "Use Permission phonecoremulti2x3.show": false,
+    "Background Image Url": "https://i.ibb.co/n6Fqc1W/menuBG.png"
+  },
+  "Page1Settings": {
+    "Image Url in place One": "https://i.imgur.com/mnBkYwB.png",
+    "Command For Place One": "",
+    "Image Url in place Two": "https://i.imgur.com/bQGcmWL.png",
+    "Command For Place Two": "",
+    "Image Url in place Three": "https://i.imgur.com/WAY6j4A.png",
+    "Command For Place Three": "",
+    "Image Url in place Four": "https://i.imgur.com/rOLnNiY.png",
+    "Command For Place Four": "",
+    "Image Url in place Five": "https://i.imgur.com/cMjS34N.png",
+    "Command For Place Five": "",
+    "Image Url in place Six": "https://i.imgur.com/Vz4vVaw.png",
+    "Command For Place Six": ""
+  },
+  "Page2Settings": {
+    "Image Url in place One": "https://i.imgur.com/mnBkYwB.png",
+    "Command For Place One": "",
+    "Image Url in place Two": "https://i.imgur.com/bQGcmWL.png",
+    "Command For Place Two": "",
+    "Image Url in place Three": "https://i.imgur.com/WAY6j4A.png",
+    "Command For Place Three": "",
+    "Image Url in place Four": "https://i.imgur.com/rOLnNiY.png",
+    "Command For Place Four": "",
+    "Image Url in place Five": "https://i.imgur.com/cMjS34N.png",
+    "Command For Place Five": "",
+    "Image Url in place Six": "https://i.imgur.com/Vz4vVaw.png",
+    "Command For Place Six": ""
+  },
+  "Page3Settings": {
+    "Image Url in place One": "https://i.imgur.com/mnBkYwB.png",
+    "Command For Place One": "",
+    "Image Url in place Two": "https://i.imgur.com/bQGcmWL.png",
+    "Command For Place Two": "",
+    "Image Url in place Three": "https://i.imgur.com/WAY6j4A.png",
+    "Command For Place Three": "",
+    "Image Url in place Four": "https://i.imgur.com/rOLnNiY.png",
+    "Command For Place Four": "",
+    "Image Url in place Five": "https://i.imgur.com/cMjS34N.png",
+    "Command For Place Five": "",
+    "Image Url in place Six": "https://i.imgur.com/Vz4vVaw.png",
+    "Command For Place Six": ""
+  },
+  "Page4Settings": {
+    "Image Url in place One": "https://i.imgur.com/mnBkYwB.png",
+    "Command For Place One": "",
+    "Image Url in place Two": "https://i.imgur.com/bQGcmWL.png",
+    "Command For Place Two": "",
+    "Image Url in place Three": "https://i.imgur.com/WAY6j4A.png",
+    "Command For Place Three": "",
+    "Image Url in place Four": "https://i.imgur.com/rOLnNiY.png",
+    "Command For Place Four": "",
+    "Image Url in place Five": "https://i.imgur.com/cMjS34N.png",
+    "Command For Place Five": "",
+    "Image Url in place Six": "https://i.imgur.com/Vz4vVaw.png",
+    "Command For Place Six": ""
+  },
+  "PageSettings": {
+    "Page 2 Active True/False": false,
+    "Page 3 Active True/False": false,
+    "Page 4 Active True/False": false
+  }
+}

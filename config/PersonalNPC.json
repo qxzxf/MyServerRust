@@ -1,0 +1,358 @@
+{
+  "Control setup": {
+    "Which button will assign tasks to the bot, kill/get/collect, etc. (MIDDLE_MOUSE, SECOND_MOUSE, E, RELOAD, SPRINT)": "MIDDLE_MOUSE",
+    "Range of the task assignment button": 25.0,
+    "Display 3D arrows over a target?": true,
+    "Arrow display duration": 2,
+    "Distance between owner and bot in follow state": 2.0,
+    "Distance between owner and bot to recover": 3.0,
+    "Distance between bot and collectable entity to pickup": 2.0,
+    "Distance between bot and item to pickup": 2.0,
+    "Distance between bot and loot container to loot": 2.0,
+    "Distance between bot and tree/ore to gather": 3.0,
+    "Distance between bot and seat to mount": 3.0,
+    "Distance between bot and enemy": 3.0,
+    "Maximum distance bot will remember target": 30.0,
+    "Spawn personal bot on player connect?": false,
+    "Chat commands to execute on player connect (works only if you have enabled spawn personal bot on connect)": []
+  },
+  "GUI customization": {
+    "How many seconds to update the GUI?": 6.0,
+    "Panel layer (Hud, Overlay, Overall, Hud.Menu, Under)": "Overlay",
+    "Send commands to local chat? (required for hardcore mode, where global chat is disabled)": false,
+    "Panel position adjustment": {
+      "type": "RectTransform",
+      "anchormin": "1 1",
+      "anchormax": "1 1",
+      "offsetmin": "-170 -104",
+      "offsetmax": "-10 -10"
+    },
+    "1 panel color": "#86873b",
+    "2 panel color": "#18384d",
+    "Health bar color": "#2ecc71",
+    "Show shortcut buttons when bot is spawned?": true,
+    "Lock shortcut buttons?": false,
+    "Shortcut buttons": [
+      {
+        "Text on button": "ФАРМ: ДЕРЕВО + КАМЕНЬ",
+        "Executable chat commands": [
+          "pnpc auto-farm wood",
+          "pnpc auto-farm stone",
+          "pnpc auto-farm enable"
+        ]
+      },
+      {
+        "Text on button": "ФАРМ: МЕТАЛ + СЕРА",
+        "Executable chat commands": [
+          "pnpc auto-farm metal",
+          "pnpc auto-farm sulfur",
+          "pnpc auto-farm enable"
+        ]
+      },
+      {
+        "Text on button": "АВТОСБОР: ВСЕ",
+        "Executable chat commands": [
+          "pnpc auto-pickup all",
+          "pnpc auto-pickup enable"
+        ]
+      },
+      {
+        "Text on button": "АВТОЛУТ: ВСЕ",
+        "Executable chat commands": [
+          "pnpc loot-all",
+          "pnpc loot-all enable"
+        ]
+      },
+      {
+        "Text on button": "АВТОАТАКА ВСЕХ",
+        "Executable chat commands": [
+          "pnpc pvp"
+        ]
+      }
+    ]
+  },
+  "Bot settings by permission": {
+    "personalnpc.bot1": {
+      "Bot spawn delay": 1800.0,
+      "The name of the bot to be selected through the command when spawning": "bot1",
+      "Bot name": "ТРЕЛЛ %OWNER_NAME%",
+      "Bot appearance (0 - random)": 0,
+      "Maximum health": 150.0,
+      "Bot speed (slowest, slow, normal, fast)": "normal",
+      "Enable infinite ammo for the bot?": true,
+      "Enable display of the bot on the map? (frankenstein icon)": true,
+      "Drop active item on death?": false,
+      "Can player open bot's inventory through '/pnpc inventory' command?": true,
+      "Can other players loot bot's corpse?": false,
+      "Teleport bot to owner when clicking follow?": false,
+      "Start kit": [
+        {
+          "Item name": "",
+          "Item shortname": "deer.skull.mask",
+          "Item skin": 0,
+          "Item amount": 1,
+          "In which container to place? (belt, main, wear)": "wear"
+        },
+        {
+          "Item name": "",
+          "Item shortname": "bone.armor.suit",
+          "Item skin": 0,
+          "Item amount": 1,
+          "In which container to place? (belt, main, wear)": "wear"
+        },
+        {
+          "Item name": "",
+          "Item shortname": "stonehatchet",
+          "Item skin": 0,
+          "Item amount": 1,
+          "In which container to place? (belt, main, wear)": "belt"
+        },
+        {
+          "Item name": "",
+          "Item shortname": "stone.pickaxe",
+          "Item skin": 0,
+          "Item amount": 1,
+          "In which container to place? (belt, main, wear)": "belt"
+        }
+      ],
+      "Functions setup": {
+        "Can a bot loot crates?": true,
+        "Can the bot mine trees and stones?": true,
+        "Can the bot pick up resources? (wood, sulfur and metal ore, stones)": true,
+        "Should the bot protect the owner?": true,
+        "Should the bot defend itself?": true,
+        "Can the bot travel by car/copter and other vehicles?": true,
+        "Can the bot pick up dropped items?": true,
+        "Recover the owner from a wounded state": {
+          "Can the bot recover the owner if he is in a wounded state?": true,
+          "Recover time": 6.0
+        },
+        "PVP Mode (/pnpc pvp)": {
+          "Enable PVP mode (attack all bots and players in radius, /pnpc pvp)": true,
+          "Detect radius": 10.0,
+          "Ignore bots?": true,
+          "Ignore players?": false
+        },
+        "Loot All (/pnpc loot-all)": {
+          "Enable Loot All command (/pnpc loot-all)": true,
+          "Resources detect radius": 80.0,
+          "Loot containers?": true,
+          "Loot corpses?": true,
+          "Loot dropped items?": true
+        },
+        "Can the bot attack other people's buildings?": true,
+        "Can a bot attack its owner's buildings?": false,
+        "Can the bot collect resources within a radius of 50 meters? (/pnpc auto-pickup)": true,
+        "Can the bot farm resources within a radius of 50 meters? (/pnpc auto-farm)": true,
+        "Can the bot fly on helicopters? (PNPC Heli AI Addon plugin)": false,
+        "Can the bot drive cars? (PNPC Addon Car AI plugin)": false
+      },
+      "Gather setup": {
+        "Shortname of items that can harvest trees": [
+          "hatchet",
+          "chainsaw",
+          "hammer.salvaged",
+          "stonehatchet",
+          "axe.salvaged"
+        ],
+        "Shortname of items that can mine stones and ore": [
+          "pickaxe",
+          "stone.pickaxe",
+          "hammer.salvaged",
+          "jackhammer",
+          "icepick.salvaged"
+        ],
+        "Setting up mining rates": {
+          "stones": 2.0,
+          "wood": 2.0
+        },
+        "Radius to collect/gather resources in auto-mode": 120.0
+      },
+      "Damage and interactions setup": {
+        "Bot damage rate": 2.0,
+        "Bot recive damage rate": 0.5,
+        "Can players damage the bot?": true,
+        "Can the bot damage players?": true,
+        "Can bot damage other personal npc bots?": true,
+        "Can turrets target and kill a bot? (all turrets will not be able to damage the bot)": true,
+        "Prevent bot owner turrets from aiming and killing the bot? (bot owner's turrets will not be able to damage the bot)": true,
+        "Attack aim offset": {
+          "x": 0.0,
+          "y": -0.5,
+          "z": -0.3
+        },
+        "Blacklist of objects that the bot will ignore when owner selecting a target (short prefab name)": [
+          "barricade.sandbags"
+        ]
+      },
+      "Death Marker (marker will be only visible for owner)": {
+        "Show marker on bot's death position?": true,
+        "Display name on map": "ВАШ МЕРТВЫЙ ТРЕЛЛ",
+        "Marker radius": 0.55,
+        "Outline color (hex)": "00FFFFFF",
+        "Main color (hex)": "00FFFF",
+        "Alpha": 0.5,
+        "Duration": 5
+      },
+      "Black list of items that cannot be put into the inventory of the bot": [],
+      "List of prefabs that the bot will ignore if they attack it": [
+        "assets/prefabs/deployable/bear trap/beartrap.prefab"
+      ]
+    }
+  },
+  "Bot install by item": [
+    {
+      "Item name": "PersonalNPC",
+      "Item shortname": "furnace",
+      "Item skin": 2741314889,
+      "Bot info": {
+        "Bot spawn delay": 10.0,
+        "The name of the bot to be selected through the command when spawning": "bot1",
+        "Bot name": "Personal bot of player %OWNER_NAME%",
+        "Bot appearance (0 - random)": 0,
+        "Maximum health": 150.0,
+        "Bot speed (slowest, slow, normal, fast)": "normal",
+        "Enable infinite ammo for the bot?": true,
+        "Enable display of the bot on the map? (frankenstein icon)": true,
+        "Drop active item on death?": false,
+        "Can player open bot's inventory through '/pnpc inventory' command?": false,
+        "Can other players loot bot's corpse?": false,
+        "Teleport bot to owner when clicking follow?": false,
+        "Start kit": [
+          {
+            "Item name": "",
+            "Item shortname": "shoes.boots",
+            "Item skin": 0,
+            "Item amount": 1,
+            "In which container to place? (belt, main, wear)": "wear"
+          },
+          {
+            "Item name": "",
+            "Item shortname": "pants",
+            "Item skin": 0,
+            "Item amount": 1,
+            "In which container to place? (belt, main, wear)": "wear"
+          },
+          {
+            "Item name": "",
+            "Item shortname": "hoodie",
+            "Item skin": 0,
+            "Item amount": 1,
+            "In which container to place? (belt, main, wear)": "wear"
+          },
+          {
+            "Item name": "",
+            "Item shortname": "mask.bandana",
+            "Item skin": 0,
+            "Item amount": 1,
+            "In which container to place? (belt, main, wear)": "wear"
+          },
+          {
+            "Item name": "",
+            "Item shortname": "hat.boonie",
+            "Item skin": 0,
+            "Item amount": 1,
+            "In which container to place? (belt, main, wear)": "wear"
+          },
+          {
+            "Item name": "",
+            "Item shortname": "sunglasses",
+            "Item skin": 0,
+            "Item amount": 1,
+            "In which container to place? (belt, main, wear)": "wear"
+          }
+        ],
+        "Functions setup": {
+          "Can a bot loot crates?": true,
+          "Can the bot mine trees and stones?": true,
+          "Can the bot pick up resources? (wood, sulfur and metal ore, stones)": true,
+          "Should the bot protect the owner?": true,
+          "Should the bot defend itself?": true,
+          "Can the bot travel by car/copter and other vehicles?": true,
+          "Can the bot pick up dropped items?": true,
+          "Recover the owner from a wounded state": {
+            "Can the bot recover the owner if he is in a wounded state?": true,
+            "Recover time": 6.0
+          },
+          "PVP Mode (/pnpc pvp)": {
+            "Enable PVP mode (attack all bots and players in radius, /pnpc pvp)": false,
+            "Detect radius": 10.0,
+            "Ignore bots?": false,
+            "Ignore players?": true
+          },
+          "Loot All (/pnpc loot-all)": {
+            "Enable Loot All command (/pnpc loot-all)": false,
+            "Resources detect radius": 15.0,
+            "Loot containers?": true,
+            "Loot corpses?": true,
+            "Loot dropped items?": true
+          },
+          "Can the bot attack other people's buildings?": true,
+          "Can a bot attack its owner's buildings?": false,
+          "Can the bot collect resources within a radius of 50 meters? (/pnpc auto-pickup)": true,
+          "Can the bot farm resources within a radius of 50 meters? (/pnpc auto-farm)": true,
+          "Can the bot fly on helicopters? (PNPC Heli AI Addon plugin)": false,
+          "Can the bot drive cars? (PNPC Addon Car AI plugin)": false
+        },
+        "Gather setup": {
+          "Shortname of items that can harvest trees": [
+            "hatchet",
+            "chainsaw",
+            "hammer.salvaged",
+            "stonehatchet",
+            "axe.salvaged"
+          ],
+          "Shortname of items that can mine stones and ore": [
+            "pickaxe",
+            "stone.pickaxe",
+            "hammer.salvaged",
+            "jackhammer",
+            "icepick.salvaged"
+          ],
+          "Setting up mining rates": {
+            "stones": 2.0,
+            "wood": 5.0
+          },
+          "Radius to collect/gather resources in auto-mode": 500.0
+        },
+        "Damage and interactions setup": {
+          "Bot damage rate": 2.0,
+          "Bot recive damage rate": 0.5,
+          "Can players damage the bot?": true,
+          "Can the bot damage players?": true,
+          "Can bot damage other personal npc bots?": false,
+          "Can turrets target and kill a bot? (all turrets will not be able to damage the bot)": false,
+          "Prevent bot owner turrets from aiming and killing the bot? (bot owner's turrets will not be able to damage the bot)": true,
+          "Attack aim offset": {
+            "x": 0.0,
+            "y": -0.5,
+            "z": -0.3
+          },
+          "Blacklist of objects that the bot will ignore when owner selecting a target (short prefab name)": [
+            "barricade.sandbags"
+          ]
+        },
+        "Death Marker (marker will be only visible for owner)": {
+          "Show marker on bot's death position?": false,
+          "Display name on map": "Bot's death marker",
+          "Marker radius": 0.35,
+          "Outline color (hex)": "00FFFFFF",
+          "Main color (hex)": "00FFFF",
+          "Alpha": 0.5,
+          "Duration": 20
+        },
+        "Black list of items that cannot be put into the inventory of the bot": [
+          "rocket.launcher"
+        ],
+        "List of prefabs that the bot will ignore if they attack it": [
+          "assets/prefabs/deployable/bear trap/beartrap.prefab"
+        ]
+      }
+    }
+  ],
+  "How many seconds will the bot update the information? (affects the performance and operation of the bot)": 0.01,
+  "Spawn a backpack with his items when a bot dies? (otherwise his corpse will spawn)": false,
+  "List of prefabs that the bot can loot (useful if the bot attacks loot instead of looting it)": [
+    "vehicle_parts"
+  ]
+}

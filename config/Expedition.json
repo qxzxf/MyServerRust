@@ -1,0 +1,2022 @@
+{
+  "Ключ валюты": "blood",
+  "Настройка наемников": {
+    "merc": {
+      "Описание": "Специласт по поиску и добыче ресурсов.",
+      "Название": "ВЭНСДЕЙ",
+      "Иконка": "https://elderscrollsonline.wiki.fextralife.com/file/Elder-Scrolls-Online/ESOwiki_redguard_portrait.png",
+      "Изображение": "https://i.ibb.co/P6wvKqZ/1.png",
+      "Цена запуска": 20,
+      "Время(в секундах)": 1800,
+      "Предметы": [
+        {
+          "ShortName": "bandage",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 20,
+          "Редкость": 0,
+          "Картинка": "https://rustlabs.com/img/items180/bandage.png"
+        },
+        {
+          "ShortName": "wood",
+          "Отображаемое имя": "sulfur",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1000,
+          "Редкость": 0,
+          "Картинка": "https://rustlabs.com/img/items180/wood.png"
+        },
+        {
+          "ShortName": "stones",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1000,
+          "Редкость": 0,
+          "Картинка": "https://rustlabs.com/img/items180/stones.png"
+        },
+        {
+          "ShortName": "fat.animal",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 10,
+          "Редкость": 0,
+          "Картинка": "https://rustlabs.com/img/items180/fat.animal.png"
+        },
+        {
+          "ShortName": "cloth",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 300,
+          "Редкость": 0,
+          "Картинка": "https://rustlabs.com/img/items180/cloth.png"
+        },
+        {
+          "ShortName": "charcoal",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1000,
+          "Редкость": 0,
+          "Картинка": "https://rustlabs.com/img/items180/charcoal.png"
+        },
+        {
+          "ShortName": "fertilizer",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 50,
+          "Редкость": 0,
+          "Картинка": "https://rustlabs.com/img/items180/fertilizer.png"
+        },
+        {
+          "ShortName": "roadsigns",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 20,
+          "Редкость": 0,
+          "Картинка": "https://rustlabs.com/img/items180/roadsigns.png"
+        },
+        {
+          "ShortName": "metalpipe",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 5,
+          "Редкость": 0,
+          "Картинка": "https://rustlabs.com/img/items180/metalpipe.png"
+        },
+        {
+          "ShortName": "metalblade",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 10,
+          "Редкость": 0,
+          "Картинка": "https://rustlabs.com/img/items180/metalblade.png"
+        },
+        {
+          "ShortName": "metal.fragments",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1000,
+          "Редкость": 1,
+          "Картинка": "https://rustlabs.com/img/items180/metal.fragments.png"
+        },
+        {
+          "ShortName": "antiradpills",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 20,
+          "Редкость": 1,
+          "Картинка": "https://rustlabs.com/img/items180/antiradpills.png"
+        },
+        {
+          "ShortName": "sulfur",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1000,
+          "Редкость": 1,
+          "Картинка": "https://rustlabs.com/img/items180/sulfur.png"
+        },
+        {
+          "ShortName": "leather",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 300,
+          "Редкость": 1,
+          "Картинка": "https://rustlabs.com/img/items180/leather.png"
+        },
+        {
+          "ShortName": "cctv.camera",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 1,
+          "Картинка": "https://rustlabs.com/img/items180/cctv.camera.png"
+        },
+        {
+          "ShortName": "blueberries",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 10,
+          "Редкость": 1,
+          "Картинка": "https://rustlabs.com/img/items180/blueberries.png"
+        },
+        {
+          "ShortName": "waterjug",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 3,
+          "Редкость": 1,
+          "Картинка": "https://rustlabs.com/img/items180/waterjug.png"
+        },
+        {
+          "ShortName": "semibody",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 10,
+          "Редкость": 1,
+          "Картинка": "https://rustlabs.com/img/items180/semibody.png"
+        },
+        {
+          "ShortName": "metalspring",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 5,
+          "Редкость": 1,
+          "Картинка": "https://rustlabs.com/img/items180/metalspring.png"
+        },
+        {
+          "ShortName": "gears",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 10,
+          "Редкость": 1,
+          "Картинка": "https://rustlabs.com/img/items180/gears.png"
+        },
+        {
+          "ShortName": "syringe.medical",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 10,
+          "Редкость": 2,
+          "Картинка": "https://rustlabs.com/img/items180/syringe.medical.png"
+        },
+        {
+          "ShortName": "largemedkit",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 5,
+          "Редкость": 2,
+          "Картинка": "https://rustlabs.com/img/items180/largemedkit.png"
+        },
+        {
+          "ShortName": "maxhealthtea.pure",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 3,
+          "Редкость": 2,
+          "Картинка": "https://rustlabs.com/img/items180/maxhealthtea.pure.png"
+        },
+        {
+          "ShortName": "oretea.pure",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 3,
+          "Редкость": 2,
+          "Картинка": "https://rustlabs.com/img/items180/oretea.pure.png"
+        },
+        {
+          "ShortName": "woodtea.pure",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 3,
+          "Редкость": 2,
+          "Картинка": "https://rustlabs.com/img/items180/woodtea.pure.png"
+        },
+        {
+          "ShortName": "scraptea.pure",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 3,
+          "Редкость": 2,
+          "Картинка": "https://rustlabs.com/img/items180/scraptea.pure.png"
+        },
+        {
+          "ShortName": "scrap",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 500,
+          "Редкость": 3,
+          "Картинка": "https://rustlabs.com/img/items180/scrap.png"
+        },
+        {
+          "ShortName": "lowgradefuel",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 500,
+          "Редкость": 3,
+          "Картинка": "https://rustlabs.com/img/items180/lowgradefuel.png"
+        },
+        {
+          "ShortName": "crude.oil",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 20,
+          "Редкость": 3,
+          "Картинка": "https://rustlabs.com/img/items180/crude.oil.png"
+        },
+        {
+          "ShortName": "gunpowder",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1000,
+          "Редкость": 3,
+          "Картинка": "https://rustlabs.com/img/items180/gunpowder.png"
+        },
+        {
+          "ShortName": "targeting.computer",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 3,
+          "Картинка": "https://rustlabs.com/img/items180/targeting.computer.png"
+        },
+        {
+          "ShortName": "smgbody",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 10,
+          "Редкость": 3,
+          "Картинка": "https://rustlabs.com/img/items180/smgbody.png"
+        },
+        {
+          "ShortName": "techparts",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 10,
+          "Редкость": 3,
+          "Картинка": "https://rustlabs.com/img/items180/techparts.png"
+        },
+        {
+          "ShortName": "aiming.module.mlrs",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 3,
+          "Редкость": 3,
+          "Картинка": "https://rustlabs.com/img/items180/aiming.module.mlrs.png"
+        },
+        {
+          "ShortName": "riflebody",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 10,
+          "Редкость": 3,
+          "Картинка": "https://rustlabs.com/img/items180/riflebody.png"
+        },
+        {
+          "ShortName": "explosives",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 20,
+          "Редкость": 3,
+          "Картинка": "https://rustlabs.com/img/items180/explosives.png"
+        },
+        {
+          "ShortName": "diesel_barrel",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 10,
+          "Редкость": 3,
+          "Картинка": "https://rustlabs.com/img/items180/diesel_barrel.png"
+        },
+        {
+          "ShortName": "metal.refined",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 100,
+          "Редкость": 3,
+          "Картинка": "https://rustlabs.com/img/items180/metal.refined.png"
+        }
+      ]
+    },
+    "merc1": {
+      "Описание": "Алита - полукровка, имеющая специализацию искателя редкостей.",
+      "Название": "АЛИТА",
+      "Иконка": "https://elderscrollsonline.wiki.fextralife.com/file/Elder-Scrolls-Online/ESOwiki_bosmer_portrait.png",
+      "Изображение": "https://i.ibb.co/t4wQWSr/2.png",
+      "Цена запуска": 40,
+      "Время(в секундах)": 1800,
+      "Предметы": [
+        {
+          "ShortName": "easter.paintedeggs",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 5,
+          "Редкость": 0,
+          "Картинка": "https://rustlabs.com/img/items180/easter.paintedeggs.png"
+        },
+        {
+          "ShortName": "halloween.candy",
+          "Отображаемое имя": "sulfur",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 5,
+          "Редкость": 0,
+          "Картинка": "https://rustlabs.com/img/items180/halloween.candy.png"
+        },
+        {
+          "ShortName": "keycard_green",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 5,
+          "Редкость": 0,
+          "Картинка": "https://rustlabs.com/img/items180/keycard_green.png"
+        },
+        {
+          "ShortName": "keycard_blue",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 5,
+          "Редкость": 0,
+          "Картинка": "https://rustlabs.com/img/items180/keycard_blue.png"
+        },
+        {
+          "ShortName": "keycard_red",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 5,
+          "Редкость": 0,
+          "Картинка": "https://rustlabs.com/img/items180/keycard_red.png"
+        },
+        {
+          "ShortName": "xmas.present.small",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 3,
+          "Редкость": 1,
+          "Картинка": "https://rustlabs.com/img/items180/xmas.present.small.png"
+        },
+        {
+          "ShortName": "easter.bronzeegg",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 3,
+          "Редкость": 1,
+          "Картинка": "https://rustlabs.com/img/items180/easter.bronzeegg.png"
+        },
+        {
+          "ShortName": "halloween.lootbag.small",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 3,
+          "Редкость": 1,
+          "Картинка": "https://rustlabs.com/img/items180/halloween.lootbag.small.png"
+        },
+        {
+          "ShortName": "hatchet",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 0,
+          "Картинка": "https://rustlabs.com/img/items180/hatchet.png"
+        },
+        {
+          "ShortName": "pickaxe",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 0,
+          "Картинка": "https://rustlabs.com/img/items180/pickaxe.png"
+        },
+        {
+          "ShortName": "hammer.salvaged",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 1,
+          "Картинка": "https://rustlabs.com/img/items180/hammer.salvaged.png"
+        },
+        {
+          "ShortName": "axe.salvaged",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 1,
+          "Картинка": "https://rustlabs.com/img/items180/axe.salvaged.png"
+        },
+        {
+          "ShortName": "icepick.salvaged",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 1,
+          "Картинка": "https://rustlabs.com/img/items180/icepick.salvaged.png"
+        },
+        {
+          "ShortName": "cakefiveyear",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 3,
+          "Редкость": 1,
+          "Картинка": "https://rustlabs.com/img/items180/cakefiveyear.png"
+        },
+        {
+          "ShortName": "furnace.large",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 2,
+          "Картинка": "https://rustlabs.com/img/items180/furnace.large.png"
+        },
+        {
+          "ShortName": "easter.silveregg",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 2,
+          "Редкость": 2,
+          "Картинка": "https://rustlabs.com/img/items180/easter.silveregg.png"
+        },
+        {
+          "ShortName": "halloween.lootbag.medium",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 2,
+          "Редкость": 2,
+          "Картинка": "https://rustlabs.com/img/items180/halloween.lootbag.medium.png"
+        },
+        {
+          "ShortName": "easter.goldegg",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 3,
+          "Картинка": "https://rustlabs.com/img/items180/easter.goldegg.png"
+        },
+        {
+          "ShortName": "xmas.present.large",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 3,
+          "Картинка": "https://rustlabs.com/img/items180/xmas.present.large.png"
+        }
+      ]
+    },
+    "merc2": {
+      "Описание": "Ловкий хаджит, способный достать свитки и технологии относящиеся больше к мирной деятельности.",
+      "Название": "КАТАЙ",
+      "Иконка": "https://i.ibb.co/PzmgP4Z/ESOwiki-khajiit-portrait.png",
+      "Изображение": "https://i.ibb.co/PzmgP4Z/ESOwiki-khajiit-portrait.png",
+      "Цена запуска": 40,
+      "Время(в секундах)": 60,
+      "Предметы": [
+        {
+          "ShortName": "barricade.woodwire",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 0,
+          "Картинка": "https://rustlabs.com/img/items180/barricade.woodwire.png"
+        },
+        {
+          "ShortName": "wall.external.high",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 0,
+          "Картинка": "https://rustlabs.com/img/items180/wall.external.high.png"
+        },
+        {
+          "ShortName": "gates.external.high.wood",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 0,
+          "Картинка": "https://rustlabs.com/img/items180/gates.external.high.wood.png"
+        },
+        {
+          "ShortName": "pickaxe",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 0,
+          "Картинка": "https://rustlabs.com/img/items180/pickaxe.png"
+        },
+        {
+          "ShortName": "tool.binoculars",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 0,
+          "Картинка": "https://rustlabs.com/img/items180/tool.binoculars.png"
+        },
+        {
+          "ShortName": "hatchet",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 0,
+          "Картинка": "https://rustlabs.com/img/items180/hatchet.png"
+        },
+        {
+          "ShortName": "icepick.salvaged",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 1,
+          "Картинка": "https://rustlabs.com/img/items180/icepick.salvaged.png"
+        },
+        {
+          "ShortName": "axe.salvaged",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 1,
+          "Картинка": "https://rustlabs.com/img/items180/axe.salvaged.png"
+        },
+        {
+          "ShortName": "jacket.snow",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 1,
+          "Картинка": "https://rustlabs.com/img/items180/jacket.snow.png"
+        },
+        {
+          "ShortName": "hoodie",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 1,
+          "Картинка": "https://rustlabs.com/img/items180/hoodie.png"
+        },
+        {
+          "ShortName": "shoes.boots",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 1,
+          "Картинка": "https://rustlabs.com/img/items180/shoes.boots.png"
+        },
+        {
+          "ShortName": "jacket",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 1,
+          "Картинка": "https://rustlabs.com/img/items180/jacket.png"
+        },
+        {
+          "ShortName": "pants",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 1,
+          "Картинка": "https://rustlabs.com/img/items180/pants.png"
+        },
+        {
+          "ShortName": "chainsaw",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 2,
+          "Картинка": "https://rustlabs.com/img/items180/chainsaw.png"
+        },
+        {
+          "ShortName": "riot.helmet",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 2,
+          "Картинка": "https://rustlabs.com/img/items180/riot.helmet.png"
+        },
+        {
+          "ShortName": "roadsign.gloves",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 2,
+          "Картинка": "https://rustlabs.com/img/items180/roadsign.gloves.png"
+        },
+        {
+          "ShortName": "horse.armor.roadsign",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 2,
+          "Картинка": "https://rustlabs.com/img/items180/horse.armor.roadsign.png"
+        },
+        {
+          "ShortName": "door.hinged.metal",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 2,
+          "Картинка": "https://rustlabs.com/img/items180/door.hinged.metal.png"
+        },
+        {
+          "ShortName": "door.double.hinged.metal",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 2,
+          "Картинка": "https://rustlabs.com/img/items180/door.double.hinged.metal.png"
+        },
+        {
+          "ShortName": "wall.frame.shopfront.metal",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 2,
+          "Картинка": "https://rustlabs.com/img/items180/wall.frame.shopfront.metal.png"
+        },
+        {
+          "ShortName": "hazmatsuit",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 2,
+          "Картинка": "https://rustlabs.com/img/items180/hazmatsuit.png"
+        },
+        {
+          "ShortName": "elevator",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 2,
+          "Картинка": "https://rustlabs.com/img/items180/elevator.png"
+        },
+        {
+          "ShortName": "electric.fuelgenerator.small",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 2,
+          "Картинка": "https://rustlabs.com/img/items180/electric.fuelgenerator.small.png"
+        },
+        {
+          "ShortName": "barricade.metal",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 2,
+          "Картинка": "https://rustlabs.com/img/items180/barricade.metal.png"
+        },
+        {
+          "ShortName": "floor.ladder.hatch",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 2,
+          "Картинка": "https://rustlabs.com/img/items180/floor.ladder.hatch.png"
+        },
+        {
+          "ShortName": "gates.external.high.stone",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 2,
+          "Картинка": "https://rustlabs.com/img/items180/gates.external.high.stone.png"
+        },
+        {
+          "ShortName": "wall.external.high.stone",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 2,
+          "Картинка": "https://rustlabs.com/img/items180/wall.external.high.stone.png"
+        },
+        {
+          "ShortName": "furnace.large",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 3,
+          "Картинка": "https://rustlabs.com/img/items180/furnace.large.png"
+        },
+        {
+          "ShortName": "locker",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 3,
+          "Картинка": "https://rustlabs.com/img/items180/locker.png"
+        },
+        {
+          "ShortName": "computerstation",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 3,
+          "Картинка": "https://rustlabs.com/img/items180/computerstation.png"
+        },
+        {
+          "ShortName": "generator.wind.scrap",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 3,
+          "Картинка": "https://rustlabs.com/img/items180/generator.wind.scrap.png"
+        },
+        {
+          "ShortName": "powered.water.purifier",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 3,
+          "Картинка": "https://rustlabs.com/img/items180/powered.water.purifier.png"
+        },
+        {
+          "ShortName": "heavy.plate.jacket",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 3,
+          "Картинка": "https://rustlabs.com/img/items180/heavy.plate.jacket.png"
+        },
+        {
+          "ShortName": "heavy.plate.pants",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 3,
+          "Картинка": "https://rustlabs.com/img/items180/heavy.plate.pants.png"
+        },
+        {
+          "ShortName": "heavy.plate.helmet",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 3,
+          "Картинка": "https://rustlabs.com/img/items180/heavy.plate.helmet.png"
+        },
+        {
+          "ShortName": "nightvisiongoggles",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 3,
+          "Картинка": "https://rustlabs.com/img/items180/nightvisiongoggles.png"
+        },
+        {
+          "ShortName": "largemedkit",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 3,
+          "Картинка": "https://rustlabs.com/img/items180/largemedkit.png"
+        },
+        {
+          "ShortName": "syringe.medical",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 3,
+          "Картинка": "https://rustlabs.com/img/items180/syringe.medical.png"
+        },
+        {
+          "ShortName": "wall.frame.garagedoor",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 3,
+          "Картинка": "https://rustlabs.com/img/items180/wall.frame.garagedoor.png"
+        },
+        {
+          "ShortName": "wall.frame.cell.gate",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 3,
+          "Картинка": "https://rustlabs.com/img/items180/wall.frame.cell.gate.png"
+        },
+        {
+          "ShortName": "wall.frame.cell",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 3,
+          "Картинка": "https://rustlabs.com/img/items180/wall.frame.cell.png"
+        },
+        {
+          "ShortName": "electric.battery.rechargable.large",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 3,
+          "Картинка": "https://rustlabs.com/img/items180/electric.battery.rechargable.large.png"
+        },
+        {
+          "ShortName": "wall.window.glass.reinforced",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 3,
+          "Картинка": "https://rustlabs.com/img/items180/wall.window.glass.reinforced.png"
+        },
+        {
+          "ShortName": "roadsign.jacket",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 3,
+          "Картинка": "https://rustlabs.com/img/items180/roadsign.jacket.png"
+        },
+        {
+          "ShortName": "coffeecan.helmet",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 3,
+          "Картинка": "https://rustlabs.com/img/items180/coffeecan.helmet.png"
+        },
+        {
+          "ShortName": "metal.facemask",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 3,
+          "Картинка": "https://rustlabs.com/img/items180/metal.facemask.png"
+        },
+        {
+          "ShortName": "door.double.hinged.toptier",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 3,
+          "Картинка": "https://rustlabs.com/img/items180/door.double.hinged.toptier.png"
+        },
+        {
+          "ShortName": "door.hinged.toptier",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 3,
+          "Картинка": "https://rustlabs.com/img/items180/door.hinged.toptier.png"
+        },
+        {
+          "ShortName": "wall.window.bars.toptier",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 3,
+          "Картинка": "https://rustlabs.com/img/items180/wall.window.bars.toptier.png"
+        }
+      ]
+    },
+    "merc3": {
+      "Описание": "Закаленная боями воительница, мастерица кузнечного дела.",
+      "Название": "САРЕНА",
+      "Иконка": "https://elderscrollsonline.wiki.fextralife.com/file/Elder-Scrolls-Online/ESOwiki_nord_portrait.png",
+      "Изображение": "https://i.ibb.co/GFHbLtf/2.png",
+      "Цена запуска": 100,
+      "Время(в секундах)": 3600,
+      "Предметы": [
+        {
+          "ShortName": "trap.bear",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 5,
+          "Редкость": 0,
+          "Картинка": "https://rustlabs.com/img/items180/trap.bear.png"
+        },
+        {
+          "ShortName": "weapon.mod.small.scope",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 0,
+          "Картинка": "https://rustlabs.com/img/items180/weapon.mod.small.scope.png"
+        },
+        {
+          "ShortName": "weapon.mod.holosight",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 0,
+          "Картинка": "https://rustlabs.com/img/items180/weapon.mod.holosight.png"
+        },
+        {
+          "ShortName": "weapon.mod.lasersight",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 0,
+          "Картинка": "https://rustlabs.com/img/items180/weapon.mod.lasersight.png"
+        },
+        {
+          "ShortName": "weapon.mod.silencer",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 0,
+          "Картинка": "https://rustlabs.com/img/items180/weapon.mod.silencer.png"
+        },
+        {
+          "ShortName": "weapon.mod.extendedmags",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 0,
+          "Картинка": "https://rustlabs.com/img/items180/weapon.mod.extendedmags.png"
+        },
+        {
+          "ShortName": "speargun",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 0,
+          "Картинка": "https://rustlabs.com/img/items180/speargun.png"
+        },
+        {
+          "ShortName": "pistol.nailgun",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 0,
+          "Картинка": "https://rustlabs.com/img/items180/pistol.nailgun.png"
+        },
+        {
+          "ShortName": "shotgun.double",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 0,
+          "Картинка": "https://rustlabs.com/img/items180/shotgun.double.png"
+        },
+        {
+          "ShortName": "pistol.revolver",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 0,
+          "Картинка": "https://rustlabs.com/img/items180/pistol.revolver.png"
+        },
+        {
+          "ShortName": "grenade.flashbang",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 5,
+          "Редкость": 1,
+          "Картинка": "https://rustlabs.com/img/items180/grenade.flashbang.png"
+        },
+        {
+          "ShortName": "grenade.molotov",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 5,
+          "Редкость": 1,
+          "Картинка": "https://rustlabs.com/img/items180/grenade.molotov.png"
+        },
+        {
+          "ShortName": "trap.landmine",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 10,
+          "Редкость": 1,
+          "Картинка": "https://rustlabs.com/img/items180/trap.landmine.png"
+        },
+        {
+          "ShortName": "flameturret",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 1,
+          "Картинка": "https://rustlabs.com/img/items180/flameturret.png"
+        },
+        {
+          "ShortName": "rifle.semiauto",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 1,
+          "Картинка": "https://rustlabs.com/img/items180/rifle.semiauto.png"
+        },
+        {
+          "ShortName": "smg.thompson",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 1,
+          "Картинка": "https://rustlabs.com/img/items180/smg.thompson.png"
+        },
+        {
+          "ShortName": "smg.2",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 1,
+          "Картинка": "https://rustlabs.com/img/items180/smg.2.png"
+        },
+        {
+          "ShortName": "pistol.semiauto",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 1,
+          "Картинка": "https://rustlabs.com/img/items180/pistol.semiauto.png"
+        },
+        {
+          "ShortName": "pistol.python",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 1,
+          "Картинка": "https://rustlabs.com/img/items180/pistol.python.png"
+        },
+        {
+          "ShortName": "explosive.satchel",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 5,
+          "Редкость": 1,
+          "Картинка": "https://rustlabs.com/img/items180/explosive.satchel.png"
+        },
+        {
+          "ShortName": "grenade.beancan",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 10,
+          "Редкость": 1,
+          "Картинка": "https://rustlabs.com/img/items180/grenade.beancan.png"
+        },
+        {
+          "ShortName": "shotgun.spas12",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 2,
+          "Картинка": "https://rustlabs.com/img/items180/shotgun.spas12.png"
+        },
+        {
+          "ShortName": "rifle.m39",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 2,
+          "Картинка": "https://rustlabs.com/img/items180/rifle.m39.png"
+        },
+        {
+          "ShortName": "smg.mp5",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 2,
+          "Картинка": "https://rustlabs.com/img/items180/smg.mp5.png"
+        },
+        {
+          "ShortName": "pistol.m92",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 2,
+          "Картинка": "https://rustlabs.com/img/items180/pistol.m92.png"
+        },
+        {
+          "ShortName": "weapon.mod.8x.scope",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 2,
+          "Картинка": "https://rustlabs.com/img/items180/weapon.mod.8x.scope.png"
+        },
+        {
+          "ShortName": "grenade.f1",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 10,
+          "Редкость": 2,
+          "Картинка": "https://rustlabs.com/img/items180/grenade.f1.png"
+        },
+        {
+          "ShortName": "samsite",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 2,
+          "Редкость": 2,
+          "Картинка": "https://rustlabs.com/img/items180/samsite.png"
+        },
+        {
+          "ShortName": "ammo.grenadelauncher.he",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 12,
+          "Редкость": 3,
+          "Картинка": "https://rustlabs.com/img/items180/ammo.grenadelauncher.he.png"
+        },
+        {
+          "ShortName": "ammo.rifle.explosive",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 200,
+          "Редкость": 3,
+          "Картинка": "https://rustlabs.com/img/items180/ammo.rifle.explosive.png"
+        },
+        {
+          "ShortName": "ammo.rocket.basic",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 5,
+          "Редкость": 3,
+          "Картинка": "https://rustlabs.com/img/items180/pistol.m92.png"
+        },
+        {
+          "ShortName": "supply.signal",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 3,
+          "Картинка": "https://rustlabs.com/img/items180/supply.signal.png"
+        },
+        {
+          "ShortName": "autoturret",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 2,
+          "Редкость": 3,
+          "Картинка": "https://rustlabs.com/img/items180/autoturret.png"
+        },
+        {
+          "ShortName": "explosive.timed",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 2,
+          "Редкость": 3,
+          "Картинка": "https://rustlabs.com/img/items180/explosive.timed.png"
+        },
+        {
+          "ShortName": "lmg.m249",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 3,
+          "Картинка": "https://rustlabs.com/img/items180/lmg.m249.png"
+        },
+        {
+          "ShortName": "rifle.l96",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 3,
+          "Картинка": "https://rustlabs.com/img/items180/rifle.l96.png"
+        },
+        {
+          "ShortName": "rocket.launcher",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 3,
+          "Картинка": "https://rustlabs.com/img/items180/rocket.launcher.png"
+        },
+        {
+          "ShortName": "rifle.lr300",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 3,
+          "Картинка": "https://rustlabs.com/img/items180/rifle.lr300.png"
+        },
+        {
+          "ShortName": "multiplegrenadelauncher",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 3,
+          "Картинка": "https://rustlabs.com/img/items180/multiplegrenadelauncher.png"
+        },
+        {
+          "ShortName": "rifle.bolt",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 3,
+          "Картинка": "https://rustlabs.com/img/items180/rifle.bolt.png"
+        },
+        {
+          "ShortName": "rifle.ak",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 3,
+          "Картинка": "https://rustlabs.com/img/items180/rifle.ak.png"
+        },
+        {
+          "ShortName": "hmlmg",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 3,
+          "Картинка": "https://rustlabs.com/img/items180/hmlmg.png"
+        },
+        {
+          "ShortName": "pistol.prototype17",
+          "Отображаемое имя": "",
+          "Является чертежом?": false,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 3,
+          "Картинка": "https://rustlabs.com/img/items180/pistol.prototype17.png"
+        }
+      ]
+    },
+    "merc4": {
+      "Описание": "Высший мер, который посвятил себя редким свиткам и копиям уникальных чертежей.",
+      "Название": "ГРЕГОРИ",
+      "Иконка": "https://elderscrollsonline.wiki.fextralife.com/file/Elder-Scrolls-Online/ESOwiki_altmer_portrait.png",
+      "Изображение": "https://i.ibb.co/9Np6yF2/1.png",
+      "Цена запуска": 70,
+      "Время(в секундах)": 1800,
+      "Предметы": [
+        {
+          "ShortName": "shotgun.waterpipe",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 0,
+          "Картинка": "https://rustlabs.com/img/items180/shotgun.waterpipe.png"
+        },
+        {
+          "ShortName": "pistol.revolver",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 0,
+          "Картинка": "https://rustlabs.com/img/items180/pistol.revolver.png"
+        },
+        {
+          "ShortName": "shotgun.double",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 0,
+          "Картинка": "https://rustlabs.com/img/items180/shotgun.double.png"
+        },
+        {
+          "ShortName": "bow.compound",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 0,
+          "Картинка": "https://rustlabs.com/img/items180/bow.compound.png"
+        },
+        {
+          "ShortName": "knife.butcher",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 0,
+          "Картинка": "https://rustlabs.com/img/items180/knife.butcher.png"
+        },
+        {
+          "ShortName": "mace",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 0,
+          "Картинка": "https://rustlabs.com/img/items180/mace.png"
+        },
+        {
+          "ShortName": "weapon.mod.extendedmags",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 0,
+          "Картинка": "https://rustlabs.com/img/items180/weapon.mod.extendedmags.png"
+        },
+        {
+          "ShortName": "speargun",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 0,
+          "Картинка": "https://rustlabs.com/img/items180/speargun.png"
+        },
+        {
+          "ShortName": "shotgun.pump",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 1,
+          "Картинка": "https://rustlabs.com/img/items180/shotgun.pump.png"
+        },
+        {
+          "ShortName": "ammo.pistol",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 1,
+          "Картинка": "https://rustlabs.com/img/items180/ammo.pistol.png"
+        },
+        {
+          "ShortName": "shotgun.pump",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 1,
+          "Картинка": "https://rustlabs.com/img/items180/shotgun.pump.png"
+        },
+        {
+          "ShortName": "pistol.python",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 1,
+          "Картинка": "https://rustlabs.com/img/items180/pistol.python.png"
+        },
+        {
+          "ShortName": "grenade.molotov",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 1,
+          "Картинка": "https://rustlabs.com/img/items180/grenade.molotov.png"
+        },
+        {
+          "ShortName": "grenade.flashbang",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 1,
+          "Картинка": "https://rustlabs.com/img/items180/grenade.flashbang.png"
+        },
+        {
+          "ShortName": "trap.landmine",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 1,
+          "Картинка": "https://rustlabs.com/img/items180/trap.landmine.png"
+        },
+        {
+          "ShortName": "pistol.semiauto",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 1,
+          "Картинка": "https://rustlabs.com/img/items180/pistol.semiauto.png"
+        },
+        {
+          "ShortName": "smg.thompson",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 2,
+          "Картинка": "https://rustlabs.com/img/items180/smg.thompson.png"
+        },
+        {
+          "ShortName": "rifle.semiauto",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 2,
+          "Картинка": "https://rustlabs.com/img/items180/rifle.semiauto.png"
+        },
+        {
+          "ShortName": "shotgun.pump",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 2,
+          "Картинка": "https://rustlabs.com/img/items180/shotgun.pump.png"
+        },
+        {
+          "ShortName": "flamethrower",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 2,
+          "Картинка": "https://rustlabs.com/img/items180/flamethrower.png"
+        },
+        {
+          "ShortName": "smg.mp5",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 2,
+          "Картинка": "https://rustlabs.com/img/items180/smg.mp5.png"
+        },
+        {
+          "ShortName": "smg.2",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 2,
+          "Картинка": "https://rustlabs.com/img/items180/smg.2.png"
+        },
+        {
+          "ShortName": "weapon.mod.holosight",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 2,
+          "Картинка": "https://rustlabs.com/img/items180/weapon.mod.holosight.png"
+        },
+        {
+          "ShortName": "weapon.mod.silencer",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 2,
+          "Картинка": "https://rustlabs.com/img/items180/weapon.mod.silencer.png"
+        },
+        {
+          "ShortName": "samsite",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 2,
+          "Картинка": "https://rustlabs.com/img/items180/samsite.png"
+        },
+        {
+          "ShortName": "explosive.satchel",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 2,
+          "Картинка": "https://rustlabs.com/img/items180/explosive.satchel.png"
+        },
+        {
+          "ShortName": "grenade.beancan",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 2,
+          "Картинка": "https://rustlabs.com/img/items180/grenade.beancan.png"
+        },
+        {
+          "ShortName": "ammo.rifle.hv",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 2,
+          "Картинка": "https://rustlabs.com/img/items180/ammo.rifle.hv.png"
+        },
+        {
+          "ShortName": "ammo.rifle",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 2,
+          "Картинка": "https://rustlabs.com/img/items180/ammo.rifle.png"
+        },
+        {
+          "ShortName": "ammo.shotgun",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 2,
+          "Картинка": "https://rustlabs.com/img/items180/ammo.shotgun.png"
+        },
+        {
+          "ShortName": "weapon.mod.small.scope",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 3,
+          "Картинка": "https://rustlabs.com/img/items180/weapon.mod.small.scope.png"
+        },
+        {
+          "ShortName": "ammo.rifle.incendiary",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 3,
+          "Картинка": "https://rustlabs.com/img/items180/ammo.rifle.incendiary.png"
+        },
+        {
+          "ShortName": "autoturret",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 3,
+          "Картинка": "https://rustlabs.com/img/items180/autoturret.png"
+        },
+        {
+          "ShortName": "ammo.rocket.fire",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 3,
+          "Картинка": "https://rustlabs.com/img/items180/ammo.rocket.fire.png"
+        },
+        {
+          "ShortName": "ammo.rocket.hv",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 3,
+          "Картинка": "https://rustlabs.com/img/items180/ammo.rocket.hv.png"
+        },
+        {
+          "ShortName": "grenade.f1",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 3,
+          "Картинка": "https://rustlabs.com/img/items180/grenade.f1.png"
+        },
+        {
+          "ShortName": "rifle.ak",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 3,
+          "Картинка": "https://rustlabs.com/img/items180/rifle.ak.png"
+        },
+        {
+          "ShortName": "rifle.bolt",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 3,
+          "Картинка": "https://rustlabs.com/img/items180/rifle.bolt.png"
+        },
+        {
+          "ShortName": "rocket.launcher",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 3,
+          "Картинка": "https://rustlabs.com/img/items180/rocket.launcher.png"
+        },
+        {
+          "ShortName": "explosive.timed",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 3,
+          "Картинка": "https://rustlabs.com/img/items180/explosive.timed.png"
+        },
+        {
+          "ShortName": "explosives",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 3,
+          "Картинка": "https://rustlabs.com/img/items180/explosives.png"
+        },
+        {
+          "ShortName": "ammo.rocket.basic",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 3,
+          "Картинка": "https://rustlabs.com/img/items180/ammo.rocket.basic.png"
+        },
+        {
+          "ShortName": "weapon.mod.small.scope",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 3,
+          "Картинка": "https://rustlabs.com/img/items180/weapon.mod.small.scope.png"
+        },
+        {
+          "ShortName": "ammo.rifle.explosive",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 3,
+          "Картинка": "https://rustlabs.com/img/items180/ammo.rifle.explosive.png"
+        },
+        {
+          "ShortName": "hmlmg",
+          "Отображаемое имя": "",
+          "Является чертежом?": true,
+          "Является командой?": false,
+          "Скин": 0,
+          "Количество": 1,
+          "Редкость": 3,
+          "Картинка": "https://rustlabs.com/img/items180/hmlmg.png"
+        }
+      ]
+    },
+    "merc5": {
+      "Описание": "Данный вампир еще не прибыл в ваши покои!",
+      "Название": "СКОРО БУДЕТ",
+      "Иконка": "https://i.ibb.co/Lr74Jg0/MEFRC.png",
+      "Изображение": "https://i.ibb.co/vhjJ834/full.png",
+      "Цена запуска": 100,
+      "Время(в секундах)": 100,
+      "Предметы": []
+    },
+    "merc6": {
+      "Описание": "Данный вампир еще не прибыл в ваши покои!",
+      "Название": "СКОРО БУДЕТ",
+      "Иконка": "https://i.ibb.co/Lr74Jg0/MEFRC.png",
+      "Изображение": "https://i.ibb.co/vhjJ834/full.png",
+      "Цена запуска": 100,
+      "Время(в секундах)": 100,
+      "Предметы": []
+    },
+    "merc7": {
+      "Описание": "Данный вампир еще не прибыл в ваши покои!",
+      "Название": "СКОРО БУДЕТ",
+      "Иконка": "https://i.ibb.co/Lr74Jg0/MEFRC.png",
+      "Изображение": "https://i.ibb.co/vhjJ834/full.png",
+      "Цена запуска": 100,
+      "Время(в секундах)": 100,
+      "Предметы": []
+    }
+  }
+}

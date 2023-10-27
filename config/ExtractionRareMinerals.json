@@ -1,0 +1,256 @@
+{
+  "Version": {
+    "Configuration": {
+      "Major": 1,
+      "Minor": 0,
+      "Patch": 1
+    }
+  },
+  "MaxMineralsPerHit": 1,
+  "MaxStackable": null,
+  "TimeToSmelting": 30,
+  "ItemShortName": "sticks",
+  "Items": [
+    {
+      "ID": "large.sulfur",
+      "SkinID": 2893225931,
+      "Name": "дастен",
+      "PermittedTool": [
+        "stone.pickaxe",
+        "pickaxe",
+        "hammer.salvaged",
+        "icepick.salvaged",
+        "jackhammer"
+      ],
+      "ExtractionInfo": [
+        {
+          "PrefabShortName": "sulfur-ore",
+          "DropChance": 0.3,
+          "Amount": 1
+        }
+      ],
+      "ItemAfterSmelting": {
+        "ShortName": "sulfur",
+        "MinAmount": 1000,
+        "MaxAmount": 2000
+      },
+      "PossibleItemsAfterRecycler": null
+    },
+    {
+      "ID": "large.metal",
+      "SkinID": 2893226249,
+      "Name": "Large Metal Piece",
+      "PermittedTool": [
+        "stone.pickaxe",
+        "pickaxe",
+        "hammer.salvaged",
+        "icepick.salvaged",
+        "jackhammer"
+      ],
+      "ExtractionInfo": [
+        {
+          "PrefabShortName": "metal-ore",
+          "DropChance": 0.3,
+          "Amount": 1
+        }
+      ],
+      "ItemAfterSmelting": {
+        "ShortName": "metal.fragments",
+        "MinAmount": 1000,
+        "MaxAmount": 2000
+      },
+      "PossibleItemsAfterRecycler": null
+    },
+    {
+      "ID": "large.stone",
+      "SkinID": 2893226068,
+      "Name": "Large Stone",
+      "PermittedTool": [
+        "stone.pickaxe",
+        "pickaxe",
+        "hammer.salvaged",
+        "icepick.salvaged",
+        "jackhammer"
+      ],
+      "ExtractionInfo": [
+        {
+          "PrefabShortName": "stone-ore",
+          "DropChance": 0.3,
+          "Amount": 1
+        }
+      ],
+      "ItemAfterSmelting": null,
+      "PossibleItemsAfterRecycler": [
+        {
+          "ShortName": "stones",
+          "MinAmount": 1500,
+          "MaxAmount": 2000
+        }
+      ]
+    },
+    {
+      "ID": "jade",
+      "SkinID": 2901473542,
+      "Name": "Jade",
+      "PermittedTool": [
+        "pickaxe",
+        "hammer.salvaged",
+        "icepick.salvaged",
+        "jackhammer"
+      ],
+      "ExtractionInfo": [
+        {
+          "PrefabShortName": "sulfur-ore",
+          "DropChance": 0.3,
+          "Amount": 1
+        }
+      ],
+      "ItemAfterSmelting": null,
+      "PossibleItemsAfterRecycler": [
+        {
+          "ShortName": "rope",
+          "MinAmount": 3,
+          "MaxAmount": 15
+        },
+        {
+          "ShortName": "cloth",
+          "MinAmount": 50,
+          "MaxAmount": 200
+        },
+        {
+          "ShortName": "leather",
+          "MinAmount": 50,
+          "MaxAmount": 200
+        },
+        {
+          "ShortName": "fat.animal",
+          "MinAmount": 70,
+          "MaxAmount": 300
+        },
+        {
+          "ShortName": "lowgradefuel",
+          "MinAmount": 30,
+          "MaxAmount": 120
+        }
+      ]
+    },
+    {
+      "ID": "amethyst",
+      "SkinID": 2893105387,
+      "Name": "Amethyst",
+      "PermittedTool": [
+        "pickaxe",
+        "hammer.salvaged",
+        "icepick.salvaged",
+        "jackhammer"
+      ],
+      "ExtractionInfo": [
+        {
+          "PrefabShortName": "metal-ore",
+          "DropChance": 0.3,
+          "Amount": 1
+        }
+      ],
+      "ItemAfterSmelting": null,
+      "PossibleItemsAfterRecycler": [
+        {
+          "ShortName": "largemedkit",
+          "MinAmount": 1,
+          "MaxAmount": 3
+        },
+        {
+          "ShortName": "syringe.medical",
+          "MinAmount": 3,
+          "MaxAmount": 7
+        }
+      ]
+    },
+    {
+      "ID": "musgravite",
+      "SkinID": 2901990088,
+      "Name": "Musgravite",
+      "PermittedTool": [
+        "pickaxe",
+        "hammer.salvaged",
+        "icepick.salvaged",
+        "jackhammer"
+      ],
+      "ExtractionInfo": [
+        {
+          "PrefabShortName": "sulfur-ore",
+          "DropChance": 0.2,
+          "Amount": 1
+        },
+        {
+          "PrefabShortName": "metal-ore",
+          "DropChance": 0.2,
+          "Amount": 1
+        }
+      ],
+      "ItemAfterSmelting": null,
+      "PossibleItemsAfterRecycler": [
+        {
+          "ShortName": "hazmatsuit",
+          "MinAmount": 1,
+          "MaxAmount": 1
+        }
+      ]
+    },
+    {
+      "ID": "diamond",
+      "SkinID": 2893105180,
+      "Name": "Diamond",
+      "PermittedTool": [
+        "pickaxe",
+        "hammer.salvaged",
+        "icepick.salvaged",
+        "jackhammer"
+      ],
+      "ExtractionInfo": [
+        {
+          "PrefabShortName": "sulfur-ore",
+          "DropChance": 0.2,
+          "Amount": 1
+        },
+        {
+          "PrefabShortName": "metal-ore",
+          "DropChance": 0.2,
+          "Amount": 1
+        }
+      ],
+      "ItemAfterSmelting": null,
+      "PossibleItemsAfterRecycler": [
+        {
+          "ShortName": "pistol.semiauto",
+          "MinAmount": 1,
+          "MaxAmount": 1
+        },
+        {
+          "ShortName": "pistol.revolver",
+          "MinAmount": 1,
+          "MaxAmount": 1
+        },
+        {
+          "ShortName": "shotgun.pump",
+          "MinAmount": 1,
+          "MaxAmount": 1
+        },
+        {
+          "ShortName": "shotgun.double",
+          "MinAmount": 1,
+          "MaxAmount": 1
+        },
+        {
+          "ShortName": "shotgun.waterpipe",
+          "MinAmount": 1,
+          "MaxAmount": 1
+        },
+        {
+          "ShortName": "pistol.nailgun",
+          "MinAmount": 1,
+          "MaxAmount": 1
+        }
+      ]
+    }
+  ]
+}

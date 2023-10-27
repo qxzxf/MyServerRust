@@ -1,0 +1,19 @@
+{
+  "NoClip on Vanish (runs noclip command)": false,
+  "Use OnEntityTakeDamage hook (Set to true to enable use of vanish.damage perm. Set to false for better performance)": true,
+  "Use CanUseLockedEntity hook (Allows vanished players with the perm vanish.unlock to bypass locks. Set to false for better performance)": true,
+  "Keep a vanished player hidden on disconnect": true,
+  "Turn off fly hack detection for players in vanish": true,
+  "Disable metabolism in vanish": true,
+  "Reset hydration and health on un-vanishing (resets to pre-vanished state)": true,
+  "Enable vanishing and reappearing sound effects": true,
+  "Make sound effects public": false,
+  "Enable chat notifications": true,
+  "Sound effect to use when vanishing": "assets/prefabs/npc/patrol helicopter/effects/rocket_fire.prefab",
+  "Sound effect to use when reappearing": "assets/prefabs/npc/patrol helicopter/effects/rocket_fire.prefab",
+  "Enable GUI": true,
+  "Icon URL (.png or .jpg)": "https://i.imgur.com/9OPvf2y.jpg",
+  "Image Color": "1 1 1 0.3",
+  "Image AnchorMin": "0.175 0.017",
+  "Image AnchorMax": "0.22 0.08"
+}

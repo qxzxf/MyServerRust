@@ -1,0 +1,16 @@
+{
+  "Overdose": {
+    "Overdose Enabled?": false,
+    "Overdose Limit (applies debuff called 'dirty')": 150.0,
+    "Buff applied when overdose limit is reached (from data file)": "overdose_debuff",
+    "Reset 'dirtyness' on death": true
+  },
+  "UI Overlays (you can add your own)": {
+    "Formating 'unique name', 'asset link from game files(rust color code)'": {
+      "healing_overlay": "assets/content/ui/overlay_poisoned.png(0.31 0.37 0.20 1.0)",
+      "orange_overlay": "assets/content/ui/overlay_freezing.png(0.67 0.36 0.05 1.0)",
+      "hurt_overlay": "assets/content/ui/ui.background.transparent.radial.psd(0.56 0.20 0.15 1.0)",
+      "blue_overlay": "assets/content/ui/ui.background.transparent.linear.psd(0.16 0.34 0.49 1.0)"
+    }
+  }
+}

@@ -1,0 +1,1450 @@
+{
+  "douglas fir a snow": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_arctic_forest/douglas_fir_a_snow.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "douglas fir b snow": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_arctic_forest/douglas_fir_b_snow.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "douglas fir c snow": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_arctic_forest/douglas_fir_c_snow.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "pine a snow": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_arctic_forest/pine_a_snow.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "pine c snow": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_arctic_forest/pine_c_snow.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "pine dead snow a": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_arctic_forest/pine_dead_snow_a.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "pine dead snow b": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_arctic_forest/pine_dead_snow_b.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "pine dead snow c": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_arctic_forest/pine_dead_snow_c.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "pine dead snow d": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_arctic_forest/pine_dead_snow_d.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "pine dead snow e": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_arctic_forest/pine_dead_snow_e.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "pine dead snow f": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_arctic_forest/pine_dead_snow_f.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "pine sapling a snow": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_arctic_forest_saplings/pine_sapling_a_snow.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "pine sapling b snow": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_arctic_forest_saplings/pine_sapling_b_snow.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "pine sapling c snow": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_arctic_forest_saplings/pine_sapling_c_snow.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "pine sapling d snow": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_arctic_forest_saplings/pine_sapling_d_snow.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "pine sapling e snow": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_arctic_forest_saplings/pine_sapling_e_snow.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "pine a snow1": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_arctic_forestside/pine_a_snow.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "pine b snow": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_arctic_forestside/pine_b snow.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "pine d snow": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_arctic_forestside/pine_d_snow.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "pine dead snow e1": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_arctic_forestside/pine_dead_snow_e.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "pine dead snow f1": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_arctic_forestside/pine_dead_snow_f.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "pine sapling d snow1": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_arctic_forestside/pine_sapling_d_snow.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "pine sapling e snow1": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_arctic_forestside/pine_sapling_e_snow.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "palm tree short a entity": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_arid_beachside/palm_tree_short_a_entity.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "palm tree short b entity": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_arid_beachside/palm_tree_short_b_entity.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "palm tree short c entity": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_arid_beachside/palm_tree_short_c_entity.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "palm tree small a entity": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_arid_beachside/palm_tree_small_a_entity.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "palm tree small b entity": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_arid_beachside/palm_tree_small_b_entity.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "palm tree small c entity": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_arid_beachside/palm_tree_small_c_entity.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "cactus-1": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_arid_cactus/cactus-1.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "cactus-2": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_arid_cactus/cactus-2.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "cactus-3": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_arid_cactus/cactus-3.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "cactus-4": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_arid_cactus/cactus-4.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "cactus-5": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_arid_cactus/cactus-5.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "cactus-6": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_arid_cactus/cactus-6.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "cactus-7": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_arid_cactus/cactus-7.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "palm tree short a entity1": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_arid_field/palm_tree_short_a_entity.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "palm tree short b entity1": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_arid_field/palm_tree_short_b_entity.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "palm tree short c entity1": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_arid_field/palm_tree_short_c_entity.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "palm tree small b entity1": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_arid_field/palm_tree_small_b_entity.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "palm tree small c entity1": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_arid_field/palm_tree_small_c_entity.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "palm tree med a entity": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_arid_forest/palm_tree_med_a_entity.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "palm tree short a entity2": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_arid_forest/palm_tree_short_a_entity.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "palm tree short b entity2": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_arid_forest/palm_tree_short_b_entity.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "palm tree short c entity2": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_arid_forest/palm_tree_short_c_entity.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "palm tree tall a entity": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_arid_forest/palm_tree_tall_a_entity.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "palm tree tall b entity": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_arid_forest/palm_tree_tall_b_entity.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "palm tree short a entity3": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_arid_forestside/palm_tree_short_a_entity.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "palm tree short b entity3": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_arid_forestside/palm_tree_short_b_entity.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "palm tree short c entity3": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_arid_forestside/palm_tree_short_c_entity.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "bush willow snow a": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_bushes_arctic/bush_willow_snow_a.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "bush willow snow b": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_bushes_arctic/bush_willow_snow_b.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "bush willow snow c": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_bushes_arctic/bush_willow_snow_c.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "bush willow snow d": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_bushes_arctic/bush_willow_snow_d.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "bush willow snow small a": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_bushes_arctic/bush_willow_snow_small_a.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "bush willow snow small b": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_bushes_arctic/bush_willow_snow_small_b.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "bush spicebush a snow": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_bushes_arctic_forest/bush_spicebush_a_snow.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "bush spicebush c snow": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_bushes_arctic_forest/bush_spicebush_c_snow.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "bush willow snow a1": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_bushes_arctic_forest/bush_willow_snow_a.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "bush willow snow b1": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_bushes_arctic_forest/bush_willow_snow_b.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "bush willow snow c1": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_bushes_arctic_forest/bush_willow_snow_c.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "bush willow snow d1": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_bushes_arctic_forest/bush_willow_snow_d.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "creosote bush c": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_bushes_arid_desert/creosote_bush_c.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "creosote bush d": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_bushes_arid_desert/creosote_bush_d.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "mormon tea a": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_bushes_arid_desert/mormon_tea_a.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "mormon tea b": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_bushes_arid_desert/mormon_tea_b.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "mormon tea c": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_bushes_arid_desert/mormon_tea_c.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "mormon tea d": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_bushes_arid_desert/mormon_tea_d.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "creosote bush dry a": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_bushes_arid_dry/creosote_bush_dry_a.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "creosote bush dry b": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_bushes_arid_dry/creosote_bush_dry_b.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "creosote bush a": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_bushes_arid_grass/creosote_bush_a.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "creosote bush b": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_bushes_arid_grass/creosote_bush_b.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "creosote bush c1": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_bushes_arid_grass/creosote_bush_c.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "creosote bush d1": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_bushes_arid_grass/creosote_bush_d.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "ocotillo a": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_bushes_arid_ocotillo/ocotillo_a.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "ocotillo b": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_bushes_arid_ocotillo/ocotillo_b.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "ocotillo c": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_bushes_arid_ocotillo/ocotillo_c.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "ocotillo d": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_bushes_arid_ocotillo/ocotillo_d.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "ocotillo dry a": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_bushes_arid_ocotillo/ocotillo_dry_a.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "ocotillo dry b": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_bushes_arid_ocotillo/ocotillo_dry_b.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "ocotillo dry c": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_bushes_arid_ocotillo/ocotillo_dry_c.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "ocotillo dry d": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_bushes_arid_ocotillo/ocotillo_dry_d.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "bush spicebush a": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_bushes_temp/bush_spicebush_a.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "bush spicebush b": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_bushes_temp/bush_spicebush_b.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "bush spicebush c": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_bushes_temp/bush_spicebush_c.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "bush spicebush d": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_bushes_temp/bush_spicebush_d.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "bush willow a": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_bushes_temp/bush_willow_a.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "bush willow b": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_bushes_temp/bush_willow_b.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "bush willow c": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_bushes_temp/bush_willow_c.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "bush willow d": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_bushes_temp/bush_willow_d.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "bush spicebush a1": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_bushes_tundra/bush_spicebush_a.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "bush spicebush b1": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_bushes_tundra/bush_spicebush_b.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "bush spicebush c1": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_bushes_tundra/bush_spicebush_c.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "bush spicebush d1": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_bushes_tundra/bush_spicebush_d.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "birch small temp": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_temp_beachside/birch_small_temp.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "birch tiny temp": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_temp_beachside/birch_tiny_temp.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "american beech d": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_temp_field/american_beech_d.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "american beech e": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_temp_field/american_beech_e.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "birch small temp1": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_temp_field/birch_small_temp.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "birch tiny temp1": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_temp_field/birch_tiny_temp.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "oak e": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_temp_field/oak_e.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "oak f": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_temp_field/oak_f.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "pine b": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_temp_field/pine_b.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "pine d": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_temp_field/pine_d.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "oak b": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_temp_field_large/oak_b.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "oak c": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_temp_field_large/oak_c.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "oak d": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_temp_field_large/oak_d.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "american beech a": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_temp_forest/american_beech_a.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "american beech a dead": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_temp_forest/american_beech_a_dead.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "american beech b": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_temp_forest/american_beech_b.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "american beech c": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_temp_forest/american_beech_c.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "birch big temp": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_temp_forest/birch_big_temp.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "birch large temp": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_temp_forest/birch_large_temp.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "birch medium temp": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_temp_forest/birch_medium_temp.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "american beech a1": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_temp_forest_pine/american_beech_a.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "american beech b1": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_temp_forest_pine/american_beech_b.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "american beech c1": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_temp_forest_pine/american_beech_c.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "birch big temp1": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_temp_forest_pine/birch_big_temp.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "birch large temp1": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_temp_forest_pine/birch_large_temp.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "douglas fir a": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_temp_forest_pine/douglas_fir_a.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "douglas fir b": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_temp_forest_pine/douglas_fir_b.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "douglas fir c": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_temp_forest_pine/douglas_fir_c.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "pine a": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_temp_forest_pine/pine_a.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "pine c": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_temp_forest_pine/pine_c.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "american beech d1": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_temp_forestside/american_beech_d.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "american beech e1": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_temp_forestside/american_beech_e.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "american beech e dead": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_temp_forestside/american_beech_e_dead.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "birch medium temp1": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_temp_forestside/birch_medium_temp.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "birch small temp2": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_temp_forestside/birch_small_temp.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "birch tiny temp2": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_temp_forestside/birch_tiny_temp.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "douglas fir d": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_temp_forestside_pine/douglas_fir_d.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "pine b1": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_temp_forestside_pine/pine_b.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "pine d1": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_temp_forestside_pine/pine_d.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "birch big tundra": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_tundra_field/birch_big_tundra.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "birch large tundra": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_tundra_field/birch_large_tundra.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "birch medium tundra": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_tundra_field/birch_medium_tundra.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "birch small tundra": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_tundra_field/birch_small_tundra.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "birch tiny tundra": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_tundra_field/birch_tiny_tundra.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "pine dead d": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_tundra_field/pine_dead_d.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "pine dead e": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_tundra_field/pine_dead_e.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "pine dead f": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_tundra_field/pine_dead_f.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "pine a1": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_tundra_field_pines/pine_a.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "pine b2": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_tundra_field_pines/pine_b.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "pine d2": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_tundra_field_pines/pine_d.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "pine sapling a": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_tundra_field_pines/pine_sapling_a.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "pine sapling b": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_tundra_field_pines/pine_sapling_b.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "pine sapling c": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_tundra_field_pines/pine_sapling_c.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "pine sapling d": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_tundra_field_pines/pine_sapling_d.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "pine sapling e": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_tundra_field_pines/pine_sapling_e.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "birch big tundra1": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_tundra_forest/birch_big_tundra.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "birch large tundra1": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_tundra_forest/birch_large_tundra.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "douglas fir a1": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_tundra_forest/douglas_fir_a.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "douglas fir b1": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_tundra_forest/douglas_fir_b.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "douglas fir c1": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_tundra_forest/douglas_fir_c.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "douglas fir d1": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_tundra_forest/douglas_fir_d.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "pine a2": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_tundra_forest/pine_a.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "pine c1": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_tundra_forest/pine_c.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "pine dead a": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_tundra_forest/pine_dead_a.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "pine dead b": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_tundra_forest/pine_dead_b.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "pine dead c": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_tundra_forest/pine_dead_c.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "pine dead d1": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_tundra_forest/pine_dead_d.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "pine dead e1": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_tundra_forest/pine_dead_e.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "pine dead f1": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_tundra_forest/pine_dead_f.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "douglas fir c2": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_tundra_forest_dead/douglas_fir_c.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "pine dead a1": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_tundra_forest_dead/pine_dead_a.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "pine dead b1": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_tundra_forest_dead/pine_dead_b.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "pine dead c1": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_tundra_forest_dead/pine_dead_c.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "pine dead d2": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_tundra_forest_dead/pine_dead_d.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "pine dead e2": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_tundra_forest_dead/pine_dead_e.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "pine dead f2": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_tundra_forest_dead/pine_dead_f.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "pine sapling a1": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_tundra_forest_saplings/pine_sapling_a.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "pine sapling b1": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_tundra_forest_saplings/pine_sapling_b.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "pine sapling c1": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_tundra_forest_saplings/pine_sapling_c.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "pine sapling d1": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_tundra_forest_saplings/pine_sapling_d.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "pine sapling e1": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_tundra_forest_saplings/pine_sapling_e.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "birch medium tundra1": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_tundra_forestside/birch_medium_tundra.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "birch small tundra1": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_tundra_forestside/birch_small_tundra.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "birch tiny tundra1": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_tundra_forestside/birch_tiny_tundra.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "douglas fir d small": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_tundra_forestside/douglas_fir_d_small.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "pine b3": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_tundra_forestside/pine_b.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  },
+  "pine d3": {
+    "BaseItem": "clone.hemp",
+    "SkinID": 0,
+    "Prefab": "assets/bundled/prefabs/autospawn/resource/v3_tundra_forestside/pine_d.prefab",
+    "NeedsTCAuth": true,
+    "CanBePickedUp": false,
+    "AdjustHeight": 0.0
+  }
+}

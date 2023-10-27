@@ -1,0 +1,69 @@
+{
+  "AddApproved": true,
+  "AddHazmat": true,
+  "DefaultSkinsPermission": "defaultskins.use",
+  "GradesSettings": {
+    "Array": [
+      {
+        "Name": "Stone",
+        "Skins": [
+          {
+            "Url": "https://rustlabs.com/img/items180/stones.png",
+            "Name": "Default Stone",
+            "Id": 0
+          },
+          {
+            "Url": "https://media.discordapp.net/attachments/1103353725772386318/1111205056520388608/IMG_9516.png",
+            "Name": "Upgrade Stone",
+            "Id": 10220
+          },
+          {
+            "Url": "https://i.ibb.co/0JPt5Xq/777.png",
+            "Name": "Upgrade Stone",
+            "Id": 10223
+          }
+        ]
+      },
+      {
+        "Name": "Metal",
+        "Skins": [
+          {
+            "Url": "https://rustlabs.com/img/items180/metal.refined.png",
+            "Name": "Default Metal",
+            "Id": 0
+          },
+          {
+            "Url": "https://media.discordapp.net/attachments/1090555264106770513/1114467883943215164/512fx512f.png",
+            "Name": "Upgrade Metal",
+            "Id": 10221
+          }
+        ]
+      }
+    ],
+    "Permission": "gradesetting.use"
+  },
+  "HammerSettings": {
+    "OpenSkinEntityPermission": "openskinentity.use",
+    "OpenSkinEntityButton": 2048,
+    "OpenSkinBuildingButton": 256,
+    "ChangeSkinPressLeftButtonPermission": "changeskinpressleftbutton.use"
+  },
+  "SkinCommand": {
+    "Commands": [
+      "skin"
+    ],
+    "Permission": "skincommand.use"
+  },
+  "SkinEntityCommand": {
+    "Commands": [
+      "skinentity",
+      "se"
+    ],
+    "Permission": "skinentitycommand.use"
+  },
+  "PermissionSkins": {
+    "testperm": [
+      1
+    ]
+  }
+}

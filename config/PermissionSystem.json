@@ -1,0 +1,9 @@
+{
+  "Настройка отображаемых привилегий и групп": {
+    "vehileshop.admin": {
+      "DisplayName": "Permission",
+      "Description": "",
+      "Image": "https://makelaardesmet.be/wp-content/uploads/kredieten-kredietmakelaar-100x100.png"
+    }
+  }
+}

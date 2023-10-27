@@ -1,0 +1,9 @@
+{
+  "Main Settings": {
+    "Resize Entities - ('item name':'scale 0 to 1') ": {
+      "PumpJack": 0.5,
+      "Gambling Wheel": 0.5
+    },
+    "Pick up on first hit": false
+  }
+}

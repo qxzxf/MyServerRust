@@ -1,0 +1,223 @@
+{
+  "Команда | Command": "playerslist",
+  "Фон | Background": {
+    "Изображение | Image": "",
+    "Цвет | Color": {
+      "HEX": "#0D1F4E",
+      "Непрозрачность | Opacity (0 - 100)": 95.0
+    },
+    "Сохранять цвет изображения? | Save Image Color": false,
+    "Sprite": "Assets/Content/UI/UI.Background.Tile.psd",
+    "Material": "Assets/Icons/IconMaterial.mat",
+    "OffsetMin": "0 0",
+    "OffsetMax": "0 0",
+    "AnchorMin": "0 0",
+    "AnchorMax": "1 1"
+  },
+  "Заглавие | Title": {
+    "Font Size": 38,
+    "Font": "robotocondensed-bold.ttf",
+    "Align": "MiddleCenter",
+    "Text Color": {
+      "HEX": "#FFFFFF",
+      "Непрозрачность | Opacity (0 - 100)": 100.0
+    },
+    "OffsetMin": "-150 300",
+    "OffsetMax": "150 360",
+    "AnchorMin": "0.5 0.5",
+    "AnchorMax": "0.5 0.5"
+  },
+  "Закрыть | Close": {
+    "Font Size": 24,
+    "Font": "robotocondensed-bold.ttf",
+    "Align": "MiddleCenter",
+    "Text Color": {
+      "HEX": "#FFFFFF",
+      "Непрозрачность | Opacity (0 - 100)": 100.0
+    },
+    "OffsetMin": "-35 -35",
+    "OffsetMax": "-5 -5",
+    "AnchorMin": "1 1",
+    "AnchorMax": "1 1"
+  },
+  "Настройка панели игрока | Player Panel Settings": {
+    "Столбцы | Columns": 2,
+    "Ширина | Width": 555.0,
+    "Высота | Height": 35.0,
+    "Отступ | Margin": 10.0,
+    "Количество на страницу | Amount On Page": 22,
+    "Цвет фона | Background Color": {
+      "HEX": "#1D3676",
+      "Непрозрачность | Opacity (0 - 100)": 100.0
+    },
+    "Аватар | Avatar": {
+      "OffsetMin": "2.5 2.5",
+      "OffsetMax": "32.5 32.5",
+      "AnchorMin": "0 0",
+      "AnchorMax": "0 0"
+    },
+    "Имя игрока | Player Name": {
+      "Font Size": 14,
+      "Font": "robotocondensed-regular.ttf",
+      "Align": "LowerLeft",
+      "Text Color": {
+        "HEX": "#FFFFFF",
+        "Непрозрачность | Opacity (0 - 100)": 100.0
+      },
+      "OffsetMin": "40 15",
+      "OffsetMax": "150 32.5",
+      "AnchorMin": "0 0",
+      "AnchorMax": "0 0"
+    },
+    "SteamId игрока | Player SteamId": {
+      "Font Size": 10,
+      "Font": "robotocondensed-regular.ttf",
+      "Align": "UpperLeft",
+      "Text Color": {
+        "HEX": "#FFFFFF",
+        "Непрозрачность | Opacity (0 - 100)": 50.0
+      },
+      "OffsetMin": "40 2.5",
+      "OffsetMax": "150 17.5",
+      "AnchorMin": "0 0",
+      "AnchorMax": "0 0"
+    },
+    "Кнопка | Button": {
+      "Высота | Height": 25.0,
+      "Ширина | Width": 100.0,
+      "Отступ | Margin": 5.0,
+      "AnchorMin": "1 0.5",
+      "AnchorMax": "1 0.5"
+    },
+    "Кнопки | Buttons": [
+      {
+        "Текст | Text": "ДОБАВИТЬ В ДРУЗЬЯ",
+        "Команда | Command": "chat.say /friend add {user}",
+        "Цвет | Color": {
+          "HEX": "#5D8FDF",
+          "Непрозрачность | Opacity (0 - 100)": 95.0
+        },
+        "Font Size": 10,
+        "Font": "robotocondensed-regular.ttf",
+        "Align": "MiddleCenter",
+        "Text Color": {
+          "HEX": "#1D3676",
+          "Непрозрачность | Opacity (0 - 100)": 100.0
+        }
+      },
+      {
+        "Текст | Text": "ТЕЛЕПОРТАЦИЯ",
+        "Команда | Command": "tpr {user}",
+        "Цвет | Color": {
+          "HEX": "#5D8FDF",
+          "Непрозрачность | Opacity (0 - 100)": 95.0
+        },
+        "Font Size": 10,
+        "Font": "robotocondensed-regular.ttf",
+        "Align": "MiddleCenter",
+        "Text Color": {
+          "HEX": "#1D3676",
+          "Непрозрачность | Opacity (0 - 100)": 100.0
+        }
+      },
+      {
+        "Текст | Text": "ЖАЛОБА",
+        "Команда | Command": "report {user}",
+        "Цвет | Color": {
+          "HEX": "#5D8FDF",
+          "Непрозрачность | Opacity (0 - 100)": 95.0
+        },
+        "Font Size": 10,
+        "Font": "robotocondensed-regular.ttf",
+        "Align": "MiddleCenter",
+        "Text Color": {
+          "HEX": "#1D3676",
+          "Непрозрачность | Opacity (0 - 100)": 100.0
+        }
+      },
+      {
+        "Текст | Text": "СТАТИСТИКА",
+        "Команда | Command": "stats {user}",
+        "Цвет | Color": {
+          "HEX": "#5D8FDF",
+          "Непрозрачность | Opacity (0 - 100)": 95.0
+        },
+        "Font Size": 10,
+        "Font": "robotocondensed-regular.ttf",
+        "Align": "MiddleCenter",
+        "Text Color": {
+          "HEX": "#1D3676",
+          "Непрозрачность | Opacity (0 - 100)": 100.0
+        }
+      }
+    ]
+  },
+  "Поиск игрока": {
+    "Цвет фона | Background Color": {
+      "HEX": "#1D3676",
+      "Непрозрачность | Opacity (0 - 100)": 100.0
+    },
+    "Цвет вводимого текста | Input Text Color": {
+      "HEX": "#FFFFFF",
+      "Непрозрачность | Opacity (0 - 100)": 85.0
+    },
+    "Font Size": 14,
+    "Font": "robotocondensed-regular.ttf",
+    "Align": "MiddleCenter",
+    "Text Color": {
+      "HEX": "#5D8FDF",
+      "Непрозрачность | Opacity (0 - 100)": 100.0
+    },
+    "OffsetMin": "-520 25",
+    "OffsetMax": "520 60",
+    "AnchorMin": "0.5 0",
+    "AnchorMax": "0.5 0"
+  },
+  "Назад | Back": {
+    "Цвет фона | Background Color": {
+      "HEX": "#5D8FDF",
+      "Непрозрачность | Opacity (0 - 100)": 100.0
+    },
+    "Цвет вводимого текста | Input Text Color": {
+      "HEX": "#FFFFFF",
+      "Непрозрачность | Opacity (0 - 100)": 100.0
+    },
+    "Font Size": 14,
+    "Font": "robotocondensed-regular.ttf",
+    "Align": "MiddleCenter",
+    "Text Color": {
+      "HEX": "#1D3676",
+      "Непрозрачность | Opacity (0 - 100)": 100.0
+    },
+    "OffsetMin": "-560 25",
+    "OffsetMax": "-525 60",
+    "AnchorMin": "0.5 0",
+    "AnchorMax": "0.5 0"
+  },
+  "Вперёд | Next": {
+    "Цвет фона | Background Color": {
+      "HEX": "#5D8FDF",
+      "Непрозрачность | Opacity (0 - 100)": 100.0
+    },
+    "Цвет вводимого текста | Input Text Color": {
+      "HEX": "#FFFFFF",
+      "Непрозрачность | Opacity (0 - 100)": 100.0
+    },
+    "Font Size": 14,
+    "Font": "robotocondensed-regular.ttf",
+    "Align": "MiddleCenter",
+    "Text Color": {
+      "HEX": "#1D3676",
+      "Непрозрачность | Opacity (0 - 100)": 100.0
+    },
+    "OffsetMin": "525 25",
+    "OffsetMax": "560 60",
+    "AnchorMin": "0.5 0",
+    "AnchorMax": "0.5 0"
+  },
+  "Version": {
+    "Major": 1,
+    "Minor": 4,
+    "Patch": 0
+  }
+}

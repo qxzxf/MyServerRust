@@ -1,0 +1,95 @@
+{
+  "XP items": {
+    "Base item shortname": "xmas.present.small",
+    "Action that is called when using the item": "unwrap",
+    "List of items that will be added to containers": [
+      {
+        "Skin ID": 2863540162,
+        "Minimum XP/Points given for using": 700,
+        "Maximum XP/Points given for using": 1100,
+        "Display name of the item": "research notes",
+        "Drop weight [chance]": 100
+      },
+      {
+        "Skin ID": 2863539973,
+        "Minimum XP/Points given for using": 1000,
+        "Maximum XP/Points given for using": 1500,
+        "Display name of the item": "research notes",
+        "Drop weight [chance]": 50
+      },
+      {
+        "Skin ID": 2863540007,
+        "Minimum XP/Points given for using": 1400,
+        "Maximum XP/Points given for using": 2200,
+        "Display name of the item": "research notes",
+        "Drop weight [chance]": 20
+      },
+      {
+        "Skin ID": 2863540048,
+        "Minimum XP/Points given for using": 2000,
+        "Maximum XP/Points given for using": 5000,
+        "Display name of the item": "research notes",
+        "Drop weight [chance]": 5
+      }
+    ],
+    "List of containers that these items can drop from [%] [0=disabled]": {
+      "crate_normal_2": 0.0,
+      "crate_normal": 0.0,
+      "crate_elite": 0.0,
+      "crate_underwater_basic": 0.0,
+      "crate_underwater_advanced": 0.0,
+      "heli_crate": 0.0,
+      "bradley_crate": 0.0,
+      "codelockedhackablecrate": 0.0,
+      "codelockedhackablecrate_oilrig": 0.0,
+      "crate_tools": 0.0
+    }
+  },
+  "Skill point items": {
+    "Base item shortname": "xmas.present.small",
+    "Action that is called when using the item": "unwrap",
+    "List of items that will be added to containers": [
+      {
+        "Skin ID": 2863540521,
+        "Minimum XP/Points given for using": 1,
+        "Maximum XP/Points given for using": 1,
+        "Display name of the item": "tome of skill points",
+        "Drop weight [chance]": 200
+      },
+      {
+        "Skin ID": 2863539781,
+        "Minimum XP/Points given for using": 1,
+        "Maximum XP/Points given for using": 2,
+        "Display name of the item": "tome of skill points",
+        "Drop weight [chance]": 40
+      },
+      {
+        "Skin ID": 2863539851,
+        "Minimum XP/Points given for using": 2,
+        "Maximum XP/Points given for using": 3,
+        "Display name of the item": "25 очков навыков",
+        "Drop weight [chance]": 15
+      },
+      {
+        "Skin ID": 2863539914,
+        "Minimum XP/Points given for using": 2,
+        "Maximum XP/Points given for using": 4,
+        "Display name of the item": "100 очков навыков",
+        "Drop weight [chance]": 3
+      }
+    ],
+    "List of containers that these items can drop from [%] [0=disabled]": {
+      "crate_normal_2": 0.0,
+      "crate_normal": 0.0,
+      "crate_elite": 0.0,
+      "crate_underwater_basic": 0.0,
+      "crate_underwater_advanced": 0.0,
+      "heli_crate": 0.0,
+      "bradley_crate": 0.0,
+      "codelockedhackablecrate": 0.0,
+      "codelockedhackablecrate_oilrig": 0.0,
+      "crate_tools": 0.0
+    }
+  },
+  "Manage item stacking? (set to false if using any sort of stacks plugin)": true
+}

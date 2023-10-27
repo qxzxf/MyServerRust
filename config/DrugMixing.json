@@ -1,0 +1,29 @@
+{
+  "Mixing Timers": {
+    "Global Timer": 5.0,
+    "Specific Timers": {
+      "syringe.medical": 15.0,
+      "antiradpills": 7.0
+    }
+  },
+  "Plugin Settings": {
+    "Sound Effects On": true,
+    "Permission required?": false,
+    "Access at (prefab)": "assets/prefabs/deployable/mixingtable/mixingtable.deployed.prefab",
+    "Sound Effects": {
+      "set": "assets/bundled/prefabs/fx/notice/item.select.fx.prefab",
+      "click": "assets/bundled/prefabs/fx/notice/loot.copy.fx.prefab",
+      "mix": "assets/prefabs/food/small water bottle/effects/water-bottle-fill-world.prefab",
+      "finished": "assets/prefabs/deployable/research table/effects/research-success.prefab"
+    },
+    "UI Settings": {
+      "title": "ЛАБОРАТОРИЯ",
+      "btnText": "    СМЕШАТЬ",
+      "btnAsset": "assets/icons/bleeding.png",
+      "mainWindow_offSetMin": "-200 0",
+      "mainWindow_offSetMax": "181 291",
+      "infoWindow_offSetMin": "193 148",
+      "infoWindow_offSetMax": "573 264"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "Hide Buttons": {
+    "When using Computer Station": [
+      "button_name",
+      "panel_name"
+    ],
+    "When Player is dead": [
+      "button_name",
+      "panel_name"
+    ],
+    "When Player is looting": [
+      "button_name",
+      "panel_name"
+    ]
+  },
+  "Base Position": {
+    "Anchor Min": "0.5 0.2",
+    "Anchor Max": "0.5 0.2"
+  },
+  "Font Settings": {
+    "Font Style": "robotocondensed-bold.ttf",
+    "Base Font Size": 13,
+    "Base Font Color": "1 1 1 1",
+    "Font Outline Color": "0 0 0 1",
+    "Font Outline Thickness": "0.1 0.1"
+  },
+  "Chat Commands": {
+    "Open GUI": "cb",
+    "List all Panels": "cb_list",
+    "Toggle buttons on/off": "cb_toggle"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "File": {
+    "Enabled": false
+  },
+  "Sqlite": {
+    "Enabled": true
+  }
+}

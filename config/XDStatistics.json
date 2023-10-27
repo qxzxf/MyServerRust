@@ -1,0 +1,273 @@
+{
+  "Основные настройки плагина | Basic plugin settings": {
+    "Чат команды для открытия статистики | Chat commands for opening statistics": [
+      "stat",
+      "top"
+    ],
+    "Консольная команда для открытия статистики | Console command to open statistics": "stat",
+    "Отправлять в чат сообщения с топ 5 игроками в разных категориях | Send chat messages with top 5 players in different categories": true,
+    "Раз в сколько секунд будет отправлятся сообщение ? | Once in how many seconds will a message be sent ?": 600,
+    "Включить возможность сбросить свою статистику ? (требуется XDStatistics.reset) | Enable the ability to reset your stats ? (requires XDStatistics.reset)": false,
+    "Включить возможность скрыть свою статистику от пользователей ? (требуется XDStatistics.availability) | Enable the ability to hide your statistics from users ? (requires XDStatistics.availability)": true,
+    "очищать данные при вайпе | Clear data when wiped": true,
+    "Раз во сколько минут будут сохранятся данные | Once in a rowman, the data will be saved.": 30,
+    "Учитывать убийство npc для фаворитного оружия ? | Consider killing an NPC for a favorite weapon ?": false,
+    "У вас PVE сервер ?  | You have a PVE server?": false,
+    "Список игроков, которые не будут включены в статистику (SteamID) | List of players who will not be included in the statistics (SteamID)": []
+  },
+  "Настройка выдачи очков | Setting up the issuance of points": {
+    "Очки за крафт | Points for crafting": 1.0,
+    "Очки за бочки | Points for barrels": 1.0,
+    "Очки за установку строительных блоков | Points for installing building blocks": 1.0,
+    "Очки за использования взрывчатых предметов | Points for using explosive items": {
+      "explosive.timed": 2.0,
+      "explosive.satchel": 0.7,
+      "grenade.beancan": 0.3,
+      "grenade.f1": 0.1,
+      "ammo.rocket.basic": 1.0,
+      "ammo.rocket.hv": 0.5,
+      "ammo.rocket.fire": 0.7,
+      "ammo.rifle.explosive": 0.02
+    },
+    "Очки за добычу ресурсов | Points for resource extraction": {
+      "wood": 0.3,
+      "stones": 0.6,
+      "metal.ore": 1.0,
+      "sulfur.ore": 1.5,
+      "hq.metal.ore": 2.0
+    },
+    "Очки за найденные скрап | Points for found scraps": 0.5,
+    "Очки за сбор урожая (с плантации) | Points for harvesting (from the plantation)": 0.2,
+    "Очки за убийство животных | Points for killing animals": 1.0,
+    "Очки за сбитие вертолета | Points for shooting down a helicopter": 5.0,
+    "Очки за взрыв танка | Points for tank explosion": 5.0,
+    "Очки за убийство нпс | Points for killing NPCs": 5.0,
+    "Очки за убийство игроков | Points for killing players": 10.0,
+    "Очки за время (За кажду. минуту игры на сервере) | Points for time (for every minute of the game on the server)": 0.2,
+    "Сколько отнять очков за суицид ? | How many points to take away for suicide ?": 2.0,
+    "Сколько отнять очков за смерть ? | How many points to take away for death ?": 1.0,
+    "Черный список ресусов и взрывчатых предметов | Blacklist of resources and explosive items": [
+      "ammo.rifle.explosive"
+    ]
+  },
+  "Настройка награды топ игрокам в каждой категории | Customize rewards for top 1 players in each category": {
+    "Использовать выдачу награды после вайпа ? | Use the award issue after the wipe ?": false,
+    "Награда в категории SCORE | Award in the SCORE category": [
+      {
+        "Использовать комманды в виде приза ? | Use command as a prize ?": true,
+        "За какое место давать эту награду ? (от 1 до 3) если не нужно награждать эту категорию. удалите все награды | For which place to give this award ? (from 1 to 3) if you do not need to award this category. remove all rewards": 1,
+        "[RU]Использовать магазин GameStore для выдачи награды": false,
+        "[RU]Использовать магазин MoscowOVH для выдачи награды": false,
+        "Использовать [IQEconomic или Economics или ServerRewards] для выдачи награды | Use [IQEconomic or Economics or Server Rewards] to issue a reward": false,
+        "Команды для приза | Command for the prize": [
+          "say %STEAMID%"
+        ],
+        "[RU][GameStores] Сообщения для истории в магазине": "За топ 1 в категории больше всего очков",
+        "[RU][GameStores или MoscowOVH] Сколько начислять денег на баланс": 30,
+        "[IQEconomic или Economics или ServerRewards] Сколько начислять денег на баланс | [IQEconomic or Economics or ServerRewards] How much money to add to the balance": 100
+      },
+      {
+        "Использовать комманды в виде приза ? | Use command as a prize ?": true,
+        "За какое место давать эту награду ? (от 1 до 3) если не нужно награждать эту категорию. удалите все награды | For which place to give this award ? (from 1 to 3) if you do not need to award this category. remove all rewards": 2,
+        "[RU]Использовать магазин GameStore для выдачи награды": false,
+        "[RU]Использовать магазин MoscowOVH для выдачи награды": false,
+        "Использовать [IQEconomic или Economics или ServerRewards] для выдачи награды | Use [IQEconomic or Economics or Server Rewards] to issue a reward": false,
+        "Команды для приза | Command for the prize": [
+          "say %STEAMID%"
+        ],
+        "[RU][GameStores] Сообщения для истории в магазине": "За топ 2 в категории больше всего очков",
+        "[RU][GameStores или MoscowOVH] Сколько начислять денег на баланс": 30,
+        "[IQEconomic или Economics или ServerRewards] Сколько начислять денег на баланс | [IQEconomic or Economics or ServerRewards] How much money to add to the balance": 100
+      }
+    ],
+    "Награда в категории Киллер | Award in the Killer category": [
+      {
+        "Использовать комманды в виде приза ? | Use command as a prize ?": true,
+        "За какое место давать эту награду ? (от 1 до 3) если не нужно награждать эту категорию. удалите все награды | For which place to give this award ? (from 1 to 3) if you do not need to award this category. remove all rewards": 1,
+        "[RU]Использовать магазин GameStore для выдачи награды": false,
+        "[RU]Использовать магазин MoscowOVH для выдачи награды": false,
+        "Использовать [IQEconomic или Economics или ServerRewards] для выдачи награды | Use [IQEconomic or Economics or Server Rewards] to issue a reward": false,
+        "Команды для приза | Command for the prize": [
+          "say %STEAMID%"
+        ],
+        "[RU][GameStores] Сообщения для истории в магазине": "За топ 1 в категории киллер",
+        "[RU][GameStores или MoscowOVH] Сколько начислять денег на баланс": 30,
+        "[IQEconomic или Economics или ServerRewards] Сколько начислять денег на баланс | [IQEconomic or Economics or ServerRewards] How much money to add to the balance": 100
+      },
+      {
+        "Использовать комманды в виде приза ? | Use command as a prize ?": true,
+        "За какое место давать эту награду ? (от 1 до 3) если не нужно награждать эту категорию. удалите все награды | For which place to give this award ? (from 1 to 3) if you do not need to award this category. remove all rewards": 2,
+        "[RU]Использовать магазин GameStore для выдачи награды": false,
+        "[RU]Использовать магазин MoscowOVH для выдачи награды": false,
+        "Использовать [IQEconomic или Economics или ServerRewards] для выдачи награды | Use [IQEconomic or Economics or Server Rewards] to issue a reward": false,
+        "Команды для приза | Command for the prize": [
+          "say %STEAMID%"
+        ],
+        "[RU][GameStores] Сообщения для истории в магазине": "За топ 2 в категории киллер",
+        "[RU][GameStores или MoscowOVH] Сколько начислять денег на баланс": 30,
+        "[IQEconomic или Economics или ServerRewards] Сколько начислять денег на баланс | [IQEconomic or Economics or ServerRewards] How much money to add to the balance": 100
+      }
+    ],
+    "Награда в категории Фармила | Award in the gathering category": [
+      {
+        "Использовать комманды в виде приза ? | Use command as a prize ?": true,
+        "За какое место давать эту награду ? (от 1 до 3) если не нужно награждать эту категорию. удалите все награды | For which place to give this award ? (from 1 to 3) if you do not need to award this category. remove all rewards": 1,
+        "[RU]Использовать магазин GameStore для выдачи награды": false,
+        "[RU]Использовать магазин MoscowOVH для выдачи награды": false,
+        "Использовать [IQEconomic или Economics или ServerRewards] для выдачи награды | Use [IQEconomic or Economics or Server Rewards] to issue a reward": false,
+        "Команды для приза | Command for the prize": [
+          "say %STEAMID%"
+        ],
+        "[RU][GameStores] Сообщения для истории в магазине": "За топ 1 в категории фармер",
+        "[RU][GameStores или MoscowOVH] Сколько начислять денег на баланс": 30,
+        "[IQEconomic или Economics или ServerRewards] Сколько начислять денег на баланс | [IQEconomic or Economics or ServerRewards] How much money to add to the balance": 100
+      },
+      {
+        "Использовать комманды в виде приза ? | Use command as a prize ?": true,
+        "За какое место давать эту награду ? (от 1 до 3) если не нужно награждать эту категорию. удалите все награды | For which place to give this award ? (from 1 to 3) if you do not need to award this category. remove all rewards": 2,
+        "[RU]Использовать магазин GameStore для выдачи награды": false,
+        "[RU]Использовать магазин MoscowOVH для выдачи награды": false,
+        "Использовать [IQEconomic или Economics или ServerRewards] для выдачи награды | Use [IQEconomic or Economics or Server Rewards] to issue a reward": false,
+        "Команды для приза | Command for the prize": [
+          "say %STEAMID%"
+        ],
+        "[RU][GameStores] Сообщения для истории в магазине": "За топ 2 в категории фармер",
+        "[RU][GameStores или MoscowOVH] Сколько начислять денег на баланс": 30,
+        "[IQEconomic или Economics или ServerRewards] Сколько начислять денег на баланс | [IQEconomic or Economics or ServerRewards] How much money to add to the balance": 100
+      }
+    ],
+    "Награда в категории рейдер | Reward in the Raider category": [
+      {
+        "Использовать комманды в виде приза ? | Use command as a prize ?": true,
+        "За какое место давать эту награду ? (от 1 до 3) если не нужно награждать эту категорию. удалите все награды | For which place to give this award ? (from 1 to 3) if you do not need to award this category. remove all rewards": 1,
+        "[RU]Использовать магазин GameStore для выдачи награды": false,
+        "[RU]Использовать магазин MoscowOVH для выдачи награды": false,
+        "Использовать [IQEconomic или Economics или ServerRewards] для выдачи награды | Use [IQEconomic or Economics or Server Rewards] to issue a reward": false,
+        "Команды для приза | Command for the prize": [
+          "say %STEAMID%"
+        ],
+        "[RU][GameStores] Сообщения для истории в магазине": "За топ 1 в категории рейдер",
+        "[RU][GameStores или MoscowOVH] Сколько начислять денег на баланс": 30,
+        "[IQEconomic или Economics или ServerRewards] Сколько начислять денег на баланс | [IQEconomic or Economics or ServerRewards] How much money to add to the balance": 100
+      },
+      {
+        "Использовать комманды в виде приза ? | Use command as a prize ?": true,
+        "За какое место давать эту награду ? (от 1 до 3) если не нужно награждать эту категорию. удалите все награды | For which place to give this award ? (from 1 to 3) if you do not need to award this category. remove all rewards": 2,
+        "[RU]Использовать магазин GameStore для выдачи награды": false,
+        "[RU]Использовать магазин MoscowOVH для выдачи награды": false,
+        "Использовать [IQEconomic или Economics или ServerRewards] для выдачи награды | Use [IQEconomic or Economics or Server Rewards] to issue a reward": false,
+        "Команды для приза | Command for the prize": [
+          "say %STEAMID%"
+        ],
+        "[RU][GameStores] Сообщения для истории в магазине": "За топ 2 в категории рейдер",
+        "[RU][GameStores или MoscowOVH] Сколько начислять денег на баланс": 30,
+        "[IQEconomic или Economics или ServerRewards] Сколько начислять денег на баланс | [IQEconomic or Economics or ServerRewards] How much money to add to the balance": 100
+      }
+    ],
+    "Награда в категории Большой онлайн | Award in the Big Online category": [
+      {
+        "Использовать комманды в виде приза ? | Use command as a prize ?": true,
+        "За какое место давать эту награду ? (от 1 до 3) если не нужно награждать эту категорию. удалите все награды | For which place to give this award ? (from 1 to 3) if you do not need to award this category. remove all rewards": 1,
+        "[RU]Использовать магазин GameStore для выдачи награды": false,
+        "[RU]Использовать магазин MoscowOVH для выдачи награды": false,
+        "Использовать [IQEconomic или Economics или ServerRewards] для выдачи награды | Use [IQEconomic or Economics or Server Rewards] to issue a reward": false,
+        "Команды для приза | Command for the prize": [
+          "say %STEAMID%"
+        ],
+        "[RU][GameStores] Сообщения для истории в магазине": "За топ 1 в категории большой онлайн",
+        "[RU][GameStores или MoscowOVH] Сколько начислять денег на баланс": 30,
+        "[IQEconomic или Economics или ServerRewards] Сколько начислять денег на баланс | [IQEconomic or Economics or ServerRewards] How much money to add to the balance": 100
+      },
+      {
+        "Использовать комманды в виде приза ? | Use command as a prize ?": true,
+        "За какое место давать эту награду ? (от 1 до 3) если не нужно награждать эту категорию. удалите все награды | For which place to give this award ? (from 1 to 3) if you do not need to award this category. remove all rewards": 2,
+        "[RU]Использовать магазин GameStore для выдачи награды": false,
+        "[RU]Использовать магазин MoscowOVH для выдачи награды": false,
+        "Использовать [IQEconomic или Economics или ServerRewards] для выдачи награды | Use [IQEconomic or Economics or Server Rewards] to issue a reward": false,
+        "Команды для приза | Command for the prize": [
+          "say %STEAMID%"
+        ],
+        "[RU][GameStores] Сообщения для истории в магазине": "За топ 2 в категории большой онлайн",
+        "[RU][GameStores или MoscowOVH] Сколько начислять денег на баланс": 30,
+        "[IQEconomic или Economics или ServerRewards] Сколько начислять денег на баланс | [IQEconomic or Economics or ServerRewards] How much money to add to the balance": 100
+      }
+    ],
+    "Награда в категории Убийца НПС | Reward in the NPC Killer category": [
+      {
+        "Использовать комманды в виде приза ? | Use command as a prize ?": true,
+        "За какое место давать эту награду ? (от 1 до 3) если не нужно награждать эту категорию. удалите все награды | For which place to give this award ? (from 1 to 3) if you do not need to award this category. remove all rewards": 1,
+        "[RU]Использовать магазин GameStore для выдачи награды": false,
+        "[RU]Использовать магазин MoscowOVH для выдачи награды": false,
+        "Использовать [IQEconomic или Economics или ServerRewards] для выдачи награды | Use [IQEconomic or Economics or Server Rewards] to issue a reward": false,
+        "Команды для приза | Command for the prize": [
+          "say %STEAMID%"
+        ],
+        "[RU][GameStores] Сообщения для истории в магазине": "За топ 1 в категории убийца NPC",
+        "[RU][GameStores или MoscowOVH] Сколько начислять денег на баланс": 30,
+        "[IQEconomic или Economics или ServerRewards] Сколько начислять денег на баланс | [IQEconomic or Economics or ServerRewards] How much money to add to the balance": 100
+      },
+      {
+        "Использовать комманды в виде приза ? | Use command as a prize ?": true,
+        "За какое место давать эту награду ? (от 1 до 3) если не нужно награждать эту категорию. удалите все награды | For which place to give this award ? (from 1 to 3) if you do not need to award this category. remove all rewards": 2,
+        "[RU]Использовать магазин GameStore для выдачи награды": false,
+        "[RU]Использовать магазин MoscowOVH для выдачи награды": false,
+        "Использовать [IQEconomic или Economics или ServerRewards] для выдачи награды | Use [IQEconomic or Economics or Server Rewards] to issue a reward": false,
+        "Команды для приза | Command for the prize": [
+          "say %STEAMID%"
+        ],
+        "[RU][GameStores] Сообщения для истории в магазине": "За топ 2 в категории убийца NPC",
+        "[RU][GameStores или MoscowOVH] Сколько начислять денег на баланс": 30,
+        "[IQEconomic или Economics или ServerRewards] Сколько начислять денег на баланс | [IQEconomic or Economics or ServerRewards] How much money to add to the balance": 100
+      }
+    ],
+    "Награда в категории убица животных | Award in the Animal killer category": [
+      {
+        "Использовать комманды в виде приза ? | Use command as a prize ?": true,
+        "За какое место давать эту награду ? (от 1 до 3) если не нужно награждать эту категорию. удалите все награды | For which place to give this award ? (from 1 to 3) if you do not need to award this category. remove all rewards": 1,
+        "[RU]Использовать магазин GameStore для выдачи награды": false,
+        "[RU]Использовать магазин MoscowOVH для выдачи награды": false,
+        "Использовать [IQEconomic или Economics или ServerRewards] для выдачи награды | Use [IQEconomic or Economics or Server Rewards] to issue a reward": false,
+        "Команды для приза | Command for the prize": [
+          "say %STEAMID%"
+        ],
+        "[RU][GameStores] Сообщения для истории в магазине": "За топ 1 в категории убийца NPC",
+        "[RU][GameStores или MoscowOVH] Сколько начислять денег на баланс": 30,
+        "[IQEconomic или Economics или ServerRewards] Сколько начислять денег на баланс | [IQEconomic or Economics or ServerRewards] How much money to add to the balance": 100
+      },
+      {
+        "Использовать комманды в виде приза ? | Use command as a prize ?": true,
+        "За какое место давать эту награду ? (от 1 до 3) если не нужно награждать эту категорию. удалите все награды | For which place to give this award ? (from 1 to 3) if you do not need to award this category. remove all rewards": 2,
+        "[RU]Использовать магазин GameStore для выдачи награды": false,
+        "[RU]Использовать магазин MoscowOVH для выдачи награды": false,
+        "Использовать [IQEconomic или Economics или ServerRewards] для выдачи награды | Use [IQEconomic or Economics or Server Rewards] to issue a reward": false,
+        "Команды для приза | Command for the prize": [
+          "say %STEAMID%"
+        ],
+        "[RU][GameStores] Сообщения для истории в магазине": "За топ 2 в категории убийца NPC",
+        "[RU][GameStores или MoscowOVH] Сколько начислять денег на баланс": 30,
+        "[IQEconomic или Economics или ServerRewards] Сколько начислять денег на баланс | [IQEconomic or Economics or ServerRewards] How much money to add to the balance": 100
+      }
+    ],
+    "[RU][GameStores] ID магазина": "",
+    "[RU][GameStores] ID сервера": "",
+    "[RU][GameStores] Секретный ключ": ""
+  },
+  "Настройки интерфейса | Interface Settings": {
+    "Цвет плашки заднего фона в топ 10 за 1 место | Background color in the top 10 for 1st place": "1 0.8431373 0 0.49",
+    "Цвет плашки заднего фона в топ 10 за 2 место | Background color in the top 10 for 2st place": "0.7529412 0.7529412 0.7529412 0.49",
+    "Цвет плашки заднего фона в топ 10 за 3 место | Background color in the top 10 for 3st place": "0.80392 0.49803 0.1960784 0.49",
+    "Использовать свой задний фон ? (указанный снизу)| Use your own background ? (indicated at the bottom)": false,
+    "Ссылка на свой задний фон (Если нужно) | Link to your background (If necessary)": ""
+  },
+  "Настройки дискорд | Discord Settings": {
+    "Отправлять в дискорд топ 5 лучших игроков в разных категориях ? | Send the top 5 best players in different categories to discord ?": false,
+    "Раз в сколько секунд будет отправлятся сообщение ? | Once in how many seconds will a message be sent ?": 600,
+    "ВебХук дискорда | Discord WebHook": "",
+    "Цвет линии в сообщения или несколько | The color of the line in the message or several": [
+      53380,
+      9359868,
+      11253955
+    ],
+    "Дополнительный текст к сообщению | Additional text to the message": ""
+  }
+}

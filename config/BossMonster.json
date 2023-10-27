@@ -1,0 +1,30 @@
+{
+  "Префикс сообщений в чате": "",
+  "Использовать ли чат? [true/false]": true,
+  "Настройка GUI Announcements": {
+    "Использовать ли GUI Announcements? [true/false]": false,
+    "Цвет баннера": "Orange",
+    "Цвет текста": "White",
+    "Отступ от верхнего края": 0.03
+  },
+  "Настройка Notify": {
+    "Использовать ли плагин Notify? [true/false]": false,
+    "Тип": "0"
+  },
+  "Настройка оповещений в Discord (только для тех, кто использует плагин DiscordMessages)": {
+    "Использовать ли плагин Discord Messages? [true/false]": false,
+    "Webhook URL": "https://support.discordapp.com/hc/en-us/articles/228383668-Intro-to-Webhooks",
+    "Цвет полосы (DECIMAL)": 13516583,
+    "Ключи необходимых сообщений": [
+      "Start",
+      "Finish"
+    ]
+  },
+  "Использовать PVE режим работы плагина? (только для тех, кто использует плагин PveMode)": false,
+  "Множитель урона от турелей по NPC": 0.5,
+  "Версия конфигурации": {
+    "Major": 2,
+    "Minor": 0,
+    "Patch": 3
+  }
+}

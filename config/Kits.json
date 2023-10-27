@@ -1,0 +1,73 @@
+{
+  "Kit chat command": "kit",
+  "Currency used for purchase costs (Scrap, Economics, ServerRewards)": "Scrap",
+  "Log kits given": false,
+  "Wipe player data when the server is wiped": true,
+  "Use the Kits UI menu": true,
+  "Allow players to toggle auto-kits on spawn": false,
+  "Show kits with permissions assigned to players without the permission": false,
+  "Players with the admin permission ignore usage restrictions": false,
+  "Autokits ordered by priority": [
+    "ExampleKitName",
+    "OtherKitName"
+  ],
+  "Post wipe cooldowns (kit name | seconds)": {
+    "ExampleKitName": 3600,
+    "OtherKitName": 600
+  },
+  "Parameters used when pasting a building via CopyPaste": [
+    "deployables",
+    "true",
+    "inventories",
+    "true"
+  ],
+  "UI Options": {
+    "Panel Color": {
+      "Hex": "#232323",
+      "Alpha": 1.0
+    },
+    "Disabled Color": {
+      "Hex": "#3e3e42",
+      "Alpha": 1.0
+    },
+    "Color 1": {
+      "Hex": "#007acc",
+      "Alpha": 1.0
+    },
+    "Color 2": {
+      "Hex": "#6a8b38",
+      "Alpha": 1.0
+    },
+    "Color 3": {
+      "Hex": "#d85540",
+      "Alpha": 1.0
+    },
+    "Color 4": {
+      "Hex": "#d08822",
+      "Alpha": 1.0
+    },
+    "Default kit image URL": "https://chaoscode.io/oxide/Images/kiticon.png",
+    "View kit icon URL": "https://chaoscode.io/oxide/Images/magnifyingglass.png"
+  },
+  "Kit menu items when opened via HumanNPC (NPC user ID | Items)": {
+    "0": {
+      "The list of kits that can be claimed from this NPC": [
+        "ExampleKitName",
+        "OtherKitName"
+      ],
+      "The NPC's response to opening their kit menu": "Welcome to this server! Here are some free kits you can claim"
+    },
+    "1111": {
+      "The list of kits that can be claimed from this NPC": [
+        "ExampleKitName",
+        "OtherKitName"
+      ],
+      "The NPC's response to opening their kit menu": "Welcome to this server! Here are some free kits you can claim"
+    }
+  },
+  "Version": {
+    "Major": 4,
+    "Minor": 4,
+    "Patch": 0
+  }
+}

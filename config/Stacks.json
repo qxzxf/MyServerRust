@@ -1,0 +1,18 @@
+{
+  "Commands": [
+    "stacks"
+  ],
+  "Work with Notify?": true,
+  "Changing multiplies in containers using a hammer": false,
+  "Default Multiplier for new containers": 1.0,
+  "Blocked List": {
+    "Items": [
+      "item",
+      "short name"
+    ],
+    "Skins": [
+      111111111111,
+      222222222222
+    ]
+  }
+}

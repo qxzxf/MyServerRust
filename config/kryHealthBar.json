@@ -1,0 +1,14 @@
+{
+  "Time to display health bar": 4.0,
+  "Health line color (HEX)": "#AB4040FF",
+  "Text color (HEX)": "#FFFFFFC9",
+  "Display settings": {
+    "Display bar on damage bot?": true,
+    "Disable display for everything?": false,
+    "Display bar on damage building block?": true,
+    "Display bar on damage player?": true,
+    "Display bar on damage minicopter, airballon, etc?": true,
+    "Display bar on damage deployed items?": true,
+    "Display bar on damage animal?": true
+  }
+}

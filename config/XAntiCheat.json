@@ -1,0 +1,99 @@
+{
+  "-": "-",
+  "SteamAPI": "https://steamcommunity.com/dev/apikey",
+  "Silent Aim: настройка": {
+    "Банить?": false,
+    "Автобан (не знаешь, не трогай!)": 7,
+    "Причина бана": "\"Cheat Detected! (1)\"",
+    "Discord Webhook": "https://discord.com/api/webhooks/1163106068830888088/SO1Ci_rphn_yHqKfyloCRPVbQQdUupNkJKxlI3vz9sm4ujwX4onNHw2ZEUAc4OUxV5Rd",
+    "На сколько часов бан?": 1440
+  },
+  "Spider: настройка": {
+    "Банить?": true,
+    "Причина бана": "\"Cheat Detected! (2)\"",
+    "Discord Webhook": "https://discord.com/api/webhooks/1163104105103896596/d7huLY74U_vD1sTsPAIRU1hYvCNbqTd-j_lIdoJjpvYVZh5pCD2DiTE7dp9F7MUvMnGg",
+    "На сколько часов бан?": 720
+  },
+  "ESP SmallStash: настройка": {
+    "Количество": 100,
+    "Discord Webhook": "https://discord.com/api/webhooks/1163104852302372897/ZSHd9KXg19eyXS8hzkJwBgxESAkqHKknpcpWIVw4Q6uBgWVHcP18BF5teIl0WAFz6uWO",
+    "Возможный лут": {
+      "rifle.ak": 1,
+      "rifle.bolt": 1,
+      "rifle.l96": 1,
+      "rifle.lr300": 1,
+      "rifle.semiauto": 1,
+      "wood": 1000,
+      "stones": 1000,
+      "metal.refined": 5,
+      "metal.fragments": 1000,
+      "metal.facemask": 1,
+      "scrap": 5
+    }
+  },
+  "FLY: настройка": {
+    "Банить?": true,
+    "Причина бана": "\"Cheat Detected! (3)\"",
+    "Discord Webhook": "https://discord.com/api/webhooks/984713153604616243/9tNRQE0H4ICz_PadcYJW520UmG2qThB9v_zc9gRrLCGjT9xozdg4Vf9aBkT_PDqVciIT",
+    "На сколько часов бан?": 720
+  },
+  "TEAMBAN: настройка": {
+    "Банить?": true,
+    "Причина бана": "\"bb with teammates\"",
+    "Discord Webhook": "",
+    "Банить, если в команде N забаненных": 2,
+    "На сколько часов бан?": 168
+  },
+  "CODELOCK: настройка": {
+    "Банить?": true,
+    "Причина бана": "\"Ban Detected!\"",
+    "Discord Webhook": "",
+    "Задержка в секундах перед баном, после детекта": 75.0,
+    "На сколько часов бан?": 336
+  },
+  "HITMOD: настройка": {
+    "Банить?": true,
+    "Причина бана": "\"Cheat Detected! (6)\"",
+    "Discord Webhook": "https://discord.com/api/webhooks/984713304339537960/nm6jxIuTJvZndjrvygAZGc-8Xfe5TjkGIRX1W6AEJ0rIghPnT1Gz6eopVb4GThEmzL3K",
+    "На сколько часов бан?": 720
+  },
+  "NORECOIL: настройка": {
+    "Банить?": true,
+    "Причина бана": "\"Cheat Detected! (11)\"",
+    "Задержка в секундах перед баном, после детекта": 30.0,
+    "Discord Webhook": "https://discord.com/api/webhooks/984713655423762516/i3x7bVCg-kNXqCyq-0Tb7KVh2-enjQIa9lGG5f46RFywP3UiipVhPq06j6r7yKjl1YRc",
+    "На сколько часов бан?": 720
+  },
+  "SPINERBOT: настройка": {
+    "Банить?": true,
+    "Причина бана": "\"Cheat Detected! (10)\"",
+    "Discord Webhook": "",
+    "На сколько часов бан?": 720
+  },
+  "Debug camera": {
+    "Банить?": true,
+    "Discord Webhook": "https://discord.com/api/webhooks/1163105241223417916/10azqPs_po15EVr0N60bA6gYcqrVVdFPkQjEO-FNyfmfd33heeuyv9iPttdD4tYldsMB"
+  },
+  "Отображать данные при подключении игрока?": true,
+  "Не банить Steam игроков?": false,
+  "Отправлять в тюрьму, если есть плагин PrisonBitch": false,
+  "Банить не настроеные аккаунты?": false,
+  "Банить аккаунты, которым меньше X дней": 5,
+  "На сколько часов банить новые аккаунты": 120,
+  "Кикать не настроенные аккаунты": true,
+  "Кикать приватные аккаунты": true,
+  "Кикать игроков использующих VPN": false,
+  "Не кикать лицухи?": true,
+  "Не банить лицушников за новые аккаунты?": true,
+  "Писать/сохранять логи [0 - нет | 1 - только баны | 2 - все]": 2,
+  "Discord: ID канала": "986363134363201567",
+  " Логи попаданий с огнестрела в консоль": false,
+  "IPINFO ТОКЕН": "https://ipinfo.io/signup",
+  "tt": "nothing",
+  "Шаблоны банов": {
+    "BAN.ACCOUNT": "ban {steamid} {reason} {time}",
+    "PRISON.ACCOUNT": "prison.add {steamid} {time} {reason}",
+    "EBSBAN.ACCOUNT": "ban {steamid} {time}h {reason}"
+  },
+  "Логи на языке": "ru"
+}

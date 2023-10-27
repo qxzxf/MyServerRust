@@ -1,0 +1,1871 @@
+{
+  "General settings": {
+    "Points required to unlock Tier 2 nodes in the tech trees": 5,
+    "Points required to unlock Tier 3 nodes in the tech trees": 10,
+    "Points required to unlock the Ultimate node in tech trees": 25,
+    "Skill points per level": 2,
+    "Maximum points a player can spend [default]": 240,
+    "Modified max skill points based on permissions [must be higher than default]": {
+      "vip": 288
+    },
+    "Maximum level a player can get to": 100,
+    "Allow players to respec their skill points": true,
+    "Cost per point to respec [default]": 50.0,
+    "Cost per point to respec based on permissions [must be lower than default]": {
+      "vi": 5.0
+    },
+    "Currency type to respec [scrap, economics, srp, custom]": "scrap",
+    "If currency is set to custom, what are the details of the item": {
+      "displayName": "",
+      "shortname": "",
+      "skin": 0
+    },
+    "List of rewards the player receives based on level": {
+      "100": {
+        "List of commands and chat messages that the player receives when reaching the specified level [Left = command. Right = Private message to player]. {id} = steam ID. {name} == name.": {
+          "say <color=#ffae00>{name}</color> reached level <color=#4cff03>100</color>!": "You have reached a milestone level!"
+        },
+        "List of commands that are fired off when the player data is reset": [
+          "say Test data reset."
+        ]
+      }
+    },
+    "Require players to have specific tree permissions to open them": false,
+    "Drop bag on death": true,
+    "XP pump bar settings": {
+      "Default xp bar offset - this is for any new player connecting to the server": {
+        "min_x": -365.713,
+        "min_y": 20.0,
+        "max_x": -233.287,
+        "max_y": 42.0
+      },
+      "Colour of the pump bar": "0.5471698 0.3533202 0 0.6078432",
+      "Font set for the pump bar": "robotocondensed-regular.ttf",
+      "Font size for the pump bar": 10
+    },
+    "Cache images using skinid or url? [skinid, url]": "skinid",
+    "Redownload all images when the plugin reloads if using URL?": false
+  },
+  "Buff settings": {
+    "Minimum components for the component perk": 1,
+    "Maximum components for the component perk": 1,
+    "Minimum electrical components for the electrical component perk": 1,
+    "Maximum electrical components for the electrical component perk": 1,
+    "Minimum additional scrap to be added to crates and barrels": 1,
+    "Maximum additional scrap to be added to crates and barrels": 2,
+    "PVP Buff Critical damage modifier. Picks a random value between 0 and the declared value, and += the damage% onto the hit": 0.3,
+    "Should the LootPickup buff only work with melee weapons?": false,
+    "Allow the LootPickup buff to work with crates?": false,
+    "Should we have a maximum distance for the loot pickup buff [0 = unlimited]?": 0.0,
+    "List of animals for animal resist ability": [
+      "boar",
+      "horse",
+      "stag",
+      "chicken",
+      "wolf",
+      "bear",
+      "scarecrow",
+      "polarbear"
+    ],
+    "Details of a horse to change when a player mounts a horse with the relevant perk unlocked": {
+      "Increase_Horse_RunSpeed": true,
+      "Increase_Horse_MaxSpeed": true,
+      "Increase_Horse_TrotSpeed": false,
+      "Increase_Horse_TurnSpeed": false,
+      "Increase_Horse_WalkSpeed": false
+    },
+    "Delay for HealthRegen perk after taking damage": 5.0,
+    "Delay between attempts at tracking animals": 10.0,
+    "List of skins that the rationer perk will not refund": [
+      2529344523,
+      2546992444,
+      2546992685
+    ],
+    "Bag cooldown time": 10.0,
+    "Bag prefab": "assets/prefabs/deployable/large wood storage/box.wooden.large.prefab",
+    "Primitive weapons for the primitive weapons ability": [
+      "spear.stone",
+      "spear.wooden",
+      "bone.club",
+      "bow.hunting"
+    ]
+  },
+  "Chat command settings": {
+    "Use mouse 3 to toggle the boat turbo (performance heavy on high pop servers). Set false to use a chat command instead": false,
+    "Chat command for turbo": "turbo",
+    "Chat commands to open the skill tree": [
+      "st",
+      "skilltree",
+      "skills"
+    ],
+    "Chat/console commands to open the score board": [
+      "score",
+      "scoreboard"
+    ]
+  },
+  "XP settings": {
+    "Players lose xp when they are killed in pvp": false,
+    "Players lose xp when they are killed in pve": false,
+    "Amount of xp that a player loses when they die [%]": 10.0,
+    "Maximum amount of xp a player can lose when they die based on permissions [must be less than default]": {
+      "vi": 0.0
+    },
+    "Permissions to adjust xp gain modifiers (skilltree.<perm>) [1.0 is default modifier]": {
+      "vi": 2.0
+    },
+    "How long should the xp be displayed for": 1.0,
+    "Colour of the xp text when unmodified": "FFFFFF",
+    "Colour of the xp text when modified": "00b6ff",
+    "Prevent XP loss when dying at an event hosted by EventManager": true,
+    "Enable xp drop hud for players by default": true,
+    "Restrict XP gain to the tools listed in their respective tools list?": false,
+    "Require grown plants to be ripe to provide xp": true,
+    "Give xp for crafting ingredients? [Requires Cooking.cs]": false,
+    "List of meals that will not provide xp [Requires Cooking.cs]": [
+      "ingredient bag"
+    ],
+    "Experience sources - Set xp value to 0 to disable for that type": {
+      "NodeHit": 3.0,
+      "NodeHitFinal": 15.0,
+      "TreeHit": 2.0,
+      "TreeHitFinal": 10.0,
+      "SkinHit": 3.0,
+      "SkinHitFinal": 15.0,
+      "CollectWildPlant": 15.0,
+      "CollectGrownPlant": 1.0,
+      "BuildingBlockDeployed": 0.0,
+      "FishCaught": 25.0,
+      "Crafting": 0.1,
+      "ScientistNormal": 35.0,
+      "TunnelDweller": 30.0,
+      "ScientistHeavy": 75.0,
+      "SmallAnimal": 5.0,
+      "MediumAnimal": 15.0,
+      "LargeAnimal": 15.0,
+      "RoadSign": 3.0,
+      "Barrel": 5.0,
+      "Scarecrow": 25.0,
+      "Mission": 250.0,
+      "BradleyAPC": 250.0,
+      "LootHackedCrate": 50.0,
+      "LootHeliCrate": 60.0,
+      "LootBradleyCrate": 15.0,
+      "CookingMealXP": 3.0,
+      "RaidableBaseCompletion_Easy": 25.0,
+      "RaidableBaseCompletion_Medium": 50.0,
+      "RaidableBaseCompletion_Hard": 75.0,
+      "RaidableBaseCompletion_Expert": 100.0,
+      "RaidableBaseCompletion_Nightmare": 125.0,
+      "Win_HungerGames": 500.0,
+      "Win_ScubaArena": 500.0,
+      "Win_Skirmish": 500.0,
+      "Gut_Fish": 3.0,
+      "default_botrespawn": 25.0,
+      "crate_basic": 0.0,
+      "crate_elite": 15.0,
+      "crate_mine": 0.0,
+      "crate_normal": 0.0,
+      "crate_normal_2": 0.0,
+      "crate_normal_2_food": 0.0,
+      "crate_normal_2_medical": 0.0,
+      "crate_tools": 0.0,
+      "crate_underwater_advanced": 25.0,
+      "crate_underwater_basic": 7.0,
+      "crate_ammunition": 0.0,
+      "crate_food_1": 0.0,
+      "crate_food_2": 0.0,
+      "crate_fuel": 0.0,
+      "crate_medical": 0.0,
+      "supply_drop": 125.0,
+      "Harbor_Event_Winner": 500.0,
+      "Junkyard_Event_Winner": 500.0,
+      "PowerPlant_Event_Winner": 500.0,
+      "Satellite_Event_Winner": 500.0,
+      "Water_Event_Winner": 500.0,
+      "Air_Event_Winner": 500.0,
+      "Armored_Train_Winner": 500.0,
+      "Convoy_Winner": 500.0,
+      "SurvivalArena_Winner": 500.0,
+      "swipe_card_level_1": 15.0,
+      "swipe_card_level_2": 25.0,
+      "swipe_card_level_3": 60.0
+    },
+    "Night time settings": {
+      "Modifier for xp gained at night [1.0 = standard]": 1.0,
+      "Modifier for woodcutting yield at night [1.0 = standard]": 1.0,
+      "Modifier for mining yield at night [1.0 = standard]": 1.0,
+      "Modifier for skinning yield at night [1.0 = standard]": 1.0,
+      "Modifier for harvesting yield at night [1.0 = standard]": 1.0,
+      "Should the harvesting yield increase include player-grown plants?": false
+    }
+  },
+  "Wipe and plugin update settings": {
+    "Erase all data on wipe - wipes everything": false,
+    "Erase ExtraPockets storage on wipe": true,
+    "Refund skill points on server wipe": true,
+    "Give the player with the highest xp bonus skill points next wipe": false,
+    "How many skill points should they receive for winning?": 5,
+    "Automatically add new trees from the default config?": true,
+    "Automatically add new nodes from the default config?": true,
+    "Starting skill points": 0
+  },
+  "Rested XP Settings": {
+    "Give players who have been offline a bonus to xp gain when they log in next?": true,
+    "Rested xp pool to accumulate per hour offline": 1000.0,
+    "Bonus xp rate while rested (until the rested xp pool is depleted) [0.25 = 25% bonus]": 0.25,
+    "Maximum xp a player can have in their rested pool [0 = no limit]": 25000.0,
+    "Reset rested xp pools on wipe?": false
+  },
+  "Tools and Black list/White list settings": {
+    "Global black list - these items will not gain xp and benefits at all": [
+      "bone.club"
+    ],
+    "Black listed parts for component and electrical luck abilities": [
+      "generic",
+      "chassis",
+      "glue",
+      "bleach",
+      "ducttape",
+      "sticks",
+      "vehicle.chassis",
+      "vehicle.module",
+      "vehicle.chassis.4mod",
+      "vehicle.chassis.3mod",
+      "vehicle.chassis.2mod",
+      "electric.generator.small"
+    ],
+    "Power tool modifiers (chainsaw and jackhammer). 1 = full xp/buffs. 0 = off. 0.5 = half xp/buffs.": {
+      "mining_perk_modifier": 0.0,
+      "woodcutting_perk_modifier": 0.0,
+      "skinning_perk_modifier": 0.0
+    },
+    "Extra Pockets black list - disallows items that match": [],
+    "Extra Pockets white list - will only allow items that match": [],
+    "Extra pockets button anchors": {
+      "x_min": "185.4",
+      "y_min": "25.4",
+      "x_max": "227.4",
+      "y_max": "67.4"
+    },
+    "A black list of items that will not be refunded when using the thrifty tinkerer buff": [
+      "gunpowder",
+      "explosives",
+      "sulfur"
+    ],
+    "A black list of items that will not be duplicated while using the thirfty duplicator buff": [
+      "gunpowder",
+      "explosives",
+      "sulfur"
+    ],
+    "Woodcutting tools - Tools that meet whitelist requirements and work with the reduced durability ability": [
+      "hatchet",
+      "axe.salvaged",
+      "stonehatchet",
+      "chainsaw"
+    ],
+    "Mining tools - Tools that meet whitelist requirements and work with the reduced durability ability": [
+      "pickaxe",
+      "stone.pickaxe",
+      "icepick.salvaged",
+      "jackhammer"
+    ],
+    "Skinning tools - Tools that meet whitelist requirements and work with the reduced durability ability": [
+      "knife.bone",
+      "knife.butcher",
+      "knife.combat",
+      "hatchet"
+    ]
+  },
+  "Effect settings": {
+    "Instant repair effect": "assets/bundled/prefabs/fx/build/repair_full_metal.prefab",
+    "Level up effect": "assets/prefabs/misc/halloween/lootbag/effects/gold_open.prefab",
+    "Node unlock effect": "assets/prefabs/misc/halloween/lootbag/effects/loot_bag_upgrade.prefab",
+    "Node level effect": "assets/prefabs/misc/easter/painted eggs/effects/eggpickup.prefab"
+  },
+  "Better Chat settings": {
+    "Format for BetterChat title showing the playeres level. Set to null to disable. {0} is the colour value and {1} is the player level value": "<color=#{0}>[Lv.{1}]</color>",
+    "Default colour for BetterChat xp titles": "0cb072",
+    "Colour for BetterChat xp titles for players who are max level": "32ff00"
+  },
+  "Loot settings": {
+    "Mining luck loot table": [
+      {
+        "shortname": "keycard_blue",
+        "min": 1,
+        "max": 1,
+        "dropWeight": 100,
+        "displayName": null,
+        "skin": 0
+      },
+      {
+        "shortname": "keycard_green",
+        "min": 1,
+        "max": 1,
+        "dropWeight": 100,
+        "displayName": null,
+        "skin": 0
+      },
+      {
+        "shortname": "keycard_red",
+        "min": 1,
+        "max": 1,
+        "dropWeight": 100,
+        "displayName": null,
+        "skin": 0
+      },
+      {
+        "shortname": "lowgradefuel",
+        "min": 1,
+        "max": 10,
+        "dropWeight": 100,
+        "displayName": null,
+        "skin": 0
+      }
+    ],
+    "Woodcutting luck loot table": [
+      {
+        "shortname": "apple",
+        "min": 1,
+        "max": 3,
+        "dropWeight": 100,
+        "displayName": null,
+        "skin": 0
+      },
+      {
+        "shortname": "black.raspberries",
+        "min": 1,
+        "max": 5,
+        "dropWeight": 100,
+        "displayName": null,
+        "skin": 0
+      },
+      {
+        "shortname": "blue.berry",
+        "min": 1,
+        "max": 5,
+        "dropWeight": 100,
+        "displayName": null,
+        "skin": 0
+      },
+      {
+        "shortname": "seed.hemp",
+        "min": 1,
+        "max": 5,
+        "dropWeight": 100,
+        "displayName": null,
+        "skin": 0
+      },
+      {
+        "shortname": "keycard_blue",
+        "min": 1,
+        "max": 1,
+        "dropWeight": 100,
+        "displayName": null,
+        "skin": 0
+      },
+      {
+        "shortname": "keycard_green",
+        "min": 1,
+        "max": 1,
+        "dropWeight": 100,
+        "displayName": null,
+        "skin": 0
+      }
+    ],
+    "Whitelist of loot crates to trigger the spawn chance for components, electronics and scrap. Set to null to not use the whitelist.": [
+      "assets/bundled/prefabs/radtown/crate_elite.prefab",
+      "assets/bundled/prefabs/radtown/crate_normal.prefab",
+      "assets/bundled/prefabs/radtown/crate_normal_2.prefab",
+      "assets/bundled/prefabs/radtown/crate_tools.prefab",
+      "assets/bundled/prefabs/radtown/crate_underwater_advanced.prefab",
+      "assets/bundled/prefabs/radtown/underwater_labs/crate_elite.prefab",
+      "assets/bundled/prefabs/radtown/underwater_labs/crate_normal.prefab",
+      "assets/bundled/prefabs/radtown/underwater_labs/crate_normal_2.prefab",
+      "assets/bundled/prefabs/radtown/underwater_labs/crate_tools.prefab"
+    ]
+  },
+  "Ultimate settings": {
+    "Background colour for the ultimate node": "1 0.8741453 0 1",
+    "Ultimate settings for woodcutting": {
+      "Award xp for each tree that the perk cuts down?": false,
+      "Distance from the player (radius) that trees will be cut down?": 10.0
+    },
+    "Ultimate settings for mining": {
+      "Distance from the player (radius) that nodes will appear (radius)": 200.0,
+      "Cooldown time on the ability (seconds)": 60.0,
+      "How many seconds should the marked ores appear on the players hud?": 60.0,
+      "Text size": 12,
+      "Chat command to find the nodes.": "locatenodes"
+    },
+    "Ultimate settings for vehicle": {
+      "Reduction percentage [1.0 == full reduction]": 1.0
+    },
+    "Ultimate settings for medical": {
+      "Chance for the player to resurrect [out of 100]": 50.0,
+      "Delay between resurrections after a successful resurrection [seconds]": 1200.0
+    },
+    "Ultimate settings for harvesting": {
+      "Chat command that players can use to set their plant genes": "setgenes",
+      "Cooldown between ultimate triggers. Set to 0 if you want all plants to have their genes adjusted [seconds]": 0.0,
+      "Notify a player in chat when they go on cooldown (recommended for longer cooldowns)": false
+    },
+    "Ultimate settings for scavenger": {
+      "List of items that you dont want the perk to recycle": [
+        "lowgradefuel",
+        "targeting.computer",
+        "cctv.camera"
+      ],
+      "Scrap items that have a unique name?": false,
+      "Scrap items that have a non-default skin?": false
+    },
+    "Ultimate settings for combat": {
+      "What scale of damage should the player receive as health [1.0 = 100%]": 0.01,
+      "Should the healing effect of the ultimate work against players": true,
+      "Should the healing effect of the ultimate work against animals": true,
+      "Should the healing effect of the ultimate work against scientists": true
+    },
+    "Ultimate settings for skinning": {
+      "How long should each buff last for [0 = off]?": {
+        "Bear": 120.0,
+        "Chicken": 600.0,
+        "Boar": 1200.0,
+        "Stag": 300.0,
+        "Wolf": 600.0,
+        "PolarBear": 600.0
+      },
+      "Wolf perk: what health scale bonus should the player receive per team member near by [1.0 is 100%]?": 0.25,
+      "Wolf perk: How close do teammates need to be in order to contribute to the perk [radius]?": 30.0,
+      "Bear perk: Maximum health of the overshield": 50.0,
+      "Stag perk: Maximum distance that the perk can detect dangerous entities from [radius]": 30.0,
+      "Stag perk: Time between procs [seconds]": 10.0,
+      "Stag perk: Draw the enemy location?": true,
+      "Boar perk: Blacklist of components for the boar buff": [],
+      "Boar perk: Chance when collecting mushrooms and berries that a player [%]": 2.0,
+      "Boar perk: Minimum quantity to give": 1,
+      "Boar perk: Maximum quantity to give": 4
+    },
+    "Ultimate settings for build craft": {
+      "Chance that a card with lower access will successfully unlock the door (the card is damaged regardless) [%]": 100,
+      "Notify the player when their ultimate failed": true
+    }
+  },
+  "Misc settings": {
+    "BotReSpawn profile and xp list": {},
+    "Human NPC's name that can be used to open the skill tree": "",
+    "Should we add a button to the pump bar to open SkillTree?": true
+  },
+  "Skill tree": {
+    "Mining": {
+      "nodes": {
+        "Amature Miner": {
+          "enabled": true,
+          "max_level": 5,
+          "tier": 1,
+          "value_per_buff": 0.05,
+          "buff_info": {
+            "Key": 1,
+            "Value": 1
+          },
+          "icon_url": "https://www.dropbox.com/s/dajctapqtv8bt4z/Amature_Miner.png?dl=1",
+          "skin": 2873965665,
+          "permissions": null
+        },
+        "Stroke of luck": {
+          "enabled": true,
+          "max_level": 5,
+          "tier": 1,
+          "value_per_buff": 0.05,
+          "buff_info": {
+            "Key": 55,
+            "Value": 1
+          },
+          "icon_url": "https://www.dropbox.com/s/ym4bktn12jr6t4p/Stroke_of_Luck.png?dl=1",
+          "skin": 2873042230,
+          "permissions": null
+        },
+        "Adept Miner": {
+          "enabled": true,
+          "max_level": 5,
+          "tier": 2,
+          "value_per_buff": 0.075,
+          "buff_info": {
+            "Key": 1,
+            "Value": 1
+          },
+          "icon_url": "https://www.dropbox.com/s/pon14r7e6bvn2kd/Adept_Miner.png?dl=1",
+          "skin": 2873042840,
+          "permissions": null
+        },
+        "Instant Mining": {
+          "enabled": true,
+          "max_level": 5,
+          "tier": 2,
+          "value_per_buff": 0.05,
+          "buff_info": {
+            "Key": 2,
+            "Value": 1
+          },
+          "icon_url": "https://www.dropbox.com/s/x3awxx2vkfun2io/Instant_Mining.png?dl=1",
+          "skin": 2873042968,
+          "permissions": null
+        },
+        "Mining Luck": {
+          "enabled": true,
+          "max_level": 5,
+          "tier": 2,
+          "value_per_buff": 0.01,
+          "buff_info": {
+            "Key": 4,
+            "Value": 1
+          },
+          "icon_url": "https://www.dropbox.com/s/uk7oix7ojnsqyjh/Mining_Luck.png?dl=1",
+          "skin": 2873043145,
+          "permissions": null
+        },
+        "Expert Miner": {
+          "enabled": true,
+          "max_level": 5,
+          "tier": 3,
+          "value_per_buff": 0.1,
+          "buff_info": {
+            "Key": 1,
+            "Value": 1
+          },
+          "icon_url": "https://www.dropbox.com/s/rgoj7fey7xvzrgk/Expert_Miner.png?dl=1",
+          "skin": 2873043244,
+          "permissions": null
+        },
+        "Refiner": {
+          "enabled": true,
+          "max_level": 5,
+          "tier": 3,
+          "value_per_buff": 0.1,
+          "buff_info": {
+            "Key": 3,
+            "Value": 1
+          },
+          "icon_url": "https://www.dropbox.com/s/wbsgo1egl10dwcx/Refiner.png?dl=1",
+          "skin": 2873043347,
+          "permissions": null
+        },
+        "Robust pickaxe": {
+          "enabled": true,
+          "max_level": 5,
+          "tier": 3,
+          "value_per_buff": 0.1,
+          "buff_info": {
+            "Key": 5,
+            "Value": 1
+          },
+          "icon_url": "https://www.dropbox.com/s/j4nnel0lzonhu9b/Robust_pickaxe.png?dl=1",
+          "skin": 2873043495,
+          "permissions": null
+        },
+        "Stone Sense": {
+          "enabled": true,
+          "max_level": 1,
+          "tier": 4,
+          "value_per_buff": 1.0,
+          "buff_info": {
+            "Key": 992,
+            "Value": 0
+          },
+          "icon_url": "https://www.dropbox.com/s/kkge1vpuptc37z4/Stone_Sense.png?dl=1",
+          "skin": 2873043666,
+          "permissions": null
+        }
+      }
+    },
+    "Woodcutting": {
+      "nodes": {
+        "Amature Woodcutter": {
+          "enabled": true,
+          "max_level": 5,
+          "tier": 1,
+          "value_per_buff": 0.05,
+          "buff_info": {
+            "Key": 6,
+            "Value": 1
+          },
+          "icon_url": "https://www.dropbox.com/s/2s89vo3bmqyefux/Amature_Woodcutter.png?dl=1",
+          "skin": 2873043851,
+          "permissions": null
+        },
+        "Adept Woodcutter": {
+          "enabled": true,
+          "max_level": 5,
+          "tier": 2,
+          "value_per_buff": 0.075,
+          "buff_info": {
+            "Key": 6,
+            "Value": 1
+          },
+          "icon_url": "https://www.dropbox.com/s/nf9reuenek59a6y/Adept_Woodcutter.png?dl=1",
+          "skin": 2873043965,
+          "permissions": null
+        },
+        "Instant Woodcutting": {
+          "enabled": true,
+          "max_level": 5,
+          "tier": 2,
+          "value_per_buff": 0.05,
+          "buff_info": {
+            "Key": 7,
+            "Value": 1
+          },
+          "icon_url": "https://www.dropbox.com/s/7vut5y0vub9e05c/Instant_Woodcutting.png?dl=1",
+          "skin": 2873044070,
+          "permissions": null
+        },
+        "Woodcutting Luck": {
+          "enabled": true,
+          "max_level": 5,
+          "tier": 2,
+          "value_per_buff": 0.01,
+          "buff_info": {
+            "Key": 8,
+            "Value": 1
+          },
+          "icon_url": "https://www.dropbox.com/s/6acfo7hlj0sxviq/Woodcutters_Luck.png?dl=1",
+          "skin": 2873044171,
+          "permissions": null
+        },
+        "Expert Woodcutter": {
+          "enabled": true,
+          "max_level": 5,
+          "tier": 3,
+          "value_per_buff": 0.1,
+          "buff_info": {
+            "Key": 6,
+            "Value": 1
+          },
+          "icon_url": "https://www.dropbox.com/s/tzlbixc5ufbxqjs/Expert_Woodcutter.png?dl=1",
+          "skin": 2873044270,
+          "permissions": null
+        },
+        "Chimney": {
+          "enabled": true,
+          "max_level": 5,
+          "tier": 3,
+          "value_per_buff": 0.1,
+          "buff_info": {
+            "Key": 9,
+            "Value": 1
+          },
+          "icon_url": "https://www.dropbox.com/s/d8ovy2trv5tuipw/Chimney.png?dl=1",
+          "skin": 2873044493,
+          "permissions": null
+        },
+        "Tree Regrowth": {
+          "enabled": true,
+          "max_level": 5,
+          "tier": 3,
+          "value_per_buff": 0.025,
+          "buff_info": {
+            "Key": 72,
+            "Value": 1
+          },
+          "icon_url": "https://www.dropbox.com/s/kbyk4nhzu7akmhb/Tree_Regrowth.png?dl=1",
+          "skin": 2874292571,
+          "permissions": null
+        },
+        "Robust Axe": {
+          "enabled": true,
+          "max_level": 5,
+          "tier": 3,
+          "value_per_buff": 0.1,
+          "buff_info": {
+            "Key": 10,
+            "Value": 1
+          },
+          "icon_url": "https://www.dropbox.com/s/4p5gqo7fbfaw9jz/Robust_Axe.png?dl=1",
+          "skin": 2873044601,
+          "permissions": null
+        },
+        "Deforestation": {
+          "enabled": true,
+          "max_level": 1,
+          "tier": 4,
+          "value_per_buff": 1.0,
+          "buff_info": {
+            "Key": 991,
+            "Value": 0
+          },
+          "icon_url": "https://www.dropbox.com/s/tww0gg1pwh90qbb/Deforestation.png?dl=1",
+          "skin": 2873044743,
+          "permissions": null
+        }
+      }
+    },
+    "Skinning": {
+      "nodes": {
+        "Amature Skinner": {
+          "enabled": true,
+          "max_level": 5,
+          "tier": 1,
+          "value_per_buff": 0.05,
+          "buff_info": {
+            "Key": 11,
+            "Value": 1
+          },
+          "icon_url": "https://www.dropbox.com/s/dxrecqcjlsaqskm/Amature_Skinner.png?dl=1",
+          "skin": 2873044870,
+          "permissions": null
+        },
+        "Skilled Tracker": {
+          "enabled": true,
+          "max_level": 1,
+          "tier": 1,
+          "value_per_buff": 1.0,
+          "buff_info": {
+            "Key": 57,
+            "Value": 0
+          },
+          "icon_url": "https://www.dropbox.com/s/mai6z52eiqqqrwx/Skilled_Tracker.png?dl=1",
+          "skin": 2873044977,
+          "permissions": null
+        },
+        "Adept Skinner": {
+          "enabled": true,
+          "max_level": 5,
+          "tier": 2,
+          "value_per_buff": 0.075,
+          "buff_info": {
+            "Key": 11,
+            "Value": 1
+          },
+          "icon_url": "https://www.dropbox.com/s/cy3eo6mr6r4gbeb/Adept_Skinner.png?dl=1",
+          "skin": 2873045152,
+          "permissions": null
+        },
+        "Instant Skinner": {
+          "enabled": true,
+          "max_level": 5,
+          "tier": 2,
+          "value_per_buff": 0.05,
+          "buff_info": {
+            "Key": 12,
+            "Value": 1
+          },
+          "icon_url": "https://www.dropbox.com/s/wgic15j3uecdegl/Instant_Skinner.png?dl=1",
+          "skin": 2873045291,
+          "permissions": null
+        },
+        "Robust Knife": {
+          "enabled": true,
+          "max_level": 5,
+          "tier": 1,
+          "value_per_buff": 0.1,
+          "buff_info": {
+            "Key": 13,
+            "Value": 1
+          },
+          "icon_url": "https://www.dropbox.com/s/j8fkg0xu1cfz7wd/Robust_Knife.png?dl=1",
+          "skin": 2873045413,
+          "permissions": null
+        },
+        "Expert Skinner": {
+          "enabled": true,
+          "max_level": 5,
+          "tier": 3,
+          "value_per_buff": 0.1,
+          "buff_info": {
+            "Key": 11,
+            "Value": 1
+          },
+          "icon_url": "https://www.dropbox.com/s/fs66l8mad4uci9p/Expert_Skinner.png?dl=1",
+          "skin": 2873045569,
+          "permissions": null
+        },
+        "Survival Chef": {
+          "enabled": true,
+          "max_level": 5,
+          "tier": 3,
+          "value_per_buff": 0.1,
+          "buff_info": {
+            "Key": 14,
+            "Value": 1
+          },
+          "icon_url": "https://www.dropbox.com/s/eahszj2z8lppx66/Survival_Chef.png?dl=1",
+          "skin": 2873046097,
+          "permissions": null
+        },
+        "Steel Knife": {
+          "enabled": true,
+          "max_level": 5,
+          "tier": 2,
+          "value_per_buff": 0.1,
+          "buff_info": {
+            "Key": 13,
+            "Value": 1
+          },
+          "icon_url": "https://www.dropbox.com/s/0c8kf86a43rmo5r/Steel_Knife.png?dl=1",
+          "skin": 2873046697,
+          "permissions": null
+        },
+        "Skilled Hunter": {
+          "enabled": true,
+          "max_level": 5,
+          "tier": 3,
+          "value_per_buff": 0.1,
+          "buff_info": {
+            "Key": 60,
+            "Value": 1
+          },
+          "icon_url": "https://www.dropbox.com/s/asrhyvazu2ilkqx/Skilled_Hunter.png?dl=1",
+          "skin": 2873046221,
+          "permissions": null
+        },
+        "Primal Identity": {
+          "enabled": true,
+          "max_level": 1,
+          "tier": 4,
+          "value_per_buff": 1.0,
+          "buff_info": {
+            "Key": 997,
+            "Value": 0
+          },
+          "icon_url": "https://www.dropbox.com/s/ba8gmtvr62rek6q/Primal_Identity.png?dl=1",
+          "skin": 2873046423,
+          "permissions": null
+        }
+      }
+    },
+    "Harvesting": {
+      "nodes": {
+        "Amature Harvester": {
+          "enabled": true,
+          "max_level": 5,
+          "tier": 1,
+          "value_per_buff": 0.1,
+          "buff_info": {
+            "Key": 15,
+            "Value": 1
+          },
+          "icon_url": "https://www.dropbox.com/s/kpvo6cniebzgvdx/Amature_Harvester.png?dl=1",
+          "skin": 2873046943,
+          "permissions": null
+        },
+        "Hobbiest Harvester": {
+          "enabled": true,
+          "max_level": 5,
+          "tier": 2,
+          "value_per_buff": 0.15,
+          "buff_info": {
+            "Key": 15,
+            "Value": 1
+          },
+          "icon_url": "https://www.dropbox.com/s/s5slqgk7sxdd1w3/Hobbiest_Harvester.png?dl=1",
+          "skin": 2873047153,
+          "permissions": null
+        },
+        "Amature Farmer": {
+          "enabled": true,
+          "max_level": 5,
+          "tier": 2,
+          "value_per_buff": 0.075,
+          "buff_info": {
+            "Key": 16,
+            "Value": 1
+          },
+          "icon_url": "https://www.dropbox.com/s/sqpubic88t7oyaw/Amature_Farmer.png?dl=1",
+          "skin": 2873047337,
+          "permissions": null
+        },
+        "Extra pockets": {
+          "enabled": true,
+          "max_level": 5,
+          "tier": 2,
+          "value_per_buff": 2.0,
+          "buff_info": {
+            "Key": 58,
+            "Value": 4
+          },
+          "icon_url": "https://www.dropbox.com/s/damaguptw7r54r5/Extra_pockets.png?dl=1",
+          "skin": 2873047443,
+          "permissions": null
+        },
+        "Expert Harvester": {
+          "enabled": true,
+          "max_level": 5,
+          "tier": 3,
+          "value_per_buff": 0.2,
+          "buff_info": {
+            "Key": 15,
+            "Value": 1
+          },
+          "icon_url": "https://www.dropbox.com/s/t8xms1jaxgoissj/Expert_Harvester.png?dl=1",
+          "skin": 2873047547,
+          "permissions": null
+        },
+        "Expert Farmer": {
+          "enabled": true,
+          "max_level": 5,
+          "tier": 3,
+          "value_per_buff": 0.1,
+          "buff_info": {
+            "Key": 16,
+            "Value": 1
+          },
+          "icon_url": "https://www.dropbox.com/s/s1z0p2z80r6bkpn/Expert_Farmer.png?dl=1",
+          "skin": 2873047644,
+          "permissions": null
+        },
+        "Fisherman": {
+          "enabled": true,
+          "max_level": 5,
+          "tier": 3,
+          "value_per_buff": 0.1,
+          "buff_info": {
+            "Key": 17,
+            "Value": 1
+          },
+          "icon_url": "https://www.dropbox.com/s/ohvnyq50bmt46ok/Fisherman.png?dl=1",
+          "skin": 2873047745,
+          "permissions": null
+        },
+        "Botanist": {
+          "enabled": true,
+          "max_level": 1,
+          "tier": 4,
+          "value_per_buff": 1.0,
+          "buff_info": {
+            "Key": 995,
+            "Value": 0
+          },
+          "icon_url": "https://www.dropbox.com/s/8fylvtokuhcj24u/Botanist.png?dl=1",
+          "skin": 2873047865,
+          "permissions": null
+        }
+      }
+    },
+    "Medical": {
+      "nodes": {
+        "Bandage Expert": {
+          "enabled": true,
+          "max_level": 1,
+          "tier": 1,
+          "value_per_buff": 1.0,
+          "buff_info": {
+            "Key": 18,
+            "Value": 0
+          },
+          "icon_url": "https://www.dropbox.com/s/p1wlvzz5vtyvd24/Bandage_Expert.png?dl=1",
+          "skin": 2873048071,
+          "permissions": null
+        },
+        "Radiation Expert": {
+          "enabled": true,
+          "max_level": 5,
+          "tier": 1,
+          "value_per_buff": 0.1,
+          "buff_info": {
+            "Key": 19,
+            "Value": 1
+          },
+          "icon_url": "https://www.dropbox.com/s/g18h9sv1q5wi1t7/Radiation_Expert.png?dl=1",
+          "skin": 2873965334,
+          "permissions": null
+        },
+        "Revitalization": {
+          "enabled": true,
+          "max_level": 5,
+          "tier": 1,
+          "value_per_buff": 0.1,
+          "buff_info": {
+            "Key": 56,
+            "Value": 3
+          },
+          "icon_url": "https://www.dropbox.com/s/9neapkjx2ntpclm/Revitalization.png?dl=1",
+          "skin": 2873048224,
+          "permissions": null
+        },
+        "Flame Retardant": {
+          "enabled": true,
+          "max_level": 5,
+          "tier": 2,
+          "value_per_buff": 0.1,
+          "buff_info": {
+            "Key": 21,
+            "Value": 1
+          },
+          "icon_url": "https://www.dropbox.com/s/mmvn40hp81niuc5/Flame_Retardant.png?dl=1",
+          "skin": 2873048354,
+          "permissions": null
+        },
+        "Accident Evasion": {
+          "enabled": true,
+          "max_level": 5,
+          "tier": 2,
+          "value_per_buff": 0.1,
+          "buff_info": {
+            "Key": 22,
+            "Value": 1
+          },
+          "icon_url": "https://www.dropbox.com/s/1n69ohui470smxj/Accident_Evasion.png?dl=1",
+          "skin": 2873048450,
+          "permissions": null
+        },
+        "Battle Medic": {
+          "enabled": true,
+          "max_level": 5,
+          "tier": 2,
+          "value_per_buff": 0.1,
+          "buff_info": {
+            "Key": 48,
+            "Value": 1
+          },
+          "icon_url": "https://www.dropbox.com/s/opmy93244kmtj7j/Battle_Medic.png?dl=1",
+          "skin": 2873048560,
+          "permissions": null
+        },
+        "Rugged Up": {
+          "enabled": true,
+          "max_level": 1,
+          "tier": 3,
+          "value_per_buff": 1.0,
+          "buff_info": {
+            "Key": 23,
+            "Value": 0
+          },
+          "icon_url": "https://www.dropbox.com/s/l9hmad91yyb8v3x/Rugged_Up.png?dl=1",
+          "skin": 2873048673,
+          "permissions": null
+        },
+        "Perfect Balance": {
+          "enabled": true,
+          "max_level": 5,
+          "tier": 3,
+          "value_per_buff": 0.1,
+          "buff_info": {
+            "Key": 22,
+            "Value": 1
+          },
+          "icon_url": "https://www.dropbox.com/s/vn5rf6prsaviblj/Perfect_Balance.png?dl=1",
+          "skin": 2873048757,
+          "permissions": null
+        },
+        "Second Wind": {
+          "enabled": true,
+          "max_level": 5,
+          "tier": 3,
+          "value_per_buff": 0.05,
+          "buff_info": {
+            "Key": 24,
+            "Value": 1
+          },
+          "icon_url": "https://www.dropbox.com/s/zh9wcs2alr4uzlm/Second_Wind.png?dl=1",
+          "skin": 2873048855,
+          "permissions": null
+        },
+        "Messiah": {
+          "enabled": true,
+          "max_level": 1,
+          "tier": 4,
+          "value_per_buff": 1.0,
+          "buff_info": {
+            "Key": 996,
+            "Value": 0
+          },
+          "icon_url": "https://www.dropbox.com/s/qz76ogz9tayfgwb/Messiah.png?dl=1",
+          "skin": 2873048963,
+          "permissions": null
+        }
+      }
+    },
+    "Combat": {
+      "nodes": {
+        "Animal Tamer": {
+          "enabled": true,
+          "max_level": 5,
+          "tier": 1,
+          "value_per_buff": 0.1,
+          "buff_info": {
+            "Key": 25,
+            "Value": 1
+          },
+          "icon_url": "https://www.dropbox.com/s/5wgfza2h6d1nxpd/Animal_Tamer.png?dl=1",
+          "skin": 2873049142,
+          "permissions": null
+        },
+        "Defence Research": {
+          "enabled": true,
+          "max_level": 5,
+          "tier": 2,
+          "value_per_buff": 0.05,
+          "buff_info": {
+            "Key": 61,
+            "Value": 1
+          },
+          "icon_url": "https://www.dropbox.com/s/rs66cu2qrawjfjw/Defence_Research.png?dl=1",
+          "skin": 2873049362,
+          "permissions": null
+        },
+        "Resourceful": {
+          "enabled": true,
+          "max_level": 5,
+          "tier": 2,
+          "value_per_buff": 0.02,
+          "buff_info": {
+            "Key": 27,
+            "Value": 1
+          },
+          "icon_url": "https://www.dropbox.com/s/1vmyged7iu3j9fi/Resourceful.png?dl=1",
+          "skin": 2873049496,
+          "permissions": null
+        },
+        "Scientific Breakthrough": {
+          "enabled": true,
+          "max_level": 5,
+          "tier": 2,
+          "value_per_buff": 0.05,
+          "buff_info": {
+            "Key": 59,
+            "Value": 1
+          },
+          "icon_url": "https://www.dropbox.com/s/910bdsqaon9ja22/Scientific_Breakthrough.png?dl=1",
+          "skin": 2873049588,
+          "permissions": null
+        },
+        "Duelist": {
+          "enabled": true,
+          "max_level": 5,
+          "tier": 1,
+          "value_per_buff": 0.1,
+          "buff_info": {
+            "Key": 40,
+            "Value": 1
+          },
+          "icon_url": "https://www.dropbox.com/s/619ww8i1fu7a28e/Duelist.png?dl=1",
+          "skin": 2873049666,
+          "permissions": null
+        },
+        "Lucky Shot": {
+          "enabled": true,
+          "max_level": 5,
+          "tier": 3,
+          "value_per_buff": 0.01,
+          "buff_info": {
+            "Key": 50,
+            "Value": 1
+          },
+          "icon_url": "https://www.dropbox.com/s/iezzpbs15qbmt1u/Lucky_Shot.png?dl=1",
+          "skin": 2873049731,
+          "permissions": null
+        },
+        "Assassin": {
+          "enabled": true,
+          "max_level": 5,
+          "tier": 3,
+          "value_per_buff": 0.01,
+          "buff_info": {
+            "Key": 51,
+            "Value": 1
+          },
+          "icon_url": "https://www.dropbox.com/s/i39yhkrdvwti1dn/Assassin.png?dl=1",
+          "skin": 2873049790,
+          "permissions": null
+        },
+        "Guarded": {
+          "enabled": true,
+          "max_level": 5,
+          "tier": 3,
+          "value_per_buff": 0.02,
+          "buff_info": {
+            "Key": 52,
+            "Value": 1
+          },
+          "icon_url": "https://www.dropbox.com/s/yufh2ieo4kysb5g/Guarded.png?dl=1",
+          "skin": 2873049899,
+          "permissions": null
+        },
+        "Vampiric Tendencies": {
+          "enabled": true,
+          "max_level": 1,
+          "tier": 4,
+          "value_per_buff": 1.0,
+          "buff_info": {
+            "Key": 993,
+            "Value": 0
+          },
+          "icon_url": "https://www.dropbox.com/s/3brv8bohuk75npj/Vampiric_Tendencies.png?dl=1",
+          "skin": 2873050024,
+          "permissions": null
+        },
+        "Maintenance": {
+          "enabled": true,
+          "max_level": 5,
+          "tier": 1,
+          "value_per_buff": 0.2,
+          "buff_info": {
+            "Key": 71,
+            "Value": 1
+          },
+          "icon_url": "https://www.dropbox.com/s/b1bgfqdxe2wunr0/Maintenance.png?dl=1",
+          "skin": 2873050116,
+          "permissions": null
+        }
+      }
+    },
+    "Build_Craft": {
+      "nodes": {
+        "Amature Tinkerer": {
+          "enabled": true,
+          "max_level": 5,
+          "tier": 1,
+          "value_per_buff": 0.05,
+          "buff_info": {
+            "Key": 30,
+            "Value": 1
+          },
+          "icon_url": "https://www.dropbox.com/s/4hw98tpjmsohf9n/Amature_Tinkerer.png?dl=1",
+          "skin": 2873050271,
+          "permissions": null
+        },
+        "Thrifty Renovator": {
+          "enabled": true,
+          "max_level": 5,
+          "tier": 1,
+          "value_per_buff": 0.05,
+          "buff_info": {
+            "Key": 29,
+            "Value": 1
+          },
+          "icon_url": "https://www.dropbox.com/s/36274c1xkjjtb0f/Thirfty_Renovator.png?dl=1",
+          "skin": 2873050381,
+          "permissions": null
+        },
+        "Adept Tinkerer": {
+          "enabled": true,
+          "max_level": 5,
+          "tier": 2,
+          "value_per_buff": 0.05,
+          "buff_info": {
+            "Key": 30,
+            "Value": 1
+          },
+          "icon_url": "https://www.dropbox.com/s/mikhmlqfx5y7fvl/Adept_Tinkerer.png?dl=1",
+          "skin": 2873050490,
+          "permissions": null
+        },
+        "Thrifty Tinkerer": {
+          "enabled": true,
+          "max_level": 5,
+          "tier": 2,
+          "value_per_buff": 0.05,
+          "buff_info": {
+            "Key": 32,
+            "Value": 1
+          },
+          "icon_url": "https://www.dropbox.com/s/yp73p3ruy4l4oh2/Thrifty_Tinkerer.png?dl=1",
+          "skin": 2873050600,
+          "permissions": null
+        },
+        "Researcher": {
+          "enabled": true,
+          "max_level": 5,
+          "tier": 2,
+          "value_per_buff": 0.05,
+          "buff_info": {
+            "Key": 31,
+            "Value": 1
+          },
+          "icon_url": "https://www.dropbox.com/s/armldhxjctbg67w/Research.png?dl=1",
+          "skin": 2873050672,
+          "permissions": null
+        },
+        "Expert Tinkerer": {
+          "enabled": true,
+          "max_level": 5,
+          "tier": 3,
+          "value_per_buff": 0.1,
+          "buff_info": {
+            "Key": 30,
+            "Value": 1
+          },
+          "icon_url": "https://www.dropbox.com/s/8ibntd9n1033dh4/Expert_Tinkerer.png?dl=1",
+          "skin": 2873050815,
+          "permissions": null
+        },
+        "Blast Furnace": {
+          "enabled": true,
+          "max_level": 5,
+          "tier": 3,
+          "value_per_buff": 0.1,
+          "buff_info": {
+            "Key": 44,
+            "Value": 1
+          },
+          "icon_url": "https://www.dropbox.com/s/p0i3ef8mq4mug05/Blast_Furnace.png?dl=1",
+          "skin": 2873050908,
+          "permissions": null
+        },
+        "Primitive Expert": {
+          "enabled": true,
+          "max_level": 1,
+          "tier": 1,
+          "value_per_buff": 1.0,
+          "buff_info": {
+            "Key": 28,
+            "Value": 0
+          },
+          "icon_url": "https://www.dropbox.com/s/gvy0dreisfvd9t5/Primitive_Expert.png?dl=1",
+          "skin": 2873051010,
+          "permissions": null
+        },
+        "Thrifty Duplicator": {
+          "enabled": true,
+          "max_level": 5,
+          "tier": 3,
+          "value_per_buff": 0.03,
+          "buff_info": {
+            "Key": 62,
+            "Value": 1
+          },
+          "icon_url": "https://www.dropbox.com/s/lzd1p3l8q5t7rx2/Thrifty_Duplicator.png?dl=1",
+          "skin": 2873051123,
+          "permissions": null
+        },
+        "Access Granted": {
+          "enabled": true,
+          "max_level": 1,
+          "tier": 4,
+          "value_per_buff": 1.0,
+          "buff_info": {
+            "Key": 998,
+            "Value": 0
+          },
+          "icon_url": "https://www.dropbox.com/s/58hmrgytnntn314/Access_Granted.png?dl=1",
+          "skin": 2873051221,
+          "permissions": null
+        },
+        "Blacksmith": {
+          "enabled": true,
+          "max_level": 1,
+          "tier": 3,
+          "value_per_buff": 1.0,
+          "buff_info": {
+            "Key": 70,
+            "Value": 0
+          },
+          "icon_url": "https://www.dropbox.com/s/b4k6p03u77x9d7t/Blacksmith.png?dl=1",
+          "skin": 2873051294,
+          "permissions": null
+        }
+      }
+    },
+    "Scavenging": {
+      "nodes": {
+        "Looter": {
+          "enabled": true,
+          "max_level": 5,
+          "tier": 1,
+          "value_per_buff": 0.1,
+          "buff_info": {
+            "Key": 33,
+            "Value": 1
+          },
+          "icon_url": "https://www.dropbox.com/s/y1cmvfjafenh1du/Looter.png?dl=1",
+          "skin": 2873051741,
+          "permissions": null
+        },
+        "Barrel Smasher": {
+          "enabled": true,
+          "max_level": 1,
+          "tier": 1,
+          "value_per_buff": 1.0,
+          "buff_info": {
+            "Key": 34,
+            "Value": 0
+          },
+          "icon_url": "https://www.dropbox.com/s/sebu0m6s5v2sual/Barrel_Smasher.png?dl=1",
+          "skin": 2873051884,
+          "permissions": null
+        },
+        "Loot Magnet": {
+          "enabled": true,
+          "max_level": 5,
+          "tier": 1,
+          "value_per_buff": 0.2,
+          "buff_info": {
+            "Key": 54,
+            "Value": 1
+          },
+          "icon_url": "https://www.dropbox.com/s/hqthffkbbm73krh/Loot_Magnet.png?dl=1",
+          "skin": 2873965904,
+          "permissions": null
+        },
+        "Lucky Looter": {
+          "enabled": true,
+          "max_level": 5,
+          "tier": 2,
+          "value_per_buff": 0.05,
+          "buff_info": {
+            "Key": 35,
+            "Value": 1
+          },
+          "icon_url": "https://www.dropbox.com/s/wpo449q9tinohgh/Lucky_Looter.png?dl=1",
+          "skin": 2873052061,
+          "permissions": null
+        },
+        "Electronics Luck": {
+          "enabled": true,
+          "max_level": 5,
+          "tier": 2,
+          "value_per_buff": 0.02,
+          "buff_info": {
+            "Key": 37,
+            "Value": 1
+          },
+          "icon_url": "https://www.dropbox.com/s/zshx9nme86dqrhm/Electronics_Luck.png?dl=1",
+          "skin": 2873052180,
+          "permissions": null
+        },
+        "Component Luck": {
+          "enabled": true,
+          "max_level": 5,
+          "tier": 2,
+          "value_per_buff": 0.02,
+          "buff_info": {
+            "Key": 36,
+            "Value": 1
+          },
+          "icon_url": "https://www.dropbox.com/s/vlz5kic6d0qw5df/Components_Luck.png?dl=1",
+          "skin": 2873052277,
+          "permissions": null
+        },
+        "Component Salvager": {
+          "enabled": true,
+          "max_level": 5,
+          "tier": 3,
+          "value_per_buff": 0.02,
+          "buff_info": {
+            "Key": 38,
+            "Value": 1
+          },
+          "icon_url": "https://www.dropbox.com/s/b4xu8xxe7zjwrwj/Component_Salvager.png?dl=1",
+          "skin": 2873052390,
+          "permissions": null
+        },
+        "Electronics Salvager": {
+          "enabled": true,
+          "max_level": 5,
+          "tier": 3,
+          "value_per_buff": 0.02,
+          "buff_info": {
+            "Key": 39,
+            "Value": 1
+          },
+          "icon_url": "https://www.dropbox.com/s/jcgwgqzvoxw8y9e/Electronics_Salvager.png?dl=1",
+          "skin": 2873052471,
+          "permissions": null
+        },
+        "Optimized Recycling": {
+          "enabled": true,
+          "max_level": 5,
+          "tier": 3,
+          "value_per_buff": 0.5,
+          "buff_info": {
+            "Key": 43,
+            "Value": 2
+          },
+          "icon_url": "https://www.dropbox.com/s/3mq7xdj8zmdltp7/Optimized_Recycling.png?dl=1",
+          "skin": 2873052554,
+          "permissions": null
+        },
+        "Shredder": {
+          "enabled": true,
+          "max_level": 1,
+          "tier": 4,
+          "value_per_buff": 1.0,
+          "buff_info": {
+            "Key": 999,
+            "Value": 0
+          },
+          "icon_url": "https://www.dropbox.com/s/xib7ax3gwo6gg97/Shredder.png?dl=1",
+          "skin": 2873052624,
+          "permissions": null
+        }
+      }
+    },
+    "Vehicles": {
+      "nodes": {
+        "Amature Rider": {
+          "enabled": true,
+          "max_level": 5,
+          "tier": 1,
+          "value_per_buff": 0.1,
+          "buff_info": {
+            "Key": 26,
+            "Value": 1
+          },
+          "icon_url": "https://www.dropbox.com/s/9lj4colvhioznl1/Amature_Rider.png?dl=1",
+          "skin": 2873052721,
+          "permissions": null
+        },
+        "Adept Rider": {
+          "enabled": true,
+          "max_level": 5,
+          "tier": 2,
+          "value_per_buff": 0.1,
+          "buff_info": {
+            "Key": 26,
+            "Value": 1
+          },
+          "icon_url": "https://www.dropbox.com/s/javi1k9ys88iwxg/Adept_Rider.png?dl=1",
+          "skin": 2873053592,
+          "permissions": null
+        },
+        "Expert Rider": {
+          "enabled": true,
+          "max_level": 5,
+          "tier": 3,
+          "value_per_buff": 0.2,
+          "buff_info": {
+            "Key": 26,
+            "Value": 1
+          },
+          "icon_url": "https://www.dropbox.com/s/oxfeh3b1xvqqo7t/Expert_Rider.png?dl=1",
+          "skin": 2873053752,
+          "permissions": null
+        },
+        "Economical Pilot": {
+          "enabled": true,
+          "max_level": 5,
+          "tier": 2,
+          "value_per_buff": 0.03,
+          "buff_info": {
+            "Key": 45,
+            "Value": 1
+          },
+          "icon_url": "https://www.dropbox.com/s/0h1hq0nco5dimtv/Economical_Pilot.png?dl=1",
+          "skin": 2873054261,
+          "permissions": null
+        },
+        "Hybrid Pilot": {
+          "enabled": true,
+          "max_level": 5,
+          "tier": 3,
+          "value_per_buff": 0.07,
+          "buff_info": {
+            "Key": 45,
+            "Value": 1
+          },
+          "icon_url": "https://www.dropbox.com/s/wgjms949cdlzegm/Hybrid_Pilot.png?dl=1",
+          "skin": 2873054373,
+          "permissions": null
+        },
+        "Yachtman": {
+          "enabled": true,
+          "max_level": 5,
+          "tier": 1,
+          "value_per_buff": 0.2,
+          "buff_info": {
+            "Key": 42,
+            "Value": 1
+          },
+          "icon_url": "https://www.dropbox.com/s/86096soadnsy2qh/Yachtman.png?dl=1",
+          "skin": 2873054539,
+          "permissions": null
+        },
+        "Economical Captain": {
+          "enabled": true,
+          "max_level": 5,
+          "tier": 1,
+          "value_per_buff": 0.15,
+          "buff_info": {
+            "Key": 46,
+            "Value": 1
+          },
+          "icon_url": "https://www.dropbox.com/s/5f4agk38f2y1ch4/Economical_Captain.png?dl=1",
+          "skin": 2873054654,
+          "permissions": null
+        },
+        "Mechanic": {
+          "enabled": true,
+          "max_level": 1,
+          "tier": 3,
+          "value_per_buff": 1.0,
+          "buff_info": {
+            "Key": 47,
+            "Value": 0
+          },
+          "icon_url": "https://www.dropbox.com/s/pdpum3gj4sfiowy/Mechanic.png?dl=1",
+          "skin": 2873054766,
+          "permissions": null
+        },
+        "Tank": {
+          "enabled": true,
+          "max_level": 1,
+          "tier": 4,
+          "value_per_buff": 1.0,
+          "buff_info": {
+            "Key": 994,
+            "Value": 0
+          },
+          "icon_url": "https://www.dropbox.com/s/xdcl74d0e82e32l/Tank.png?dl=1",
+          "skin": 2873054991,
+          "permissions": null
+        }
+      }
+    },
+    "Cooking": {
+      "nodes": {
+        "Easily satisfied": {
+          "enabled": true,
+          "max_level": 5,
+          "tier": 1,
+          "value_per_buff": 0.2,
+          "buff_info": {
+            "Key": 20,
+            "Value": 1
+          },
+          "icon_url": "https://www.dropbox.com/s/473rrrfjnt9huij/Easily_Satisfied.png?dl=1",
+          "skin": 2873055105,
+          "permissions": null
+        },
+        "Iron Stomach": {
+          "enabled": true,
+          "max_level": 1,
+          "tier": 2,
+          "value_per_buff": 1.0,
+          "buff_info": {
+            "Key": 41,
+            "Value": 0
+          },
+          "icon_url": "https://www.dropbox.com/s/221dsnnubpa2825/Iron_Stomach.png?dl=1",
+          "skin": 2873055201,
+          "permissions": null
+        },
+        "Glutton": {
+          "enabled": true,
+          "max_level": 5,
+          "tier": 2,
+          "value_per_buff": 0.2,
+          "buff_info": {
+            "Key": 53,
+            "Value": 1
+          },
+          "icon_url": "https://www.dropbox.com/s/t0r4pttz6b7663c/Glutton.png?dl=1",
+          "skin": 2873055301,
+          "permissions": null
+        },
+        "Fruggal Rationer": {
+          "enabled": true,
+          "max_level": 5,
+          "tier": 3,
+          "value_per_buff": 0.1,
+          "buff_info": {
+            "Key": 49,
+            "Value": 1
+          },
+          "icon_url": "https://www.dropbox.com/s/azdltk7o99y7mpk/Fruggal_Rationer.png?dl=1",
+          "skin": 2873055400,
+          "permissions": null
+        }
+      }
+    },
+    "Underwater": {
+      "nodes": {
+        "Cage Diver": {
+          "enabled": true,
+          "max_level": 5,
+          "tier": 1,
+          "value_per_buff": 0.1,
+          "buff_info": {
+            "Key": 64,
+            "Value": 1
+          },
+          "icon_url": "https://www.dropbox.com/s/hti5v35qh45lj94/Cage_Diver.png?dl=1",
+          "skin": 2873055798,
+          "permissions": null
+        },
+        "Gilled": {
+          "enabled": true,
+          "max_level": 5,
+          "tier": 1,
+          "value_per_buff": 60.0,
+          "buff_info": {
+            "Key": 63,
+            "Value": 2
+          },
+          "icon_url": "https://www.dropbox.com/s/e48z07x10qkmh4s/Gilled.png?dl=1",
+          "skin": 2873055882,
+          "permissions": null
+        },
+        "Reckless Diver": {
+          "enabled": true,
+          "max_level": 5,
+          "tier": 2,
+          "value_per_buff": 0.1,
+          "buff_info": {
+            "Key": 64,
+            "Value": 1
+          },
+          "icon_url": "https://www.dropbox.com/s/k204yk4b6upj0r4/Reckless_Diver.png?dl=1",
+          "skin": 2873056389,
+          "permissions": null
+        },
+        "Shark Veterinarian": {
+          "enabled": true,
+          "max_level": 5,
+          "tier": 2,
+          "value_per_buff": 0.02,
+          "buff_info": {
+            "Key": 65,
+            "Value": 1
+          },
+          "icon_url": "https://www.dropbox.com/s/zjiqshz9tzpgh82/Shark_Veterinarian.png?dl=1",
+          "skin": 2873056528,
+          "permissions": null
+        },
+        "Treasure Hunter": {
+          "enabled": true,
+          "max_level": 5,
+          "tier": 3,
+          "value_per_buff": 0.02,
+          "buff_info": {
+            "Key": 66,
+            "Value": 1
+          },
+          "icon_url": "https://www.dropbox.com/s/po3zsz763hopkjc/Treasure_Hunter.png?dl=1",
+          "skin": 2873056606,
+          "permissions": null
+        },
+        "Nimble Fingers": {
+          "enabled": true,
+          "max_level": 1,
+          "tier": 3,
+          "value_per_buff": 1.0,
+          "buff_info": {
+            "Key": 67,
+            "Value": 0
+          },
+          "icon_url": "https://www.dropbox.com/s/3m853nqxq2qmoih/Nimble_Fingers.png?dl=1",
+          "skin": 2873056697,
+          "permissions": null
+        },
+        "Aquatic Combatant": {
+          "enabled": true,
+          "max_level": 5,
+          "tier": 3,
+          "value_per_buff": 0.1,
+          "buff_info": {
+            "Key": 68,
+            "Value": 1
+          },
+          "icon_url": "https://www.dropbox.com/s/683npn5fwvkbtni/Aquatic_Combatant.png?dl=1",
+          "skin": 2873056786,
+          "permissions": null
+        }
+      }
+    }
+  },
+  "Leveling information. Y value must be set to 2 or 3": {
+    "x": 0.07,
+    "y": 2,
+    "xp_table": {
+      "0": 0.0,
+      "1": 204.0,
+      "2": 816.0,
+      "3": 1836.0,
+      "4": 3265.0,
+      "5": 5102.0,
+      "6": 7346.0,
+      "7": 9999.0,
+      "8": 13061.0,
+      "9": 16530.0,
+      "10": 20408.0,
+      "11": 24693.0,
+      "12": 29387.0,
+      "13": 34489.0,
+      "14": 39999.0,
+      "15": 45918.0,
+      "16": 52244.0,
+      "17": 58979.0,
+      "18": 66122.0,
+      "19": 73673.0,
+      "20": 81632.0,
+      "21": 89999.0,
+      "22": 98775.0,
+      "23": 107959.0,
+      "24": 117551.0,
+      "25": 127551.0,
+      "26": 137959.0,
+      "27": 148775.0,
+      "28": 159999.0,
+      "29": 171632.0,
+      "30": 183673.0,
+      "31": 196122.0,
+      "32": 208979.0,
+      "33": 222244.0,
+      "34": 235918.0,
+      "35": 249999.0,
+      "36": 264489.0,
+      "37": 279387.0,
+      "38": 294693.0,
+      "39": 310408.0,
+      "40": 326530.0,
+      "41": 343061.0,
+      "42": 359999.0,
+      "43": 377346.0,
+      "44": 395102.0,
+      "45": 413265.0,
+      "46": 431836.0,
+      "47": 450816.0,
+      "48": 470204.0,
+      "49": 489999.0,
+      "50": 510204.0,
+      "51": 530816.0,
+      "52": 551836.0,
+      "53": 573265.0,
+      "54": 595102.0,
+      "55": 617346.0,
+      "56": 639999.0,
+      "57": 663061.0,
+      "58": 686530.0,
+      "59": 710408.0,
+      "60": 734693.0,
+      "61": 759387.0,
+      "62": 784489.0,
+      "63": 809999.0,
+      "64": 835918.0,
+      "65": 862244.0,
+      "66": 888979.0,
+      "67": 916122.0,
+      "68": 943673.0,
+      "69": 971632.0,
+      "70": 999999.0,
+      "71": 1028775.0,
+      "72": 1057959.0,
+      "73": 1087551.0,
+      "74": 1117551.0,
+      "75": 1147959.0,
+      "76": 1178775.0,
+      "77": 1210000.0,
+      "78": 1241632.0,
+      "79": 1273673.0,
+      "80": 1306122.0,
+      "81": 1338979.0,
+      "82": 1372244.0,
+      "83": 1405918.0,
+      "84": 1439999.0,
+      "85": 1474489.0,
+      "86": 1509387.0,
+      "87": 1544693.0,
+      "88": 1580408.0,
+      "89": 1616530.0,
+      "90": 1653061.0,
+      "91": 1689999.0,
+      "92": 1727346.0,
+      "93": 1765102.0,
+      "94": 1803265.0,
+      "95": 1841836.0,
+      "96": 1880816.0,
+      "97": 1920204.0,
+      "98": 1959999.0,
+      "99": 2000204.0,
+      "100": 2040816.0
+    }
+  }
+}

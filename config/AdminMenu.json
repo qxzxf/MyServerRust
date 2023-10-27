@@ -1,0 +1,136 @@
+{
+  "Chat Command List": [
+    {
+      "Name": "These are examples",
+      "Command": "/example",
+      "Description": "To show how to create your own",
+      "CloseOnRun": false,
+      "RequiredPermission": ""
+    },
+    {
+      "Name": "TP to 0 0 0",
+      "Command": "/tp 0 0 0",
+      "Description": "Teleport self to 0 0 0",
+      "CloseOnRun": false,
+      "RequiredPermission": ""
+    },
+    {
+      "Name": "TP to player",
+      "Command": "/tp {target1_name}",
+      "Description": "Teleport self to player",
+      "CloseOnRun": false,
+      "RequiredPermission": ""
+    },
+    {
+      "Name": "TP P2P",
+      "Command": "/tp {target1_name} {target2_name}",
+      "Description": "Teleport player to player",
+      "CloseOnRun": false,
+      "RequiredPermission": ""
+    },
+    {
+      "Name": "God",
+      "Command": "/god",
+      "Description": "Toggle god mode",
+      "CloseOnRun": false,
+      "RequiredPermission": ""
+    }
+  ],
+  "Console Command List": [
+    {
+      "Name": "These are examples",
+      "Command": "example",
+      "Description": "To show how to create your own",
+      "CloseOnRun": false,
+      "RequiredPermission": ""
+    },
+    {
+      "Name": "Set time to 9",
+      "Command": "env.time 9",
+      "Description": "Set the time to 9am",
+      "CloseOnRun": false,
+      "RequiredPermission": ""
+    },
+    {
+      "Name": "Set to to 22",
+      "Command": "env.time 22",
+      "Description": "Set the time to 10pm",
+      "CloseOnRun": false,
+      "RequiredPermission": ""
+    },
+    {
+      "Name": "TP P2P",
+      "Command": "teleport.topos {target1_name} {target2_name}",
+      "Description": "Teleport player to player",
+      "CloseOnRun": false,
+      "RequiredPermission": ""
+    },
+    {
+      "Name": "Call random strike",
+      "Command": "airstrike strike random",
+      "Description": "Call a random Airstrike",
+      "CloseOnRun": false,
+      "RequiredPermission": ""
+    }
+  ],
+  "Player Info Custom Commands": [
+    {
+      "Name": "Backpacks",
+      "Commands": [
+        {
+          "RequiredPlugin": "Backpacks",
+          "Command Type ( Chat, Console )": "Chat",
+          "Name": "View Backpack",
+          "Command": "/viewbackpack {target1_id}",
+          "Description": null,
+          "CloseOnRun": true,
+          "RequiredPermission": "backpacks.admin"
+        }
+      ]
+    },
+    {
+      "Name": "InventoryViewer",
+      "Commands": [
+        {
+          "RequiredPlugin": "InventoryViewer",
+          "Command Type ( Chat, Console )": "Chat",
+          "Name": "View Inventory",
+          "Command": "/viewinv {target1_id}",
+          "Description": null,
+          "CloseOnRun": true,
+          "RequiredPermission": "inventoryviewer.allowed"
+        }
+      ]
+    },
+    {
+      "Name": "Freeze",
+      "Commands": [
+        {
+          "RequiredPlugin": "Freeze",
+          "Command Type ( Chat, Console )": "Chat",
+          "Name": "Freeze",
+          "Command": "/freeze {target1_id}",
+          "Description": null,
+          "CloseOnRun": false,
+          "RequiredPermission": "freeze.use"
+        },
+        {
+          "RequiredPlugin": "Freeze",
+          "Command Type ( Chat, Console )": "Chat",
+          "Name": "Unfreeze",
+          "Command": "/unfreeze {target1_id}",
+          "Description": null,
+          "CloseOnRun": false,
+          "RequiredPermission": "freeze.use"
+        }
+      ]
+    }
+  ],
+  "Use different permissions for each section of the player administration tab": false,
+  "Log menu actions to Discord webhook (webhook URL)": "",
+  "Version": {
+    "Major": 2,
+    "Minor": 0,
+    "Patch": 18
+  }
+}

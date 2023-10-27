@@ -1,0 +1,20 @@
+{
+  "Amount of entities to paste per batch. Use to tweak performance impact of pasting": 15,
+  "Amount of entities to copy per batch. Use to tweak performance impact of copying": 100,
+  "Amount of entities to undo per batch. Use to tweak performance impact of undoing": 15,
+  "Enable data saving feature": true,
+  "Copy Options": {
+    "Check radius from each entity (true/false)": true,
+    "Share (true/false)": false,
+    "Tree (true/false)": false,
+    "Default radius to look for entities from block": 3.0
+  },
+  "Paste Options": {
+    "Auth (true/false)": false,
+    "Deployables (true/false)": true,
+    "Inventories (true/false)": true,
+    "Vending Machines (true/false)": true,
+    "Stability (true/false)": true,
+    "EntityOwner (true/false)": true
+  }
+}

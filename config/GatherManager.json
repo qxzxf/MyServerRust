@@ -1,0 +1,111 @@
+{
+  "Messages": {
+    "Dispensers": "Resource Dispensers",
+    "Excavators": "Excavators",
+    "HelpText": "/gather - показать подробную информацию о текущих настройках.",
+    "HelpTextAdmin": "To change the resources gained by gathering use the command:\r\ngather.rate <type:dispenser|pickup|quarry|survey> <resource> <multiplier>\r\nTo change the amount of resources in a dispenser type use the command:\r\ndispenser.scale <dispenser:tree|ore|corpse> <multiplier>\r\nTo change the time between Mining Quarry gathers:\r\nquarry.tickrate <seconds>",
+    "HelpTextMiningQuarrySpeed": "Time between Mining Quarry gathers: {0} second(s).",
+    "HelpTextPlayer": "Resources gained from gathering have been scaled to the following:",
+    "HelpTextPlayerDefault": "Default values.",
+    "HelpTextPlayerGains": "Resources gained from {0}:",
+    "InvalidArgumentsDispenserType": "Invalid arguments supplied! Use dispenser.scale <dispenser:tree|ore|corpse> <multiplier>",
+    "InvalidArgumentsGather": "Invalid arguments supplied! Use gather.rate <type:dispenser|pickup|quarry|survey> <resource> <multiplier>",
+    "InvalidArgumentsMiningQuarrySpeed": "Invalid arguments supplied! Use quarry.rate <time between gathers in seconds>",
+    "InvalidDispenser": "{0} is not a valid dispenser. Check gather.dispensers for a list of available options.",
+    "InvalidMiningQuarrySpeed": "You can't set the speed lower than 1 second!",
+    "InvalidModifier": "Invalid modifier supplied! The new modifier always needs to be bigger than 0!",
+    "InvalidResource": "{0} is not a valid resource. Check gather.resources for a list of available options.",
+    "MiningQuarries": "Mining Quarries",
+    "ModifyDispenser": "You have set the resource amount for {0} dispensers to x{1}",
+    "ModifyMiningQuarrySpeed": "The Mining Quarry will now provide resources every {0} seconds.",
+    "ModifyResource": "You have set the gather rate for {0} to x{1} from {2}.",
+    "ModifyResourceRemove": "You have reset the gather rate for {0} from {1}.",
+    "NotAllowed": "You don't have permission to use this command.",
+    "Pickups": "pickups",
+    "SurveyCharges": "Survey Charges"
+  },
+  "Options": {
+    "ExcavatorBeltSpeedMax": 0.1,
+    "ExcavatorResourceModifiers": {
+      "Animal Fat": 2.0,
+      "Bone Fragments": 2.0,
+      "Cloth": 2.0,
+      "High Quality Metal Ore": 2.0,
+      "Leather": 2.0,
+      "Raw Chicken Breast": 2.0,
+      "Raw Wolf Meat": 2.0,
+      "Stones": 2.0,
+      "Sulfur Ore": 2.0,
+      "Wood": 2.0,
+      "Mushroom": 2.0,
+      "pumpkin": 2.0,
+      "corn": 2.0
+    },
+    "ExcavatorResourceTickRate": 2.0,
+    "ExcavatorTimeForFullResources": 120.0,
+    "GatherDispenserModifiers": {
+      "Tree": 2.0
+    },
+    "GatherResourceModifiers": {
+      "Animal Fat": 2.0,
+      "Bone Fragments": 2.0,
+      "Cloth": 2.0,
+      "High Quality Metal Ore": 2.0,
+      "Leather": 2.0,
+      "Metal Ore": 2.0,
+      "Raw Chicken Breast": 2.0,
+      "Raw Wolf Meat": 2.0,
+      "Stones": 2.0,
+      "Sulfur Ore": 2.0,
+      "Wood": 2.0,
+      "Mushroom": 2.0,
+      "pumpkin": 2.0,
+      "corn": 2.0
+    },
+    "MiningQuarryResourceTickRate": 2.0,
+    "PickupResourceModifiers": {
+      "Animal Fat": 2.0,
+      "Bone Fragments": 2.0,
+      "Cloth": 2.0,
+      "High Quality Metal Ore": 2.0,
+      "Leather": 2.0,
+      "Raw Chicken Breast": 2.0,
+      "Raw Wolf Meat": 2.0,
+      "Stones": 2.0,
+      "Sulfur Ore": 2.0,
+      "Wood": 2.0,
+      "Mushroom": 2.0,
+      "pumpkin": 2.0,
+      "corn": 2.0
+    },
+    "QuarryResourceModifiers": {
+      "Animal Fat": 2.0,
+      "Bone Fragments": 2.0,
+      "Cloth": 4.0,
+      "High Quality Metal Ore": 2.0,
+      "Leather": 2.0,
+      "Raw Chicken Breast": 2.0,
+      "Raw Wolf Meat": 2.0,
+      "Stones": 2.0,
+      "Sulfur Ore": 2.0,
+      "Wood": 2.0,
+      "Mushroom": 2.0,
+      "pumpkin": 2.0,
+      "corn": 2.0
+    },
+    "SurveyResourceModifiers": {
+      "Animal Fat": 2.0,
+      "Bone Fragments": 2.0,
+      "High Quality Metal Ore": 2.0,
+      "Leather": 2.0,
+      "Metal Ore": 2.0,
+      "Raw Chicken Breast": 2.0,
+      "Raw Wolf Meat": 2.0,
+      "Sulfur Ore": 2.0
+    }
+  },
+  "Settings": {
+    "ChatPrefix": "Gather Manager",
+    "ChatPrefixColor": "#008000ff"
+  }
+}

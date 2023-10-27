@@ -1,0 +1,13 @@
+{
+  "Avatars - Store player avatars": false,
+  "Steam API key (get one here https://steamcommunity.com/dev/apikey)": "",
+  "URL to web folder containing all item icons": "https://www.rustedit.io/images/imagelibrary/",
+  "Progress - Show download progress in console": true,
+  "Progress - Time between update notifications": 20,
+  "User Images - Manually define images to be loaded": {},
+  "Version": {
+    "Major": 2,
+    "Minor": 0,
+    "Patch": 62
+  }
+}

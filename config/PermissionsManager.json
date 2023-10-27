@@ -1,0 +1,21 @@
+{
+  "Options - GUI Transparency 0-1": 0.9,
+  "Chat - Title colour": "<color=orange>",
+  "Chat - Message colour": "<color=white>",
+  "Options - Plugin BlockList": "",
+  "GUI - Label colour": "0.7 0.32 0.17 1",
+  "GUI - On colour": "0.7 0.32 0.17 1",
+  "GUI - Off colour": "0.2 0.2 0.2 1",
+  "GUI - All = per page": false,
+  "GUI - Inherited colour": "0.9 0.6 0.17 1",
+  "Keep_Perms_After_Wipe": false,
+  "MySQL": {
+    "useMySQL": false,
+    "sql_port": 3306,
+    "sql_host": "",
+    "sql_db": "",
+    "sql_user": "",
+    "sql_pass": "",
+    "tablename": "PermissionsManager"
+  }
+}

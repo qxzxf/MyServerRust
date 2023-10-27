@@ -1,0 +1,126 @@
+{
+  "Version": {
+    "Major": 1,
+    "Minor": 0,
+    "Patch": 1
+  },
+  "NoBurntMeat": false,
+  "Ovens": {
+    "bbq.deployed": {
+      "Multiplier": 1,
+      "NoFuelRequired": false
+    },
+    "campfire": {
+      "Multiplier": 1,
+      "NoFuelRequired": false
+    },
+    "fireplace.deployed": {
+      "Multiplier": 1,
+      "NoFuelRequired": false
+    },
+    "furnace.large": {
+      "Multiplier": 1,
+      "NoFuelRequired": false
+    },
+    "furnace": {
+      "Multiplier": 1,
+      "NoFuelRequired": false
+    },
+    "hobobarrel_static": {
+      "Multiplier": 1,
+      "NoFuelRequired": false
+    },
+    "hobobarrel.deployed": {
+      "Multiplier": 1,
+      "NoFuelRequired": false
+    },
+    "refinery_small_deployed": {
+      "Multiplier": 1,
+      "NoFuelRequired": false
+    },
+    "skull_fire_pit": {
+      "Multiplier": 1,
+      "NoFuelRequired": false
+    },
+    "small_refinery_static": {
+      "Multiplier": 1,
+      "NoFuelRequired": false
+    }
+  },
+  "Products": {
+    "sticks": {
+      "CookTime": 30.0,
+      "Amount": 1
+    },
+    "fish.raw": {
+      "CookTime": 20.0,
+      "Amount": 1
+    },
+    "chicken.raw": {
+      "CookTime": 30.0,
+      "Amount": 1
+    },
+    "deermeat.raw": {
+      "CookTime": 30.0,
+      "Amount": 1
+    },
+    "horsemeat.raw": {
+      "CookTime": 26.0,
+      "Amount": 1
+    },
+    "humanmeat.raw": {
+      "CookTime": 30.0,
+      "Amount": 1
+    },
+    "bearmeat": {
+      "CookTime": 30.0,
+      "Amount": 1
+    },
+    "wolfmeat.raw": {
+      "CookTime": 30.0,
+      "Amount": 1
+    },
+    "meat.boar": {
+      "CookTime": 30.0,
+      "Amount": 1
+    },
+    "crude.oil": {
+      "CookTime": 10.0,
+      "Amount": 3
+    },
+    "can.beans.empty": {
+      "CookTime": 30.0,
+      "Amount": 15
+    },
+    "can.tuna.empty": {
+      "CookTime": 30.0,
+      "Amount": 10
+    },
+    "hq.metal.ore": {
+      "CookTime": 20.0,
+      "Amount": 1
+    },
+    "metal.ore": {
+      "CookTime": 10.0,
+      "Amount": 1
+    },
+    "sulfur.ore": {
+      "CookTime": 5.0,
+      "Amount": 1
+    }
+  },
+  "Fuel": {
+    "door.key": {
+      "ByProduct": "charcoal",
+      "FuelAmount": 10.0,
+      "ByProductAmount": 1,
+      "ByProductChance": 0.0
+    },
+    "wood": {
+      "ByProduct": "charcoal",
+      "FuelAmount": 10.0,
+      "ByProductAmount": 1,
+      "ByProductChance": 0.75
+    }
+  }
+}

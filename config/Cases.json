@@ -1,0 +1,1466 @@
+{
+  "Enable item scrolling?": true,
+  "Work with Notify?": true,
+  "Permission (ex: cases.use)": "",
+  "Amount of items in the roulette": 26,
+  "Commands": [
+    "cases",
+    "opencase"
+  ],
+  "Economy": {
+    "Show Balance": true,
+    "Type (Plugin/Item)": "Plugin",
+    "Plugin name": "EconomicsEvo",
+    "Balance add hook": "AddBalanceByID",
+    "Balance remove hook": "RemoveBalanceByID",
+    "Balance show hook": "GetBalance",
+    "ShortName": "scrap",
+    "Display Name (empty - default)": "",
+    "Skin": 0
+  },
+  "Rarity Colors (chance - color)": {
+    "70": {
+      "HEX": "#AFAFAF",
+      "Opacity (0 - 100)": 75.0
+    },
+    "65": {
+      "HEX": "#6496E1",
+      "Opacity (0 - 100)": 75.0
+    },
+    "55": {
+      "HEX": "#4B69CD",
+      "Opacity (0 - 100)": 75.0
+    },
+    "50": {
+      "HEX": "#8847FF",
+      "Opacity (0 - 100)": 75.0
+    },
+    "45": {
+      "HEX": "#8847FF",
+      "Opacity (0 - 100)": 75.0
+    },
+    "40": {
+      "HEX": "#8847FF",
+      "Opacity (0 - 100)": 75.0
+    },
+    "35": {
+      "HEX": "#8847FF",
+      "Opacity (0 - 100)": 75.0
+    },
+    "30": {
+      "HEX": "#8847FF",
+      "Opacity (0 - 100)": 75.0
+    },
+    "25": {
+      "HEX": "#8847FF",
+      "Opacity (0 - 100)": 75.0
+    },
+    "20": {
+      "HEX": "#D32CE6",
+      "Opacity (0 - 100)": 75.0
+    },
+    "15": {
+      "HEX": "#D32CE6",
+      "Opacity (0 - 100)": 75.0
+    },
+    "10": {
+      "HEX": "#D32CE6",
+      "Opacity (0 - 100)": 75.0
+    },
+    "5": {
+      "HEX": "#EB4B4B",
+      "Opacity (0 - 100)": 75.0
+    }
+  },
+  "Playtime Tracker Settings": {
+    "Enabled": true,
+    "Playtime (seconds) - CaseID": {
+      "3600": 1,
+      "14400": 2,
+      "28800": 3,
+      "86400": 4
+    }
+  },
+  "Cases for time settings": {
+    "Enabled": false,
+    "Cooldown (seconds)": 14400.0,
+    "Cases (IDs)": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "Bonus Case": {
+    "Enabled": true,
+    "Cost": 0,
+    "Custom Currency": {
+      "Enabled": false,
+      "Cost Format": "{0} scrap",
+      "Type (Plugin/Item)": "Item",
+      "Plugin name": "",
+      "Balance add hook": "",
+      "Balance remove hook": "",
+      "Balance show hook": "",
+      "ShortName": "scrap",
+      "Display Name (empty - default)": "",
+      "Skin": 0
+    },
+    "ID": -1,
+    "Image": "https://i.ibb.co/k20w4ky/imperial-logo.png",
+    "Permission": "",
+    "Cooldown": 86400.0,
+    "Items": [
+      {
+        "Type": "Item",
+        "ID": 1,
+        "Image": "",
+        "Title": "",
+        "Command (%steamid%)": "",
+        "Plugin": {
+          "Hook": null,
+          "Plugin name": null,
+          "Amount": 0
+        },
+        "Display Name (empty - default)": "",
+        "ShortName": "wood",
+        "Skin": 0,
+        "Amount": 3500,
+        "Chance": 70.0
+      },
+      {
+        "Type": "Item",
+        "ID": 2,
+        "Image": "",
+        "Title": "",
+        "Command (%steamid%)": "",
+        "Plugin": {
+          "Hook": null,
+          "Plugin name": null,
+          "Amount": 0
+        },
+        "Display Name (empty - default)": "",
+        "ShortName": "stones",
+        "Skin": 0,
+        "Amount": 2500,
+        "Chance": 70.0
+      },
+      {
+        "Type": "Item",
+        "ID": 3,
+        "Image": "",
+        "Title": "",
+        "Command (%steamid%)": "",
+        "Plugin": {
+          "Hook": null,
+          "Plugin name": null,
+          "Amount": 0
+        },
+        "Display Name (empty - default)": "",
+        "ShortName": "leather",
+        "Skin": 0,
+        "Amount": 1000,
+        "Chance": 55.0
+      },
+      {
+        "Type": "Item",
+        "ID": 4,
+        "Image": "",
+        "Title": "",
+        "Command (%steamid%)": "",
+        "Plugin": {
+          "Hook": null,
+          "Plugin name": null,
+          "Amount": 0
+        },
+        "Display Name (empty - default)": "",
+        "ShortName": "cloth",
+        "Skin": 0,
+        "Amount": 1000,
+        "Chance": 55.0
+      },
+      {
+        "Type": "Item",
+        "ID": 5,
+        "Image": "",
+        "Title": "",
+        "Command (%steamid%)": "",
+        "Plugin": {
+          "Hook": null,
+          "Plugin name": null,
+          "Amount": 0
+        },
+        "Display Name (empty - default)": "",
+        "ShortName": "lowgradefuel",
+        "Skin": 0,
+        "Amount": 500,
+        "Chance": 50.0
+      },
+      {
+        "Type": "Item",
+        "ID": 6,
+        "Image": "",
+        "Title": "",
+        "Command (%steamid%)": "",
+        "Plugin": {
+          "Hook": null,
+          "Plugin name": null,
+          "Amount": 0
+        },
+        "Display Name (empty - default)": "",
+        "ShortName": "metal.fragments",
+        "Skin": 0,
+        "Amount": 1500,
+        "Chance": 65.0
+      },
+      {
+        "Type": "Item",
+        "ID": 7,
+        "Image": "",
+        "Title": "",
+        "Command (%steamid%)": "",
+        "Plugin": {
+          "Hook": null,
+          "Plugin name": null,
+          "Amount": 0
+        },
+        "Display Name (empty - default)": "",
+        "ShortName": "metal.refined",
+        "Skin": 0,
+        "Amount": 150,
+        "Chance": 65.0
+      },
+      {
+        "Type": "Item",
+        "ID": 8,
+        "Image": "",
+        "Title": "",
+        "Command (%steamid%)": "",
+        "Plugin": {
+          "Hook": null,
+          "Plugin name": null,
+          "Amount": 0
+        },
+        "Display Name (empty - default)": "",
+        "ShortName": "sulfur",
+        "Skin": 0,
+        "Amount": 2500,
+        "Chance": 55.0
+      },
+      {
+        "Type": "Item",
+        "ID": 9,
+        "Image": "",
+        "Title": "",
+        "Command (%steamid%)": "",
+        "Plugin": {
+          "Hook": null,
+          "Plugin name": null,
+          "Amount": 0
+        },
+        "Display Name (empty - default)": "",
+        "ShortName": "gunpowder",
+        "Skin": 0,
+        "Amount": 1500,
+        "Chance": 45.0
+      },
+      {
+        "Type": "Item",
+        "ID": 10,
+        "Image": "",
+        "Title": "",
+        "Command (%steamid%)": "",
+        "Plugin": {
+          "Hook": null,
+          "Plugin name": null,
+          "Amount": 0
+        },
+        "Display Name (empty - default)": "",
+        "ShortName": "explosive.timed",
+        "Skin": 0,
+        "Amount": 1,
+        "Chance": 5.0
+      }
+    ]
+  },
+  "Cases": [
+    {
+      "Cost": 3,
+      "Custom Currency": {
+        "Enabled": false,
+        "Cost Format": "{0} scrap",
+        "Type (Plugin/Item)": "Item",
+        "Plugin name": "",
+        "Balance add hook": "",
+        "Balance remove hook": "",
+        "Balance show hook": "",
+        "ShortName": "scrap",
+        "Display Name (empty - default)": "",
+        "Skin": 0
+      },
+      "ID": 1,
+      "Image": "https://i.ibb.co/kqxYKx1/ESOwiki-aldmeridominion-crest.png",
+      "Permission": "",
+      "Cooldown": 0.0,
+      "Items": [
+        {
+          "Type": "Item",
+          "ID": 11,
+          "Image": "",
+          "Title": "",
+          "Command (%steamid%)": "",
+          "Plugin": {
+            "Hook": null,
+            "Plugin name": null,
+            "Amount": 0
+          },
+          "Display Name (empty - default)": "",
+          "ShortName": "gunpowder",
+          "Skin": 0,
+          "Amount": 1000,
+          "Chance": 50.0
+        },
+        {
+          "Type": "Item",
+          "ID": 11,
+          "Image": "",
+          "Title": "",
+          "Command (%steamid%)": "",
+          "Plugin": {
+            "Hook": null,
+            "Plugin name": null,
+            "Amount": 0
+          },
+          "Display Name (empty - default)": "",
+          "ShortName": "sulfur",
+          "Skin": 0,
+          "Amount": 2000,
+          "Chance": 50.0
+        },
+        {
+          "Type": "Item",
+          "ID": 11,
+          "Image": "",
+          "Title": "",
+          "Command (%steamid%)": "",
+          "Plugin": {
+            "Hook": null,
+            "Plugin name": null,
+            "Amount": 0
+          },
+          "Display Name (empty - default)": "",
+          "ShortName": "metal.refined",
+          "Skin": 0,
+          "Amount": 500,
+          "Chance": 50.0
+        },
+        {
+          "Type": "Item",
+          "ID": 11,
+          "Image": "",
+          "Title": "",
+          "Command (%steamid%)": "",
+          "Plugin": {
+            "Hook": null,
+            "Plugin name": null,
+            "Amount": 0
+          },
+          "Display Name (empty - default)": "",
+          "ShortName": "metalblade",
+          "Skin": 0,
+          "Amount": 40,
+          "Chance": 50.0
+        },
+        {
+          "Type": "Item",
+          "ID": 12,
+          "Image": "",
+          "Title": "",
+          "Command (%steamid%)": "",
+          "Plugin": {
+            "Hook": null,
+            "Plugin name": null,
+            "Amount": 0
+          },
+          "Display Name (empty - default)": "",
+          "ShortName": "sewingkit",
+          "Skin": 0,
+          "Amount": 30,
+          "Chance": 50.0
+        },
+        {
+          "Type": "Item",
+          "ID": 14,
+          "Image": "",
+          "Title": "",
+          "Command (%steamid%)": "",
+          "Plugin": {
+            "Hook": null,
+            "Plugin name": null,
+            "Amount": 0
+          },
+          "Display Name (empty - default)": "",
+          "ShortName": "roadsigns",
+          "Skin": 0,
+          "Amount": 15,
+          "Chance": 50.0
+        },
+        {
+          "Type": "Item",
+          "ID": 15,
+          "Image": "",
+          "Title": "",
+          "Command (%steamid%)": "",
+          "Plugin": {
+            "Hook": null,
+            "Plugin name": null,
+            "Amount": 0
+          },
+          "Display Name (empty - default)": "",
+          "ShortName": "metalpipe",
+          "Skin": 0,
+          "Amount": 20,
+          "Chance": 50.0
+        },
+        {
+          "Type": "Item",
+          "ID": 16,
+          "Image": "",
+          "Title": "",
+          "Command (%steamid%)": "",
+          "Plugin": {
+            "Hook": null,
+            "Plugin name": null,
+            "Amount": 0
+          },
+          "Display Name (empty - default)": "",
+          "ShortName": "gears",
+          "Skin": 0,
+          "Amount": 15,
+          "Chance": 50.0
+        },
+        {
+          "Type": "Item",
+          "ID": 17,
+          "Image": "",
+          "Title": "",
+          "Command (%steamid%)": "",
+          "Plugin": {
+            "Hook": null,
+            "Plugin name": null,
+            "Amount": 0
+          },
+          "Display Name (empty - default)": "",
+          "ShortName": "smgbody",
+          "Skin": 0,
+          "Amount": 5,
+          "Chance": 50.0
+        },
+        {
+          "Type": "Item",
+          "ID": 18,
+          "Image": "",
+          "Title": "",
+          "Command (%steamid%)": "",
+          "Plugin": {
+            "Hook": null,
+            "Plugin name": null,
+            "Amount": 0
+          },
+          "Display Name (empty - default)": "",
+          "ShortName": "smgbody",
+          "Skin": 0,
+          "Amount": 5,
+          "Chance": 20.0
+        },
+        {
+          "Type": "Item",
+          "ID": 19,
+          "Image": "",
+          "Title": "",
+          "Command (%steamid%)": "",
+          "Plugin": {
+            "Hook": null,
+            "Plugin name": null,
+            "Amount": 0
+          },
+          "Display Name (empty - default)": "",
+          "ShortName": "metalspring",
+          "Skin": 0,
+          "Amount": 20,
+          "Chance": 50.0
+        },
+        {
+          "Type": "Item",
+          "ID": 20,
+          "Image": "",
+          "Title": "",
+          "Command (%steamid%)": "",
+          "Plugin": {
+            "Hook": null,
+            "Plugin name": null,
+            "Amount": 0
+          },
+          "Display Name (empty - default)": "",
+          "ShortName": "semibody",
+          "Skin": 0,
+          "Amount": 3,
+          "Chance": 15.0
+        },
+        {
+          "Type": "Item",
+          "ID": 21,
+          "Image": "",
+          "Title": "",
+          "Command (%steamid%)": "",
+          "Plugin": {
+            "Hook": null,
+            "Plugin name": null,
+            "Amount": 0
+          },
+          "Display Name (empty - default)": "",
+          "ShortName": "techparts",
+          "Skin": 0,
+          "Amount": 10,
+          "Chance": 25.0
+        },
+        {
+          "Type": "Item",
+          "ID": 22,
+          "Image": "",
+          "Title": "",
+          "Command (%steamid%)": "",
+          "Plugin": {
+            "Hook": null,
+            "Plugin name": null,
+            "Amount": 0
+          },
+          "Display Name (empty - default)": "",
+          "ShortName": "riflebody",
+          "Skin": 0,
+          "Amount": 10,
+          "Chance": 5.0
+        },
+        {
+          "Type": "Item",
+          "ID": 55,
+          "Image": "",
+          "Title": "",
+          "Command (%steamid%)": "",
+          "Plugin": {
+            "Hook": null,
+            "Plugin name": null,
+            "Amount": 0
+          },
+          "Display Name (empty - default)": "",
+          "ShortName": "wood",
+          "Skin": 0,
+          "Amount": 20000,
+          "Chance": 70.0
+        },
+        {
+          "Type": "Item",
+          "ID": 56,
+          "Image": "",
+          "Title": "",
+          "Command (%steamid%)": "",
+          "Plugin": {
+            "Hook": null,
+            "Plugin name": null,
+            "Amount": 0
+          },
+          "Display Name (empty - default)": "",
+          "ShortName": "stones",
+          "Skin": 0,
+          "Amount": 15000,
+          "Chance": 70.0
+        },
+        {
+          "Type": "Item",
+          "ID": 57,
+          "Image": "",
+          "Title": "",
+          "Command (%steamid%)": "",
+          "Plugin": {
+            "Hook": null,
+            "Plugin name": null,
+            "Amount": 0
+          },
+          "Display Name (empty - default)": "",
+          "ShortName": "leather",
+          "Skin": 0,
+          "Amount": 2400,
+          "Chance": 55.0
+        },
+        {
+          "Type": "Item",
+          "ID": 58,
+          "Image": "",
+          "Title": "",
+          "Command (%steamid%)": "",
+          "Plugin": {
+            "Hook": null,
+            "Plugin name": null,
+            "Amount": 0
+          },
+          "Display Name (empty - default)": "",
+          "ShortName": "cloth",
+          "Skin": 0,
+          "Amount": 2300,
+          "Chance": 55.0
+        },
+        {
+          "Type": "Item",
+          "ID": 59,
+          "Image": "",
+          "Title": "",
+          "Command (%steamid%)": "",
+          "Plugin": {
+            "Hook": null,
+            "Plugin name": null,
+            "Amount": 0
+          },
+          "Display Name (empty - default)": "",
+          "ShortName": "lowgradefuel",
+          "Skin": 0,
+          "Amount": 1500,
+          "Chance": 50.0
+        },
+        {
+          "Type": "Item",
+          "ID": 60,
+          "Image": "",
+          "Title": "",
+          "Command (%steamid%)": "",
+          "Plugin": {
+            "Hook": null,
+            "Plugin name": null,
+            "Amount": 0
+          },
+          "Display Name (empty - default)": "",
+          "ShortName": "roadsigns",
+          "Skin": 0,
+          "Amount": 35,
+          "Chance": 50.0
+        },
+        {
+          "Type": "Item",
+          "ID": 61,
+          "Image": "",
+          "Title": "",
+          "Command (%steamid%)": "",
+          "Plugin": {
+            "Hook": null,
+            "Plugin name": null,
+            "Amount": 0
+          },
+          "Display Name (empty - default)": "",
+          "ShortName": "metalpipe",
+          "Skin": 0,
+          "Amount": 40,
+          "Chance": 50.0
+        },
+        {
+          "Type": "Item",
+          "ID": 62,
+          "Image": "",
+          "Title": "",
+          "Command (%steamid%)": "",
+          "Plugin": {
+            "Hook": null,
+            "Plugin name": null,
+            "Amount": 0
+          },
+          "Display Name (empty - default)": "",
+          "ShortName": "gears",
+          "Skin": 0,
+          "Amount": 30,
+          "Chance": 50.0
+        }
+      ]
+    },
+    {
+      "Cost": 5,
+      "Custom Currency": {
+        "Enabled": false,
+        "Cost Format": "{0} scrap",
+        "Type (Plugin/Item)": "Item",
+        "Plugin name": "",
+        "Balance add hook": "",
+        "Balance remove hook": "",
+        "Balance show hook": "",
+        "ShortName": "scrap",
+        "Display Name (empty - default)": "",
+        "Skin": 0
+      },
+      "ID": 2,
+      "Image": "https://i.ibb.co/b3QxYtk/ESOwiki-daggerfallcovenant-crest.png",
+      "Permission": "",
+      "Cooldown": 0.0,
+      "Items": [
+        {
+          "Type": "Item",
+          "ID": 43,
+          "Image": "",
+          "Title": "",
+          "Command (%steamid%)": "",
+          "Plugin": {
+            "Hook": null,
+            "Plugin name": null,
+            "Amount": 0
+          },
+          "Display Name (empty - default)": "",
+          "ShortName": "scrap",
+          "Skin": 0,
+          "Amount": 500,
+          "Chance": 50.0
+        },
+        {
+          "Type": "Item",
+          "ID": 44,
+          "Image": "",
+          "Title": "",
+          "Command (%steamid%)": "",
+          "Plugin": {
+            "Hook": null,
+            "Plugin name": null,
+            "Amount": 0
+          },
+          "Display Name (empty - default)": "",
+          "ShortName": "gunpowder",
+          "Skin": 0,
+          "Amount": 3500,
+          "Chance": 50.0
+        },
+        {
+          "Type": "Item",
+          "ID": 45,
+          "Image": "",
+          "Title": "",
+          "Command (%steamid%)": "",
+          "Plugin": {
+            "Hook": null,
+            "Plugin name": null,
+            "Amount": 0
+          },
+          "Display Name (empty - default)": "",
+          "ShortName": "rifle.ak",
+          "Skin": 0,
+          "Amount": 1,
+          "Chance": 15.0
+        },
+        {
+          "Type": "Item",
+          "ID": 46,
+          "Image": "",
+          "Title": "",
+          "Command (%steamid%)": "",
+          "Plugin": {
+            "Hook": null,
+            "Plugin name": null,
+            "Amount": 0
+          },
+          "Display Name (empty - default)": "",
+          "ShortName": "rifle.semiauto",
+          "Skin": 0,
+          "Amount": 1,
+          "Chance": 20.0
+        },
+        {
+          "Type": "Item",
+          "ID": 47,
+          "Image": "",
+          "Title": "",
+          "Command (%steamid%)": "",
+          "Plugin": {
+            "Hook": null,
+            "Plugin name": null,
+            "Amount": 0
+          },
+          "Display Name (empty - default)": "",
+          "ShortName": "explosive.timed",
+          "Skin": 0,
+          "Amount": 5,
+          "Chance": 20.0
+        },
+        {
+          "Type": "Item",
+          "ID": 48,
+          "Image": "",
+          "Title": "",
+          "Command (%steamid%)": "",
+          "Plugin": {
+            "Hook": null,
+            "Plugin name": null,
+            "Amount": 0
+          },
+          "Display Name (empty - default)": "",
+          "ShortName": "sulfur",
+          "Skin": 0,
+          "Amount": 5000,
+          "Chance": 50.0
+        },
+        {
+          "Type": "Item",
+          "ID": 49,
+          "Image": "",
+          "Title": "",
+          "Command (%steamid%)": "",
+          "Plugin": {
+            "Hook": null,
+            "Plugin name": null,
+            "Amount": 0
+          },
+          "Display Name (empty - default)": "",
+          "ShortName": "metal.refined",
+          "Skin": 0,
+          "Amount": 300,
+          "Chance": 50.0
+        },
+        {
+          "Type": "Item",
+          "ID": 50,
+          "Image": "",
+          "Title": "",
+          "Command (%steamid%)": "",
+          "Plugin": {
+            "Hook": null,
+            "Plugin name": null,
+            "Amount": 0
+          },
+          "Display Name (empty - default)": "",
+          "ShortName": "stones",
+          "Skin": 0,
+          "Amount": 8000,
+          "Chance": 60.0
+        },
+        {
+          "Type": "Item",
+          "ID": 51,
+          "Image": "",
+          "Title": "",
+          "Command (%steamid%)": "",
+          "Plugin": {
+            "Hook": null,
+            "Plugin name": null,
+            "Amount": 0
+          },
+          "Display Name (empty - default)": "",
+          "ShortName": "wood",
+          "Skin": 0,
+          "Amount": 8000,
+          "Chance": 60.0
+        },
+        {
+          "Type": "Item",
+          "ID": 53,
+          "Image": "",
+          "Title": "",
+          "Command (%steamid%)": "",
+          "Plugin": {
+            "Hook": null,
+            "Plugin name": null,
+            "Amount": 0
+          },
+          "Display Name (empty - default)": "",
+          "ShortName": "ammo.rocket.basic",
+          "Skin": 0,
+          "Amount": 4,
+          "Chance": 50.0
+        },
+        {
+          "Type": "Item",
+          "ID": 23,
+          "Image": "",
+          "Title": "",
+          "Command (%steamid%)": "",
+          "Plugin": {
+            "Hook": null,
+            "Plugin name": null,
+            "Amount": 0
+          },
+          "Display Name (empty - default)": "",
+          "ShortName": "pistol.semiauto",
+          "Skin": 0,
+          "Amount": 1,
+          "Chance": 50.0
+        },
+        {
+          "Type": "Item",
+          "ID": 24,
+          "Image": "",
+          "Title": "",
+          "Command (%steamid%)": "",
+          "Plugin": {
+            "Hook": null,
+            "Plugin name": null,
+            "Amount": 0
+          },
+          "Display Name (empty - default)": "",
+          "ShortName": "pistol.python",
+          "Skin": 0,
+          "Amount": 1,
+          "Chance": 50.0
+        },
+        {
+          "Type": "Item",
+          "ID": 25,
+          "Image": "",
+          "Title": "",
+          "Command (%steamid%)": "",
+          "Plugin": {
+            "Hook": null,
+            "Plugin name": null,
+            "Amount": 0
+          },
+          "Display Name (empty - default)": "",
+          "ShortName": "pistol.m92",
+          "Skin": 0,
+          "Amount": 1,
+          "Chance": 50.0
+        },
+        {
+          "Type": "Item",
+          "ID": 26,
+          "Image": "",
+          "Title": "",
+          "Command (%steamid%)": "",
+          "Plugin": {
+            "Hook": null,
+            "Plugin name": null,
+            "Amount": 0
+          },
+          "Display Name (empty - default)": "",
+          "ShortName": "smg.2",
+          "Skin": 0,
+          "Amount": 1,
+          "Chance": 40.0
+        },
+        {
+          "Type": "Item",
+          "ID": 27,
+          "Image": "",
+          "Title": "",
+          "Command (%steamid%)": "",
+          "Plugin": {
+            "Hook": null,
+            "Plugin name": null,
+            "Amount": 0
+          },
+          "Display Name (empty - default)": "",
+          "ShortName": "rifle.m39",
+          "Skin": 0,
+          "Amount": 1,
+          "Chance": 20.0
+        },
+        {
+          "Type": "Item",
+          "ID": 28,
+          "Image": "",
+          "Title": "",
+          "Command (%steamid%)": "",
+          "Plugin": {
+            "Hook": null,
+            "Plugin name": null,
+            "Amount": 0
+          },
+          "Display Name (empty - default)": "",
+          "ShortName": "smg.thompson",
+          "Skin": 0,
+          "Amount": 1,
+          "Chance": 40.0
+        },
+        {
+          "Type": "Item",
+          "ID": 29,
+          "Image": "",
+          "Title": "",
+          "Command (%steamid%)": "",
+          "Plugin": {
+            "Hook": null,
+            "Plugin name": null,
+            "Amount": 0
+          },
+          "Display Name (empty - default)": "",
+          "ShortName": "rifle.semiauto",
+          "Skin": 0,
+          "Amount": 1,
+          "Chance": 20.0
+        },
+        {
+          "Type": "Item",
+          "ID": 31,
+          "Image": "",
+          "Title": "",
+          "Command (%steamid%)": "",
+          "Plugin": {
+            "Hook": null,
+            "Plugin name": null,
+            "Amount": 0
+          },
+          "Display Name (empty - default)": "",
+          "ShortName": "rifle.bolt",
+          "Skin": 0,
+          "Amount": 1,
+          "Chance": 15.0
+        },
+        {
+          "Type": "Item",
+          "ID": 54,
+          "Image": "",
+          "Title": "",
+          "Command (%steamid%)": "",
+          "Plugin": {
+            "Hook": null,
+            "Plugin name": null,
+            "Amount": 0
+          },
+          "Display Name (empty - default)": "",
+          "ShortName": "rifle.ak",
+          "Skin": 0,
+          "Amount": 1,
+          "Chance": 15.0
+        }
+      ]
+    },
+    {
+      "Cost": 10,
+      "Custom Currency": {
+        "Enabled": false,
+        "Cost Format": "{0} scrap",
+        "Type (Plugin/Item)": "Item",
+        "Plugin name": "",
+        "Balance add hook": "",
+        "Balance remove hook": "",
+        "Balance show hook": "",
+        "ShortName": "scrap",
+        "Display Name (empty - default)": "",
+        "Skin": 0
+      },
+      "ID": 3,
+      "Image": "https://i.ibb.co/mJtwcMX/ESOwiki-ebonheartpact-crest.png",
+      "Permission": "",
+      "Cooldown": 0.0,
+      "Items": [
+        {
+          "Type": "Item",
+          "ID": 23,
+          "Image": "",
+          "Title": "",
+          "Command (%steamid%)": "",
+          "Plugin": {
+            "Hook": null,
+            "Plugin name": null,
+            "Amount": 0
+          },
+          "Display Name (empty - default)": "",
+          "ShortName": "pistol.semiauto",
+          "Skin": 0,
+          "Amount": 1,
+          "Chance": 50.0
+        },
+        {
+          "Type": "Item",
+          "ID": 24,
+          "Image": "",
+          "Title": "",
+          "Command (%steamid%)": "",
+          "Plugin": {
+            "Hook": null,
+            "Plugin name": null,
+            "Amount": 0
+          },
+          "Display Name (empty - default)": "",
+          "ShortName": "pistol.python",
+          "Skin": 0,
+          "Amount": 1,
+          "Chance": 50.0
+        },
+        {
+          "Type": "Item",
+          "ID": 25,
+          "Image": "",
+          "Title": "",
+          "Command (%steamid%)": "",
+          "Plugin": {
+            "Hook": null,
+            "Plugin name": null,
+            "Amount": 0
+          },
+          "Display Name (empty - default)": "",
+          "ShortName": "pistol.m92",
+          "Skin": 0,
+          "Amount": 1,
+          "Chance": 50.0
+        },
+        {
+          "Type": "Item",
+          "ID": 26,
+          "Image": "",
+          "Title": "",
+          "Command (%steamid%)": "",
+          "Plugin": {
+            "Hook": null,
+            "Plugin name": null,
+            "Amount": 0
+          },
+          "Display Name (empty - default)": "",
+          "ShortName": "smg.2",
+          "Skin": 0,
+          "Amount": 1,
+          "Chance": 40.0
+        },
+        {
+          "Type": "Item",
+          "ID": 27,
+          "Image": "",
+          "Title": "",
+          "Command (%steamid%)": "",
+          "Plugin": {
+            "Hook": null,
+            "Plugin name": null,
+            "Amount": 0
+          },
+          "Display Name (empty - default)": "",
+          "ShortName": "rifle.m39",
+          "Skin": 0,
+          "Amount": 1,
+          "Chance": 20.0
+        },
+        {
+          "Type": "Item",
+          "ID": 28,
+          "Image": "",
+          "Title": "",
+          "Command (%steamid%)": "",
+          "Plugin": {
+            "Hook": null,
+            "Plugin name": null,
+            "Amount": 0
+          },
+          "Display Name (empty - default)": "",
+          "ShortName": "smg.thompson",
+          "Skin": 0,
+          "Amount": 1,
+          "Chance": 40.0
+        },
+        {
+          "Type": "Item",
+          "ID": 29,
+          "Image": "",
+          "Title": "",
+          "Command (%steamid%)": "",
+          "Plugin": {
+            "Hook": null,
+            "Plugin name": null,
+            "Amount": 0
+          },
+          "Display Name (empty - default)": "",
+          "ShortName": "rifle.semiauto",
+          "Skin": 0,
+          "Amount": 1,
+          "Chance": 20.0
+        },
+        {
+          "Type": "Item",
+          "ID": 30,
+          "Image": "",
+          "Title": "",
+          "Command (%steamid%)": "",
+          "Plugin": {
+            "Hook": null,
+            "Plugin name": null,
+            "Amount": 0
+          },
+          "Display Name (empty - default)": "",
+          "ShortName": "rifle.lr300",
+          "Skin": 0,
+          "Amount": 1,
+          "Chance": 15.0
+        },
+        {
+          "Type": "Item",
+          "ID": 31,
+          "Image": "",
+          "Title": "",
+          "Command (%steamid%)": "",
+          "Plugin": {
+            "Hook": null,
+            "Plugin name": null,
+            "Amount": 0
+          },
+          "Display Name (empty - default)": "",
+          "ShortName": "rifle.bolt",
+          "Skin": 0,
+          "Amount": 1,
+          "Chance": 15.0
+        },
+        {
+          "Type": "Item",
+          "ID": 54,
+          "Image": "",
+          "Title": "",
+          "Command (%steamid%)": "",
+          "Plugin": {
+            "Hook": null,
+            "Plugin name": null,
+            "Amount": 0
+          },
+          "Display Name (empty - default)": "",
+          "ShortName": "rifle.ak",
+          "Skin": 0,
+          "Amount": 1,
+          "Chance": 15.0
+        },
+        {
+          "Type": "Item",
+          "ID": 32,
+          "Image": "",
+          "Title": "",
+          "Command (%steamid%)": "",
+          "Plugin": {
+            "Hook": null,
+            "Plugin name": null,
+            "Amount": 0
+          },
+          "Display Name (empty - default)": "",
+          "ShortName": "explosive.timed",
+          "Skin": 0,
+          "Amount": 5,
+          "Chance": 50.0
+        },
+        {
+          "Type": "Item",
+          "ID": 33,
+          "Image": "",
+          "Title": "",
+          "Command (%steamid%)": "",
+          "Plugin": {
+            "Hook": null,
+            "Plugin name": null,
+            "Amount": 0
+          },
+          "Display Name (empty - default)": "",
+          "ShortName": "ammo.rocket.basic",
+          "Skin": 0,
+          "Amount": 8,
+          "Chance": 50.0
+        },
+        {
+          "Type": "Item",
+          "ID": 34,
+          "Image": "",
+          "Title": "",
+          "Command (%steamid%)": "",
+          "Plugin": {
+            "Hook": null,
+            "Plugin name": null,
+            "Amount": 0
+          },
+          "Display Name (empty - default)": "",
+          "ShortName": "lmg.m249",
+          "Skin": 0,
+          "Amount": 1,
+          "Chance": 50.0
+        },
+        {
+          "Type": "Item",
+          "ID": 35,
+          "Image": "",
+          "Title": "",
+          "Command (%steamid%)": "",
+          "Plugin": {
+            "Hook": null,
+            "Plugin name": null,
+            "Amount": 0
+          },
+          "Display Name (empty - default)": "",
+          "ShortName": "gunpowder",
+          "Skin": 0,
+          "Amount": 8000,
+          "Chance": 50.0
+        },
+        {
+          "Type": "Item",
+          "ID": 36,
+          "Image": "",
+          "Title": "",
+          "Command (%steamid%)": "",
+          "Plugin": {
+            "Hook": null,
+            "Plugin name": null,
+            "Amount": 0
+          },
+          "Display Name (empty - default)": "",
+          "ShortName": "rifle.l96",
+          "Skin": 0,
+          "Amount": 1,
+          "Chance": 50.0
+        },
+        {
+          "Type": "Item",
+          "ID": 37,
+          "Image": "",
+          "Title": "",
+          "Command (%steamid%)": "",
+          "Plugin": {
+            "Hook": null,
+            "Plugin name": null,
+            "Amount": 0
+          },
+          "Display Name (empty - default)": "",
+          "ShortName": "supply.signal",
+          "Skin": 0,
+          "Amount": 6,
+          "Chance": 50.0
+        },
+        {
+          "Type": "Item",
+          "ID": 38,
+          "Image": "",
+          "Title": "",
+          "Command (%steamid%)": "",
+          "Plugin": {
+            "Hook": null,
+            "Plugin name": null,
+            "Amount": 0
+          },
+          "Display Name (empty - default)": "",
+          "ShortName": "explosive.satchel",
+          "Skin": 0,
+          "Amount": 6,
+          "Chance": 50.0
+        },
+        {
+          "Type": "Item",
+          "ID": 39,
+          "Image": "",
+          "Title": "",
+          "Command (%steamid%)": "",
+          "Plugin": {
+            "Hook": null,
+            "Plugin name": null,
+            "Amount": 0
+          },
+          "Display Name (empty - default)": "",
+          "ShortName": "ammo.rifle.explosive",
+          "Skin": 0,
+          "Amount": 250,
+          "Chance": 50.0
+        },
+        {
+          "Type": "Item",
+          "ID": 40,
+          "Image": "",
+          "Title": "",
+          "Command (%steamid%)": "",
+          "Plugin": {
+            "Hook": null,
+            "Plugin name": null,
+            "Amount": 0
+          },
+          "Display Name (empty - default)": "",
+          "ShortName": "grenade.f1",
+          "Skin": 0,
+          "Amount": 5,
+          "Chance": 50.0
+        },
+        {
+          "Type": "Item",
+          "ID": 41,
+          "Image": "",
+          "Title": "",
+          "Command (%steamid%)": "",
+          "Plugin": {
+            "Hook": null,
+            "Plugin name": null,
+            "Amount": 0
+          },
+          "Display Name (empty - default)": "",
+          "ShortName": "workbench3",
+          "Skin": 0,
+          "Amount": 1,
+          "Chance": 60.0
+        },
+        {
+          "Type": "Item",
+          "ID": 42,
+          "Image": "",
+          "Title": "",
+          "Command (%steamid%)": "",
+          "Plugin": {
+            "Hook": null,
+            "Plugin name": null,
+            "Amount": 0
+          },
+          "Display Name (empty - default)": "",
+          "ShortName": "scrap",
+          "Skin": 0,
+          "Amount": 1000,
+          "Chance": 50.0
+        }
+      ]
+    }
+  ],
+  "Wipe Settings": {
+    "Wipe Players?": false,
+    "Wipe Cooldowns?": true
+  },
+  "UI Settings": {
+    "Colors": {
+      "Color 1": {
+        "HEX": "#0E0E10",
+        "Opacity (0 - 100)": 100.0
+      },
+      "Color 2": {
+        "HEX": "#161617",
+        "Opacity (0 - 100)": 100.0
+      },
+      "Color 3": {
+        "HEX": "#FFFFFF",
+        "Opacity (0 - 100)": 100.0
+      },
+      "Color 4": {
+        "HEX": "#4B68FF",
+        "Opacity (0 - 100)": 100.0
+      },
+      "Color 5": {
+        "HEX": "#BFBFBF",
+        "Opacity (0 - 100)": 100.0
+      },
+      "Color 6": {
+        "HEX": "#4B68FF",
+        "Opacity (0 - 100)": 33.0
+      },
+      "Color 7": {
+        "HEX": "##324192",
+        "Opacity (0 - 100)": 100.0
+      },
+      "Color 8": {
+        "HEX": "#FFFFFF",
+        "Opacity (0 - 100)": 50.0
+      },
+      "Color 9": {
+        "HEX": "#161617",
+        "Opacity (0 - 100)": 99.0
+      },
+      "Color 10": {
+        "HEX": "#161617",
+        "Opacity (0 - 100)": 85.0
+      },
+      "Color 11": {
+        "HEX": "#FF4B4B",
+        "Opacity (0 - 100)": 100.0
+      },
+      "Color 12": {
+        "HEX": "#CD3838",
+        "Opacity (0 - 100)": 100.0
+      },
+      "Color 13": {
+        "HEX": "#50965F",
+        "Opacity (0 - 100)": 100.0
+      }
+    }
+  }
+}

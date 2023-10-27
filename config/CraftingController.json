@@ -1,0 +1,3871 @@
+{
+  "Default crafting rate percentage": 100.0,
+  "Save commands to config (save config changes via command to the configuration)": true,
+  "Simple Mode (disables: instant bulk craft, skin options and full inventory checks for better performance)": false,
+  "Allow crafting when inventory is full": false,
+  "Complete crafting on server shut down": false,
+  "Craft items with random skins if not already skinned": false,
+  "Show Crafting Notes": false,
+  "Crafting rate bonus mulitplier (apply oxide perms for additional mulitpliers": {
+    "vip1": 50.0,
+    "vip2": 50.0
+  },
+  "Advanced Crafting Options": {
+    "hat.wolf": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "fogmachine": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 7.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "strobelight": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 7.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "kayak": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "arrow.hv": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 1.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "arrow.wooden": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 1.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "arrow.bone": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 1.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "arrow.fire": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 1.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "ammo.handmade.shell": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 1.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "ammo.nailgun.nails": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 1.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "ammo.pistol": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 1.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "ammo.pistol.fire": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 1.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "ammo.pistol.hv": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 1.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "ammo.rifle": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 1.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "ammo.rifle.explosive": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 1.0,
+      "workbenchLevel": 3,
+      "defaultskinid": 0
+    },
+    "ammo.rifle.incendiary": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 1.0,
+      "workbenchLevel": 3,
+      "defaultskinid": 0
+    },
+    "ammo.rifle.hv": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 1.0,
+      "workbenchLevel": 3,
+      "defaultskinid": 0
+    },
+    "ammo.rocket.basic": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 5.0,
+      "workbenchLevel": 3,
+      "defaultskinid": 0
+    },
+    "ammo.rocket.fire": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 5.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "ammo.rocket.hv": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 5.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "ammo.rocket.seeker": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 5.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "ammo.shotgun": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 1.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "ammo.shotgun.fire": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 1.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "ammo.shotgun.slug": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 1.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "speargun.spear": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 1.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "submarine.torpedo.straight": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 5.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "door.double.hinged.metal": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "door.double.hinged.toptier": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 3,
+      "defaultskinid": 0
+    },
+    "door.double.hinged.wood": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "door.hinged.metal": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "door.hinged.toptier": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 3,
+      "defaultskinid": 0
+    },
+    "door.hinged.wood": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "floor.grill": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "floor.ladder.hatch": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "floor.triangle.grill": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "floor.triangle.ladder.hatch": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "gates.external.high.stone": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "gates.external.high.wood": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "ladder.wooden.wall": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "wall.external.high.stone": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "wall.external.high": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "wall.frame.cell.gate": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "wall.frame.cell": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "wall.frame.fence.gate": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "wall.frame.fence": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "wall.frame.garagedoor": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "wall.frame.netting": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "wall.frame.shopfront": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "wall.frame.shopfront.metal": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "wall.window.bars.metal": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "wall.window.bars.toptier": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 3,
+      "defaultskinid": 0
+    },
+    "wall.window.bars.wood": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "shutter.metal.embrasure.a": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 5.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "shutter.metal.embrasure.b": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 5.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "wall.window.glass.reinforced": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "shutter.wood.a": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "watchtower.wood": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "boots.frog": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 1.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "burlap.gloves.new": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 7.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "burlap.gloves": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "roadsign.gloves": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "attire.hide.helterneck": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "hat.beenie": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "hat.boonie": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "bucket.helmet": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "burlap.headwrap": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 7.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "hat.candle": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "hat.cap": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "clatter.helmet": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "coffeecan.helmet": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "deer.skull.mask": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "heavy.plate.helmet": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 20.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "hat.miner": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "riot.helmet": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "wood.armor.helmet": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 10.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "hoodie": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "bone.armor.suit": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "heavy.plate.jacket": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 20.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "jacket.snow": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "jacket": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "wood.armor.jacket": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "mask.balaclava": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "mask.bandana": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "metal.facemask": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 20.0,
+      "workbenchLevel": 3,
+      "defaultskinid": 0
+    },
+    "nightvisiongoggles": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "attire.ninja.suit": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 1.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "burlap.trousers": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 7.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "heavy.plate.pants": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 20.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "attire.hide.pants": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "roadsign.kilt": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "pants.shorts": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "wood.armor.pants": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 10.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "pants": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "attire.hide.poncho": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "burlap.shirt": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 7.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "shirt.collared": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "attire.hide.vest": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "shirt.tanktop": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 7.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "shoes.boots": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "burlap.shoes": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 7.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "attire.hide.boots": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "attire.hide.skirt": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "hazmatsuit": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 10.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "tshirt.long": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "tshirt": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "metal.plate.torso": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 22.0,
+      "workbenchLevel": 3,
+      "defaultskinid": 0
+    },
+    "roadsign.jacket": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "carburetor1": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 5.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "carburetor2": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 5.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "carburetor3": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 5.0,
+      "workbenchLevel": 3,
+      "defaultskinid": 0
+    },
+    "crankshaft1": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 5.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "crankshaft2": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 5.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "crankshaft3": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 5.0,
+      "workbenchLevel": 3,
+      "defaultskinid": 0
+    },
+    "piston1": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 5.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "piston2": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 5.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "piston3": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 5.0,
+      "workbenchLevel": 3,
+      "defaultskinid": 0
+    },
+    "sparkplug1": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 5.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "sparkplug2": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 5.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "sparkplug3": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 5.0,
+      "workbenchLevel": 3,
+      "defaultskinid": 0
+    },
+    "valve1": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 5.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "valve2": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 5.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "valve3": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 5.0,
+      "workbenchLevel": 3,
+      "defaultskinid": 0
+    },
+    "gears": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 1.0,
+      "workbenchLevel": 3,
+      "defaultskinid": 0
+    },
+    "metalblade": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 1.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "metalpipe": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 1.0,
+      "workbenchLevel": 3,
+      "defaultskinid": 0
+    },
+    "propanetank": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 1.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "roadsigns": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 1.0,
+      "workbenchLevel": 3,
+      "defaultskinid": 0
+    },
+    "sewingkit": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 1.0,
+      "workbenchLevel": 3,
+      "defaultskinid": 0
+    },
+    "metalspring": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 1.0,
+      "workbenchLevel": 3,
+      "defaultskinid": 0
+    },
+    "barricade.concrete": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 7.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "barricade.wood.cover": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 10.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "barricade.metal": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "barricade.sandbags": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "barricade.stone": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "barricade.wood": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "barricade.woodwire": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "bbq": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "trap.bear": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "bed": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "campfire": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "ceilinglight": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "chair": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "composter": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "computerstation": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "drone": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "dropbox": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "elevator": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "fireplace.stone": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "firework.boomer.blue": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 5.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "firework.boomer.champagne": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 5.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "firework.boomer.green": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 5.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "firework.boomer.orange": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 5.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "firework.boomer.pattern": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 5.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "firework.boomer.red": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 5.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "firework.boomer.violet": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 5.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "firework.romancandle.blue": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 30.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "firework.romancandle.green": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 30.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "firework.romancandle.red": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 30.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "firework.romancandle.violet": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 30.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "firework.volcano": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 10.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "firework.volcano.red": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 10.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "firework.volcano.violet": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 10.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "spikes.floor": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "fridge": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "furnace.large": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 20.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "furnace": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "hitchtroughcombo": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "hab.armor": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "jackolantern.angry": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 10.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "jackolantern.happy": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 10.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "trap.landmine": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 10.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "lantern": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 10.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "box.wooden.large": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 10.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "water.barrel": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "locker": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "mailbox": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "mixingtable": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "modularcarlift": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "small.oil.refinery": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "planter.large": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "planter.small": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "electric.audioalarm": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "smart.alarm": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "smart.switch": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "storage.monitor": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "electric.battery.rechargable.large": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "electric.battery.rechargable.medium": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "electric.battery.rechargable.small": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "electric.button": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "electric.counter": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "electric.hbhfsensor": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "electric.laserdetector": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "electric.pressurepad": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "electric.doorcontroller": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "electric.furnace": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "electric.heater": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "fluid.combiner": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "fluid.splitter": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "fluid.switch": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "electric.andswitch": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "electric.blocker": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "electrical.branch": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "electrical.combiner": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "electrical.memorycell": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "electric.orswitch": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "electric.random.switch": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "electric.rf.broadcaster": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "electric.rf.receiver": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "electric.xorswitch": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "electric.fuelgenerator.small": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "electric.solarpanel.large": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "electric.igniter": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "storageadaptor": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "industrial.combiner": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "industrial.conveyor": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "industrial.crafter": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "industrial.splitter": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "electric.flasherlight": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "electric.sirenlight": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "powered.water.purifier": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "electric.switch": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "electric.splitter": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "electric.sprinkler": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "electric.teslacoil": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "electric.timer": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "waterpump": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "ptz.cctv.camera": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 1.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "target.reactive": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "box.repair.bench": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "research.table": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "rug.bear": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "rug": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "searchlight": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "secretlabchair": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "shelves": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 5.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "sign.hanging.banner.large": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "sign.hanging": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "sign.hanging.ornate": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "sign.pictureframe.landscape": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "sign.pictureframe.portrait": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "sign.pictureframe.tall": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "sign.pictureframe.xl": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "sign.pictureframe.xxl": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "sign.pole.banner.large": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "sign.post.double": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "sign.post.single": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "sign.post.town": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "sign.post.town.roof": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "sign.wooden.huge": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "sign.wooden.large": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "sign.wooden.medium": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "sign.wooden.small": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "guntrap": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "sleepingbag": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "stash.small": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "sofa": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "sofa.pattern": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "spinner.wheel": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 10.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "fishtrap.small": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "table": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "workbench1": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "workbench2": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 20.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "workbench3": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 30.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "cupboard.tool": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "tunalight": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 10.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "vending.machine": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "water.catcher.large": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "water.catcher.small": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "water.purifier": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "gunrack.horizontal": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "gunrack_stand": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "gunrack_tall.horizontal": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "gunrack_wide.horizontal": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "generator.wind.scrap": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "box.wooden": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "botabag": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "fun.bass": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 10.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "fun.cowbell": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 10.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "drumkit": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "fun.flute": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 10.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "fun.guitar": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "fun.jerrycanguitar": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 10.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "piano": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "fun.tambourine": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 10.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "fun.trumpet": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 10.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "fun.tuba": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 10.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "xylophone": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "lock.key": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "lock.code": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "chineselantern": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "dragondoorknocker": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "hat.dragonmask": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 5.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "newyeargong": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "hat.oxmask": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 5.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "hat.rabbitmask": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 5.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "hat.ratmask": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 5.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "skylantern": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 2.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "hat.tigermask": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 5.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "arcade.machine.chippy": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "hat.bunnyhat": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 2.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "easterdoorwreath": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "attire.egg.suit": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 7.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "rustige_egg_a": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "rustige_egg_b": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "rustige_egg_c": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "rustige_egg_d": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "rustige_egg_e": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "rustige_egg_f": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "attire.nesthat": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "largecandles": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 7.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "smallcandles": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 7.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "carvable.pumpkin": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 1.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "cursedcauldron": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 10.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "wall.graveyard.fence": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "scarecrow": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "skullspikes": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 7.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "skulldoorknocker": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "skull_fire_pit": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "spookyspeaker": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "halloween.surgeonsuit": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 1.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "skull.trophy": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 7.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "movembermoustache": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 1.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "note": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 2.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "parachute": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 7.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "industrial.wall.light.green": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "industrial.wall.light": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "industrial.wall.light.red": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "abovegroundpool": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 30.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "beachchair": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "beachparasol": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "beachtable": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "beachtowel": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "boogieboard": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "innertube": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "tool.instant_camera": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "paddlingpool": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "photoframe.landscape": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "photoframe.large": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "photoframe.portrait": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "sunglasses": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 7.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "gun.water": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "pistol.water": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "trophy": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 10.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "twitchsunglasses": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 7.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "twitch.headset": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "hobobarrel": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "xmas.lightstring": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "xmas.door.garland": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "xmas.double.door.garland": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "giantcandycanedecor": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "giantlollipops": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "sign.neon.125x125": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 7.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "sign.neon.125x215.animated": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 7.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "sign.neon.125x215": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 7.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "sign.neon.xl.animated": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 7.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "sign.neon.xl": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 7.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "xmas.lightstring.advanced": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 10.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "snowmachine": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "snowman": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "santabeard": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 1.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "attire.snowman.helmet": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "xmas.window.garland": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "xmasdoorwreath": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "autoturret": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 20.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "flameturret": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "ammo.rocket.sam": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 5.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "explosives": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 2.0,
+      "workbenchLevel": 3,
+      "defaultskinid": 0
+    },
+    "gunpowder": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 1.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "lowgradefuel": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 2.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "tool.binoculars": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "explosive.timed": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 3,
+      "defaultskinid": 0
+    },
+    "rf.detonator": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "fishingrod.handmade": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 5.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "flare": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 1.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "flashlight.held": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "hosetool": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 1.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "largemedkit": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 7.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "syringe.medical": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 5.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "rf_pager": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 10.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "pipetool": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 1.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "building.planner": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 7.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "grenade.smoke": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 5.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "spraycan": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 7.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "surveycharge": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 7.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "wiretool": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 1.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "vehicle.1mod.cockpit": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "vehicle.1mod.cockpit.armored": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 3,
+      "defaultskinid": 0
+    },
+    "vehicle.1mod.cockpit.with.engine": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "vehicle.1mod.engine": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "vehicle.1mod.flatbed": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "vehicle.1mod.passengers.armored": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 3,
+      "defaultskinid": 0
+    },
+    "vehicle.1mod.rear.seats": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "vehicle.1mod.storage": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "vehicle.1mod.taxi": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "vehicle.2mod.camper": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "vehicle.2mod.flatbed": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "vehicle.2mod.fuel.tank": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "vehicle.2mod.passengers": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "boombox": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 7.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "fun.boomboxportable": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 7.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "cassette": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 2.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "cassette.medium": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 2.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "cassette.short": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 2.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "fun.casetterecorder": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 7.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "discoball": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 7.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "discofloor": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 7.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "connected.speaker": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 7.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "laserlight": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 7.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "megaphone": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 7.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "microphonestand": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 7.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "mobilephone": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 7.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "soundlight": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 7.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "telephone": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "weapon.mod.extendedmags": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "weapon.mod.flashlight": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "weapon.mod.holosight": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "weapon.mod.lasersight": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 3,
+      "defaultskinid": 0
+    },
+    "weapon.mod.muzzleboost": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "weapon.mod.muzzlebrake": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "weapon.mod.simplesight": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "weapon.mod.silencer": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "weapon.mod.small.scope": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 3,
+      "defaultskinid": 0
+    },
+    "rifle.ak": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 20.0,
+      "workbenchLevel": 3,
+      "defaultskinid": 0
+    },
+    "rifle.ak.ice": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 20.0,
+      "workbenchLevel": 3,
+      "defaultskinid": 0
+    },
+    "bandage": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 2.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "grenade.beancan": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 5.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "rifle.bolt": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 20.0,
+      "workbenchLevel": 3,
+      "defaultskinid": 0
+    },
+    "bone.club": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 5.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "knife.bone": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "bow.hunting": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "chainsaw": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "salvaged.cleaver": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "bow.compound": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "crossbow": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "shotgun.double": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 20.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "pistol.eoka": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "grenade.f1": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 5.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "flamethrower": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 20.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "grenade.flashbang": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 5.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "hammer": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 7.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "hatchet": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "hmlmg": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 3,
+      "defaultskinid": 0
+    },
+    "homingmissile.launcher": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "knife.combat": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 7.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "mace": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "machete": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "grenade.molotov": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 5.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "smg.mp5": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 3,
+      "defaultskinid": 0
+    },
+    "pistol.nailgun": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "paddle": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "pickaxe": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "shotgun.waterpipe": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "pistol.python": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "pistol.revolver": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "rock": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 2.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "rocket.launcher": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 30.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "axe.salvaged": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "hammer.salvaged": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "icepick.salvaged": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "explosive.satchel": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 2.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "shotgun.pump": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 20.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "pistol.semiauto": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "rifle.semiauto": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "smg.2": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "speargun": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "stonehatchet": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 7.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "stone.pickaxe": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 7.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "spear.stone": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 5.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "longsword": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "salvaged.sword": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "smg.thompson": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "toolgun": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 7.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "torch": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "bucket.water": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "spear.wooden": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "horse.armor.roadsign": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "horse.armor.wood": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "horse.saddlebag": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "horse.shoes.advanced": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 2,
+      "defaultskinid": 0
+    },
+    "horse.shoes.basic": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    },
+    "draculamask": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 30.0,
+      "workbenchLevel": 0,
+      "defaultskinid": 0
+    },
+    "frankensteintable": {
+      "canCraft": true,
+      "canResearch": true,
+      "useCrafteRateMultiplier": true,
+      "craftTime": 15.0,
+      "workbenchLevel": 1,
+      "defaultskinid": 0
+    }
+  }
+}

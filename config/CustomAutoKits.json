@@ -1,0 +1,43 @@
+{
+  "Empty default items before give kits": true,
+  "Auto Kits": [
+    {
+      "permission": "customautokits.vip1",
+      "kits": [
+        {
+          "priority": 0,
+          "cooldown": 0.0,
+          "kitName": "KitName1",
+          "cooldownKit": "Cooldown Kit"
+        }
+      ]
+    },
+    {
+      "permission": "customautokits.vip2",
+      "kits": [
+        {
+          "priority": 1,
+          "cooldown": 0.0,
+          "kitName": "KitName2",
+          "cooldownKit": "Cooldown Kit"
+        },
+        {
+          "priority": 2,
+          "cooldown": 0.0,
+          "kitName": "KitName21",
+          "cooldownKit": "Cooldown Kit"
+        }
+      ]
+    }
+  ],
+  "Chat Settings": {
+    "Chat Command": "autokit",
+    "Chat Prefix": "<color=#00FFFF>[CustomAutoKits]</color>: ",
+    "Chat SteamID Icon": 0
+  },
+  "Version": {
+    "Major": 1,
+    "Minor": 2,
+    "Patch": 5
+  }
+}

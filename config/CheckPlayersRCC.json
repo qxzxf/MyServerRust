@@ -1,0 +1,12 @@
+{
+  "Configuration Version": {
+    "Major": 0,
+    "Minor": 0,
+    "Patch": 2
+  },
+  "RustCheatCheck API ключ": "",
+  "VK API ключ": "",
+  "VK диалог": "",
+  "Discord WebHook": "",
+  "Список игнорируемых игроков (Добавляйте вручную, либо команда rccignore STEAMID)": []
+}

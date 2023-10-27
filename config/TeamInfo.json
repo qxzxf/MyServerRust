@@ -1,0 +1,12 @@
+{
+  "Command for open/close the UI": "teaminfo",
+  "True - left angle | False - right angle": true,
+  "Offset from current angle": 1,
+  "Offset from bottom": 50,
+  "Display players offline": false,
+  "Enable visible player position": true,
+  "If the figure in the player’s position is displayed not correctly change to True": false,
+  "Enable visible player item": true,
+  "Method of displaying active items(true - ImageLibrary display items with skins(but have change to bug) | false - rust method display items without skins(always works))": true,
+  "Name permission": "teaminfo.use"
+}

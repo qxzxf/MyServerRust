@@ -1,0 +1,34 @@
+{
+  "Increased weapon": {
+    "aktest": {
+      "Shortname": "rifle.ak",
+      "Weapon name": "АК-47",
+      "Weapon skin (IMPORTANT!!! Must be unique)": 2323019876,
+      "Damage multiplier": 10.0,
+      "Weapon breakage multiplier": 0.0,
+      "Can repair?": true,
+      "Delete on break?": false,
+      "Multiply damage on buildings?": true,
+      "Multiply damage on bots?": true,
+      "How many rounds can there be in the magazine? (0 if you don't need to change it)": 20,
+      "Endless rounds of ammunition? (If true, the cartridges will be added themselves)": true
+    },
+    "lrtest": {
+      "Shortname": "rifle.lr300",
+      "Weapon name": "M4",
+      "Weapon skin (IMPORTANT!!! Must be unique)": 2319796265,
+      "Damage multiplier": 0.1,
+      "Weapon breakage multiplier": 10.0,
+      "Can repair?": false,
+      "Delete on break?": true,
+      "Multiply damage on buildings?": false,
+      "Multiply damage on bots?": false,
+      "How many rounds can there be in the magazine? (0 if you don't need to change it)": 5,
+      "Endless rounds of ammunition? (If true, the cartridges will be added themselves)": true
+    }
+  },
+  "Blocked for repair": [
+    "rifle.lr300",
+    "rifle.m39"
+  ]
+}
